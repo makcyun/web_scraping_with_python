@@ -41,10 +41,18 @@ def stock(key,start,end,value):
 def parse_code():
     df = pd.read_csv('environment1.csv',encoding = 'utf-8')
     df.columns = ['ts_code','trade_date','close','turnover_rate','volume_ratio','pe','e_ttm','pb','ps','ps_ttm','total_share','float_share','free_share','total_mv','circ_mv', 'code','name']
-    df['trade_date'] = pd.to_datetime(df['trade_date'])
+
+    # trade_date是int型，需转为字符型
+    # df.apply(str)
+    # # https://codeday.me/bug/20171208/106098.html
+    df['trade_date'] = df['trade_date'].apply(str)
+    # 或者
+    # df['trade_date'] = df['trade_date'].astype(str)
+    # # 将object转为datatime
+    df['trade_date'] = pd.to_datetime(df['trade_date'],format = '%Y%m%d')
 
     ## 设置总市值数字格式由万元变为亿元
-    df['total_mv'] = pd.to_numeric(df['total_mv'],errors = 'ignore')
+    # df['total_mv'] = pd.to_numeric(df['total_mv'],errors = 'ignore')
     df['total_mv'] = (df['total_mv']/10000)
 
     # 保留四列,并将交易日期设为index
