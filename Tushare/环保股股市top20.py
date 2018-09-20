@@ -39,7 +39,8 @@ def stock(key,start,end,value):
     data.to_csv('environment.csv',mode='a',encoding = 'utf_8_sig',index = False,header = 0)
 
 def parse_code():
-    df = pd.read_csv('environment1.csv',encoding = 'utf-8')
+    df = pd.read_csv('environment.csv',encoding = 'utf-8',converters = {'code':str})
+    # converters = {'code':str} 将数字前面不显示的0转为str显示
     df.columns = ['ts_code','trade_date','close','turnover_rate','volume_ratio','pe','e_ttm','pb','ps','ps_ttm','total_share','float_share','free_share','total_mv','circ_mv', 'code','name']
 
     # trade_date是int型，需转为字符型
