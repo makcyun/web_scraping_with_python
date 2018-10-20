@@ -1,0 +1,15 @@
+cat_name
+com_id
+com_logo_archive
+com_name
+com_prov
+com_scope_id
+current	
+invse_currency_id
+invse_day
+invse_detail_money
+invse_guess_particulars
+invse_month
+invse_round_id
+invse_year
+round

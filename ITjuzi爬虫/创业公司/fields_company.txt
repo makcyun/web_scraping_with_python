@@ -1,0 +1,22 @@
+﻿_id
+com_addr
+com_born_date
+com_cat_name
+com_des
+com_fund_needs_name
+com_id
+com_logo_archive
+com_name
+com_news_count
+com_scale
+com_slogan
+com_status
+com_sub_cat_name
+guzhi
+invse_date
+invse_detail_money
+invse_round_id
+invse_total_money
+is_follow
+is_note	note_con
+zhishu
