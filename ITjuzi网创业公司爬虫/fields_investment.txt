@@ -1,0 +1,17 @@
+﻿invst_des
+invst_id
+invst_logo
+invst_name
+invst_total
+is_follow
+is_note
+last_com_id
+last_com_name
+last_currency
+last_date
+last_money
+last_round
+note
+
+
+
