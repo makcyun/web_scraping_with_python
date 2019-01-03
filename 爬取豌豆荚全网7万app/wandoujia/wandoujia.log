@@ -1,0 +1,2964 @@
+2019/01/03 11:45:08 AM warn message
+2019/01/03 11:45:08 AM error message
+2019/01/03 11:45:08 AM Scrapy 1.5.1 started (bot: wandoujia)
+2019/01/03 11:45:08 AM Versions: lxml 4.2.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2019/01/03 11:45:08 AM Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_START_DELAY': 0.2, 'BOT_NAME': 'wandoujia', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 0.2, 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter', 'NEWSPIDER_MODULE': 'wandoujia.spiders', 'RETRY_HTTP_CODES': [500, 503, 504, 400, 403, 404, 408], 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['wandoujia.spiders']}
+2019/01/03 11:45:08 AM Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2019/01/03 11:45:08 AM Enabled downloader middlewares:
+['scrapy_fake_useragent.middleware.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019/01/03 11:45:08 AM Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019/01/03 11:45:08 AM Enabled item pipelines:
+['wandoujia.pipelines.MongoPipeline',
+ 'wandoujia.pipelines.ImagedownloadPipeline']
+2019/01/03 11:45:08 AM Spider opened
+2019/01/03 11:45:08 AM Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019/01/03 11:45:08 AM Telnet console listening on 127.0.0.1:6023
+2019/01/03 11:45:08 AM Crawled (200) <GET https://www.wandoujia.com/category/app> (referer: None)
+2019/01/03 11:45:08 AM 正在爬取：影音播放-视频 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：影音播放-直播 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：影音播放-音乐 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：影音播放-K歌 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：影音播放-铃声 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：影音播放-收音机 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：系统工具-WiFi 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：系统工具-浏览器 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：系统工具-输入法 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：系统工具-优化 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：系统工具-省电 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：系统工具-安全 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：系统工具-Root 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：系统工具-文件管理 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：通讯社交-聊天 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：通讯社交-交友 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：通讯社交-电话通讯 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：通讯社交-私密 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：通讯社交-婚恋 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：通讯社交-社区 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：手机美化-桌面 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：手机美化-壁纸 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：手机美化-主题 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：手机美化-锁屏 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：手机美化-字体 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：手机美化-桌面部件 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：手机美化-动态壁纸 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：新闻阅读-小说 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：新闻阅读-新闻资讯 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：新闻阅读-电子书 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：新闻阅读-漫画 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：新闻阅读-听书 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：新闻阅读-搞笑 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：摄影图像-美化 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：摄影图像-相机 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：摄影图像-搞怪 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：摄影图像-图像编辑 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：摄影图像-短视频 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：摄影图像-相册 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：考试学习-学习 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：考试学习-英语 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：考试学习-背单词 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：考试学习-考试 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：考试学习-翻译 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：考试学习-驾考 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：网上购物-商城 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：网上购物-团购 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：网上购物-优惠 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：网上购物-快递 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：网上购物-全球导购 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：金融理财-支付 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：金融理财-炒股 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：金融理财-银行 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：金融理财-理财记账 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：金融理财-彩票 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：金融理财-借贷 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：金融理财-投资 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：金融理财-保险 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：生活休闲-小工具 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：生活休闲-电影票 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：生活休闲-美食 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：生活休闲-娱乐 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：生活休闲-上门服务 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：生活休闲-汽车 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：生活休闲-房产家居 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：生活休闲-求职 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：旅游出行-地图导航 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：旅游出行-购票 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：旅游出行-公交地铁 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：旅游出行-用车租车 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：旅游出行-住宿 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：旅游出行-旅行攻略 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：健康运动-减肥健身 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：健康运动-医疗 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：健康运动-养生 第 1 页 
+2019/01/03 11:45:08 AM Crawled (200) <GET https://www.wandoujia.com/category/5029_716> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:08 AM 正在爬取：健康运动-怀孕 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：健康运动-经期 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：办公商务-办公软件 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：办公商务-云盘存储 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：办公商务-效率办公 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：办公商务-笔记 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：办公商务-邮箱 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：育儿亲子-玩游戏 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：育儿亲子-育儿 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：育儿亲子-讲故事 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：育儿亲子-唱儿歌 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：育儿亲子-早教 第 1 页 
+2019/01/03 11:45:08 AM 正在爬取：育儿亲子-小儿百科 第 1 页 
+2019/01/03 11:45:08 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/21/2/110_80d7169d18a17143c3ff466c3dd055de_con_130x130.png> referred in <None>
+2019/01/03 11:45:08 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/27/4/110_f517dd297f2d9678e6991169f2e56bf7_con_130x130.png> referred in <None>
+2019/01/03 11:45:08 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/25/4/110_6b28b0328c880dea15867d38e3f95640_con_130x130.png> referred in <None>
+2019/01/03 11:45:08 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/17/0/110_c9be4eca1c48b5f1016384e09bc56a0c_con_130x130.png> referred in <None>
+2019/01/03 11:45:08 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/25/8/110_d4af5a69475f1cb3d2d82ed00abc6927_con_130x130.png> referred in <None>
+2019/01/03 11:45:08 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/26/2/110_9eea3c78aab9419e5b52d6aeb3b8d4c3_con_130x130.png> referred in <None>
+2019/01/03 11:45:08 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/26/5/110_9a350dbca9757c54e43b82b462e3024e_con_130x130.png> referred in <None>
+2019/01/03 11:45:08 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/27/10/110_2beacf1ccba778bb12f6fa2863691ef0_con_130x130.png> referred in <None>
+2019/01/03 11:45:08 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/21/3/110_0399f32b2f6ba153bc5021abd101e848_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/25/4/110_41d5a38e79a0a675c4e5b363d364afc8_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2019/01/03/1/110_a0e9a0b9359bd22a1a3d5a97145d1117_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/08/08/10/110_95701bebb258538fc0a95d0c083a37ca_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/11/23/11/110_06748bc952a2c53c8a85c0d3f8b7cd33_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2019/01/02/6/110_581cd895e50aab4a1a9d16775928d6d7_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2019/01/02/8/110_815fe3af69cc235b6a5483ac2a01630f_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/28/9/110_53c12ec5bd5f5a11b490c401e9aeeb16_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/11/20/6/110_ddf25192230117881d6622c1f6e23ea7_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/04/01/8/110_dd0ff10a9dbac22e2075919a2d258e3b_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/21/8/110_f992ed0c17935f1ab82a34607dce8266_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/17/7/110_14e9c35ff098bd4114e74903f10fd3ea_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/26/7/110_2d24b60bc8f1701bd11a2fe542df6465_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/29/8/110_8508f3282b9400645c7d53beab208c51_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/11/6/110_d5de905d233ac293d40b4bfd1b3195a7_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/04/19/7/2_7feb509c79108b6b4ff187d7747230fc_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/20/9/110_96854426518908d4621d1685854e7fdd_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/02/05/3/110_45f9b75dbcd77d154721ffce33542399_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '哔哩哔哩',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '弹幕视频应用，吐槽欢乐多',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/21/2/110_80d7169d18a17143c3ff466c3dd055de_con_130x130.png',
+ 'install': '1053万人安装',
+ 'volume': '75.43MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '抖音短视频',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '音乐短视频软件，记录生活',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/27/4/110_f517dd297f2d9678e6991169f2e56bf7_con_130x130.png',
+ 'install': '2.6亿人安装',
+ 'volume': '66.42MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '爱奇艺',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '追潮流新剧，看优质影片',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/4/110_6b28b0328c880dea15867d38e3f95640_con_130x130.png',
+ 'install': '717.4万人安装',
+ 'volume': '33.87MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': 'PP体育',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '中超亚冠高清直播',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/17/0/110_c9be4eca1c48b5f1016384e09bc56a0c_con_130x130.png',
+ 'install': '419.9万人安装',
+ 'volume': '50.27MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '腾讯视频',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '三国机密全网独播',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/8/110_d4af5a69475f1cb3d2d82ed00abc6927_con_130x130.png',
+ 'install': '538.5万人安装',
+ 'volume': '47.74MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '优酷视频',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '天坑鹰猎、这就是灌篮全网独播',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/26/2/110_9eea3c78aab9419e5b52d6aeb3b8d4c3_con_130x130.png',
+ 'install': '474.3万人安装',
+ 'volume': '73.84MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '迅雷',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '下载首选工具',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/26/5/110_9a350dbca9757c54e43b82b462e3024e_con_130x130.png',
+ 'install': '368.3万人安装',
+ 'volume': '33.16MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '西瓜视频',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '懂得生活趣味的人都在用',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/27/10/110_2beacf1ccba778bb12f6fa2863691ef0_con_130x130.png',
+ 'install': '313.4万人安装',
+ 'volume': '11.61MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '影音先锋',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '最具人性化体验的播放器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/21/3/110_0399f32b2f6ba153bc5021abd101e848_con_130x130.png',
+ 'install': '276.7万人安装',
+ 'volume': '29.29MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '虎牙直播',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '国内领先的互动直播平台',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/4/110_41d5a38e79a0a675c4e5b363d364afc8_con_130x130.png',
+ 'install': '180.9万人安装',
+ 'volume': '47.15MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '搜狐视频',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '全网聚合影视资源，720P画质超清体验',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2019/01/03/1/110_a0e9a0b9359bd22a1a3d5a97145d1117_con_130x130.png',
+ 'install': '143万人安装',
+ 'volume': '41.54MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '搞笑斗图大师',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '斗图还是大师好',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/08/08/10/110_95701bebb258538fc0a95d0c083a37ca_con_130x130.png',
+ 'install': '136.5万人安装',
+ 'volume': '34.46MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '万能视频播放器',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '无需转码快速播放',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/23/11/110_06748bc952a2c53c8a85c0d3f8b7cd33_con_130x130.png',
+ 'install': '118.9万人安装',
+ 'volume': '10.41MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '芒果TV',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '湖南卫视官方视频APP',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2019/01/02/6/110_581cd895e50aab4a1a9d16775928d6d7_con_130x130.png',
+ 'install': '116.5万人安装',
+ 'volume': '64.97MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': 'PP视频',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': 'pp视频欧洲联赛',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2019/01/02/8/110_815fe3af69cc235b6a5483ac2a01630f_con_130x130.png',
+ 'install': '115.5万人安装',
+ 'volume': '70.8MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '好看视频',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '搞笑娱乐短视频',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/28/9/110_53c12ec5bd5f5a11b490c401e9aeeb16_con_130x130.png',
+ 'install': '105.3万人安装',
+ 'volume': '13.63MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '深夜直播',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '女神深夜热舞开秀',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/20/6/110_ddf25192230117881d6622c1f6e23ea7_con_130x130.png',
+ 'install': '99.7万人安装',
+ 'volume': '46MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '影视大全',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '追剧更番快人一步',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/04/01/8/110_dd0ff10a9dbac22e2075919a2d258e3b_con_130x130.png',
+ 'install': '92.7万人安装',
+ 'volume': '47.79MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '咪咕视频',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '精彩剧集，火热呈现',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/21/8/110_f992ed0c17935f1ab82a34607dce8266_con_130x130.png',
+ 'install': '86.8万人安装',
+ 'volume': '77.45MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '咪咕圈圈',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '高清动漫新番视频',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/17/7/110_14e9c35ff098bd4114e74903f10fd3ea_con_130x130.png',
+ 'install': '63.7万人安装',
+ 'volume': '78.31MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '皮皮虾',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '搞笑神评论社区',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/26/7/110_2d24b60bc8f1701bd11a2fe542df6465_con_130x130.png',
+ 'install': '56.5万人安装',
+ 'volume': '16.57MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '360影视大全',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '强大的手机看片神器，下载流畅播放爽',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/8/110_8508f3282b9400645c7d53beab208c51_con_130x130.png',
+ 'install': '50.2万人安装',
+ 'volume': '21.17MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '爱奇艺PPS',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '好看的剧，都在这里',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/11/6/110_d5de905d233ac293d40b4bfd1b3195a7_con_130x130.png',
+ 'install': '43.5万人安装',
+ 'volume': '32.9MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': 'YouTube',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '世界上最大的视频分享网站',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/04/19/7/2_7feb509c79108b6b4ff187d7747230fc_con_130x130.png',
+ 'install': '41.1万人安装',
+ 'volume': '32.72MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '影视大全',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '免费看VIP视频',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/20/9/110_96854426518908d4621d1685854e7fdd_con_130x130.png',
+ 'install': '38.7万人安装',
+ 'volume': '10.68MB'}
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5029_716>
+{'app_name': '暴风影音',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '视频',
+ 'comment': '海量高清视频资源',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/02/05/3/110_45f9b75dbcd77d154721ffce33542399_con_130x130.png',
+ 'install': '36.5万人安装',
+ 'volume': '25.83MB'}
+2019/01/03 11:45:09 AM Crawled (200) <GET https://www.wandoujia.com/category/5018_947> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:09 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/01/29/0/110_2b089a6b90e986bc735d32c3c1e546f4_con_130x130.png> (referer: None)
+2019/01/03 11:45:09 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/01/29/0/110_2b089a6b90e986bc735d32c3c1e546f4_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:09 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:09 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:09 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:09 AM STREAM b'tRNS' 842 18
+2019/01/03 11:45:09 AM STREAM b'IDAT' 872 4059
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': 'KingRoot',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '安全授权刷机必备',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/01/29/0/110_2b089a6b90e986bc735d32c3c1e546f4_con_130x130.png',
+ 'install': '92.2万人安装',
+ 'volume': '10.98MB'}
+2019/01/03 11:45:09 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/12/29/6/110_3aaa2bc8850e90e446c21f30af2a73a2_con_130x130.png> (referer: None)
+2019/01/03 11:45:09 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/12/29/6/110_3aaa2bc8850e90e446c21f30af2a73a2_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:09 AM STREAM b'IDAT' 41 3535
+2019/01/03 11:45:09 AM Crawled (200) <GET https://www.wandoujia.com/category/5018_598> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:09 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '一键ROOT大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '雄踞分类榜首，一键获取root权限',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/12/29/6/110_3aaa2bc8850e90e446c21f30af2a73a2_con_130x130.png',
+ 'install': '34.3万人安装',
+ 'volume': '6.08MB'}
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/03/23/3/110_78c0eae7b6056ef408378f2a0afbbe50_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/28/5/110_891c85c9070b6787edeacce25b6df148_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/07/13/3/110_121a78b7fc25cd597b27a0d477a0cb54_con_130x130.png> referred in <None>
+2019/01/03 11:45:09 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/27/0/110_e70c2b3e7858bc184b88cda78486aa61_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/08/03/11/2_704f41b997aca2a42814df1d3a3c9a43_con_130x130.png> (referer: None)
+2019/01/03 11:45:10 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/08/03/11/2_704f41b997aca2a42814df1d3a3c9a43_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:10 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:10 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:10 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:10 AM STREAM b'tRNS' 842 40
+2019/01/03 11:45:10 AM STREAM b'IDAT' 894 3914
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/19/8/110_78a3ef776bff142ded819ba54d5d0756_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/09/18/9/110_e87b706d2926282274c21490512cdb47_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/14/10/110_4f50d6a0f1c68a22784cbdd0f645a17c_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2019/01/02/9/110_41abecfd86125705f425bb8306705ca1_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/12/22/11/110_f1e5268fabc3e609991ad69ea3127a21_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '钱盾',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '全球第一安全软件，病毒查杀，清理加速',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/03/23/3/110_78c0eae7b6056ef408378f2a0afbbe50_con_130x130.png',
+ 'install': '280.3万人安装',
+ 'volume': '15.65MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/09/23/6/2_ba69e54a6a5aa47d31fc5aa0fd33f382_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/10/09/2/110_08ee1a1bede27a9bc6e752f554333e92_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Crawled (200) <GET https://www.wandoujia.com/category/5018_596> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/29/1/2_83d3f14556eea00259e5c30615580856_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/28/7/110_0549ce8c8e4aa53f753ef972e8c0988c_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/03/22/7/2_cb1ee0bf70f6285f48873ec7c0ed0cfd_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '360浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '最省钱省流量的手机浏览器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/28/5/110_891c85c9070b6787edeacce25b6df148_con_130x130.png',
+ 'install': '7182.3万人安装',
+ 'volume': '37.83MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '360手机卫士',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '十亿人的安全选择',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/07/13/3/110_121a78b7fc25cd597b27a0d477a0cb54_con_130x130.png',
+ 'install': '164万人安装',
+ 'volume': '17.21MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/09/25/7/110_34f403226446543014e4c3a74d164bfd_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/11/18/10/115_d644db5b7dddbbce2c6792e48cbdb4e5_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/08/29/4/110_ea058dd649ee593bfc2c2e5d0fa102e5_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/05/12/11/110_5ebdc5646ac2fe28e4e1b630de4f0c70_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/08/6/1_81ae36c013790830173f292df7e41e81_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/08/31/7/110_b95fdf8fcd96bb57370a25b26952425e_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/24/4/102_20d27511506b45db6d3786bd98576b32_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/17/9/110_d836f6c06d50ab86105e18752a1f4887_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '腾讯手机管家',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '微信官方认证清理',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/27/0/110_e70c2b3e7858bc184b88cda78486aa61_con_130x130.png',
+ 'install': '91.2万人安装',
+ 'volume': '19.23MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '360超级ROOT',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '安全、全面的ROOT授权软件',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/08/03/11/2_704f41b997aca2a42814df1d3a3c9a43_con_130x130.png',
+ 'install': '29.9万人安装',
+ 'volume': '8.13MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/04/23/4/110_76dc42abd1e9c552ddd10e0820de7a63_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/07/11/1_3be1ed411d61ae627d4e9cc10791fd93_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '星球联盟',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '日常上网就能赚钱',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/19/8/110_78a3ef776bff142ded819ba54d5d0756_con_130x130.png',
+ 'install': '59.2万人安装',
+ 'volume': '16.56MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': 'QQ安全中心',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '银行级别QQ账号保护神器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/09/18/9/110_e87b706d2926282274c21490512cdb47_con_130x130.png',
+ 'install': '33.2万人安装',
+ 'volume': '13.9MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '百度手机卫士',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '贴心的安全服务，保护用户手机安全！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/14/10/110_4f50d6a0f1c68a22784cbdd0f645a17c_con_130x130.png',
+ 'install': '23.3万人安装',
+ 'volume': '15.03MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '智代还',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '邀请得60元',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2019/01/02/9/110_41abecfd86125705f425bb8306705ca1_con_130x130.png',
+ 'install': '12.7万人安装',
+ 'volume': '20.35MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': 'lbe安全大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '手机安全专家，隔离运行不安全软件！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/12/22/11/110_f1e5268fabc3e609991ad69ea3127a21_con_130x130.png',
+ 'install': '8.5万人安装',
+ 'volume': '14.1MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': 'Google身份验证器 Google Authenticator',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': 'Google Authenticator是谷歌推出的一款动态口令工具，解决大家的google账户遭到',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/09/23/6/2_ba69e54a6a5aa47d31fc5aa0fd33f382_con_130x130.png',
+ 'install': '6.7万人安装',
+ 'volume': '5.88MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '网易将军令',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '网易动态密码，给你账号保驾护航',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/10/09/2/110_08ee1a1bede27a9bc6e752f554333e92_con_130x130.png',
+ 'install': '6.5万人安装',
+ 'volume': '13.15MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/29/2/110_b749a120cc084f5f6d75416d4f05fa87_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '手机管家',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '手机垃圾清理大师',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/1/2_83d3f14556eea00259e5c30615580856_con_130x130.png',
+ 'install': '6.3万人安装',
+ 'volume': '18.04MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '猎豹安全大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '轻巧好用的安全软件，大师出品，值得信赖！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/28/7/110_0549ce8c8e4aa53f753ef972e8c0988c_con_130x130.png',
+ 'install': '6万人安装',
+ 'volume': '10.25MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '压缩密码破解大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '【应用介绍】 本应用是一款破解zip和rar密码（暂不支持rar5）的软件，可使用三种方式破解，破解',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/03/22/7/2_cb1ee0bf70f6285f48873ec7c0ed0cfd_con_130x130.png',
+ 'install': '5万人安装',
+ 'volume': '1.38MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/28/6/110_e592cdc6526581b20612e686f8b46389_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/20/2/110_4d0154e67df3bb7d7310becbc6a13d96_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '杀毒清理大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '好杀毒，强清理',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/09/25/7/110_34f403226446543014e4c3a74d164bfd_con_130x130.png',
+ 'install': '4.4万人安装',
+ 'volume': '5.7MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '精准电量AccuBattery Beta',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '精准电量是唯一的一款可以评估你的设备的电源容量(mAh)并帮助你保护你的电池寿命的应用。',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/11/18/10/115_d644db5b7dddbbce2c6792e48cbdb4e5_con_130x130.png',
+ 'install': '3.5万人安装',
+ 'volume': '4.07MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '安卓手机恢复大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '安卓手机恢复大师',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/08/29/4/110_ea058dd649ee593bfc2c2e5d0fa102e5_con_130x130.png',
+ 'install': '2.7万人安装',
+ 'volume': '7.87MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '金山手机毒霸',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '让你的爱机从此无广告，更省电',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/05/12/11/110_5ebdc5646ac2fe28e4e1b630de4f0c70_con_130x130.png',
+ 'install': '2.6万人安装',
+ 'volume': '8.73MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/29/2/110_5f721550c3719d7acf0ccdd85a8a0834_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/25/3/110_f2e99cbc99d27e3675a657bbddd49679_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '360隐私保险箱',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '全方位你的隐私内容，使用手机更安心',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/6/1_81ae36c013790830173f292df7e41e81_con_130x130.png',
+ 'install': '2.5万人安装',
+ 'volume': '2.18MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '安全中心',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '移动有我，安全无处不在。',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/08/31/7/110_b95fdf8fcd96bb57370a25b26952425e_con_130x130.png',
+ 'install': '2万人安装',
+ 'volume': '29.78MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '战网手机令牌',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '使用免费的手机安全令，保护您的战网通行证账号以及暴雪游戏的安全！ 该应用进程提供了双重安全验证，无论',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/24/4/102_20d27511506b45db6d3786bd98576b32_con_130x130.png',
+ 'install': '1.9万人安装',
+ 'volume': '11.18MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '手机监控',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '看家看店专业卓越',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/17/9/110_d836f6c06d50ab86105e18752a1f4887_con_130x130.png',
+ 'install': '1.7万人安装',
+ 'volume': '25.52MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': 'gDMSS Lite',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '支持远程实时监看，实时回放',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/04/23/4/110_76dc42abd1e9c552ddd10e0820de7a63_con_130x130.png',
+ 'install': '1.6万人安装',
+ 'volume': '25.67MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_598>
+{'app_name': '乐安全',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '安全',
+ 'comment': '为安全保驾护航，让手机百毒不侵！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/11/1_3be1ed411d61ae627d4e9cc10791fd93_con_130x130.png',
+ 'install': '1.6万人安装',
+ 'volume': '12.68MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/18/6/110_cb7cb85d7fc7b1293a8b6d1ef35d33d3_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/09/6/1_fcad37507d5bb3b836f825af321b1c1b_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/10/25/7/110_2bff69545a33cacb8e8db6145a3cb67c_con_130x130.png> (referer: None)
+2019/01/03 11:45:10 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/10/25/7/110_2bff69545a33cacb8e8db6145a3cb67c_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:10 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:10 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:10 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:10 AM STREAM b'tRNS' 842 23
+2019/01/03 11:45:10 AM STREAM b'IDAT' 877 6497
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/25/1/110_095b3883b72826e7ab1e880d980727ee_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/13/7/110_22f2c5b2ea6b50033d0c8fb7ed5cacb7_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/25/8/110_629db8fac50b3cd4989cc830d54b09e3_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Crawled (200) <GET https://www.wandoujia.com/category/5018_597> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': 'WiFi万能钥匙',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '随时随地轻松连网',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/2/110_b749a120cc084f5f6d75416d4f05fa87_con_130x130.png',
+ 'install': '420.5万人安装',
+ 'volume': '24.79MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/09/12/1/102_b2a30f548892959030d487518471bf51_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/28/5/110_4bfd6f04627d578fd57aa4c910cc4def_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/08/5/1_b85000ee32fae7d7627555ae2a575f82_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '腾讯手机管家',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '微信官方认证清理',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/27/0/110_e70c2b3e7858bc184b88cda78486aa61_con_130x130.png',
+ 'install': '3.4亿人安装',
+ 'volume': '19.23MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '猎豹清理大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '6亿人用清理软件',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/28/6/110_e592cdc6526581b20612e686f8b46389_con_130x130.png',
+ 'install': '208.6万人安装',
+ 'volume': '26.38MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '清理大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '更轻巧，更畅快!',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/20/2/110_4d0154e67df3bb7d7310becbc6a13d96_con_130x130.png',
+ 'install': '179.3万人安装',
+ 'volume': '8.12MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/29/11/110_7e80e34473f9dcc45990a3c49f17ee68_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/19/2/110_ce144fc3dbd0ee8618b94b74f35db3c5_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '360手机卫士',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '十亿人的安全选择',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/07/13/3/110_121a78b7fc25cd597b27a0d477a0cb54_con_130x130.png',
+ 'install': '164万人安装',
+ 'volume': '17.21MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '豌豆荚',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '国内安卓手机应用与娱乐中心',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/2/110_5f721550c3719d7acf0ccdd85a8a0834_con_130x130.png',
+ 'install': '147万人安装',
+ 'volume': '12.14MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': 'Google空间',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '谷歌商店随心畅玩',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/3/110_f2e99cbc99d27e3675a657bbddd49679_con_130x130.png',
+ 'install': '90.3万人安装',
+ 'volume': '8.22MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '网易UU加速器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '专业手游加速器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/18/6/110_cb7cb85d7fc7b1293a8b6d1ef35d33d3_con_130x130.png',
+ 'install': '76.9万人安装',
+ 'volume': '8.29MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '谷歌服务框架及谷歌商店安装神器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '史上最强谷歌安装器发布了！一键安装谷歌服务框架，谷歌账户管理，谷歌服务，谷歌Play，让你再也不用担',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/09/6/1_fcad37507d5bb3b836f825af321b1c1b_con_130x130.png',
+ 'install': '60.5万人安装',
+ 'volume': '3.54MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '3733游戏盒',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '精品游戏独家首发',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/10/25/7/110_2bff69545a33cacb8e8db6145a3cb67c_con_130x130.png',
+ 'install': '27.6万人安装',
+ 'volume': '7.16MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '手机管家',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '装再多应用也超快',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/1/110_095b3883b72826e7ab1e880d980727ee_con_130x130.png',
+ 'install': '59.5万人安装',
+ 'volume': '8.06MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '存储空间清理',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '一键解决存储不足',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/13/7/110_22f2c5b2ea6b50033d0c8fb7ed5cacb7_con_130x130.png',
+ 'install': '51.4万人安装',
+ 'volume': '2.81MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '游戏超人',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '提供多种手游辅助',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/8/110_629db8fac50b3cd4989cc830d54b09e3_con_130x130.png',
+ 'install': '44.3万人安装',
+ 'volume': '34.03MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/19/7/110_493041f1f8f997bf3228896a75fc4454_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '互传',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '【简单说明】互传不需要任何流量，也不需要外部wifi，朋友之间就可以面对面，一对一、多对多互传文件,',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/09/12/1/102_b2a30f548892959030d487518471bf51_con_130x130.png',
+ 'install': '41.2万人安装',
+ 'volume': '17.79MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '\xa0360清理大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '6亿用户，最强力的清理神器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/28/5/110_4bfd6f04627d578fd57aa4c910cc4def_con_130x130.png',
+ 'install': '32.7万人安装',
+ 'volume': '6.49MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': 'Google Play 服务',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '体验纯正的Google服务',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/5/1_b85000ee32fae7d7627555ae2a575f82_con_130x130.png',
+ 'install': '35.2万人安装',
+ 'volume': '37.14MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/27/7/110_cd16857960b612f9edcff52353ec2252_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/25/3/110_6c8203451974cff55c9848e3536c8fc5_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/18/5/110_3b3479732e0411d60b828e4ce9f9f2cc_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '一键ROOT大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '雄踞分类榜首，一键获取root权限',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/12/29/6/110_3aaa2bc8850e90e446c21f30af2a73a2_con_130x130.png',
+ 'install': '34.3万人安装',
+ 'volume': '6.08MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': 'PP助手',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '聚合优质资源，百万应用任你挑选',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/11/110_7e80e34473f9dcc45990a3c49f17ee68_con_130x130.png',
+ 'install': '31.9万人安装',
+ 'volume': '12.5MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_596>
+{'app_name': '微信自动抢红包',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '优化',
+ 'comment': '秒抢红包助手分身',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/19/2/110_ce144fc3dbd0ee8618b94b74f35db3c5_con_130x130.png',
+ 'install': '27.7万人安装',
+ 'volume': '14.98MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/11/30/4/110_e1332312c94f98cdb39dc4e4ca904ff6_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/05/26/7/106_27ca39ea90871c7c7e20d844481ad7d5_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/28/10/110_8bed1ffd21c5c43aba92ad476cc7df4f_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/26/8/110_78ab26ac39dd300e9fb2ece729ba16f1_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/25/1/110_c969654e21c3e9492aecc72ed802a461_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/08/28/0/106_7f064f621a6032b315b556fe7da728ba_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/07/10/1_9ba02f4d443fe9ff49a3195d34118996_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/8/1_bfcd89e867dd03f28999739c228567ab_con_130x130.png> (referer: None)
+2019/01/03 11:45:10 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/8/1_bfcd89e867dd03f28999739c228567ab_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:10 AM STREAM b'IDAT' 41 6780
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/09/29/3/110_e6b2d8c1e97a74328ffe77abcb8cb82f_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/07/25/2/2_ed746ac3d5d58aca3191aabc64a37b8d_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/06/4/1_9016d2a2bebf49be7d27806a101e0537_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/09/18/6/106_73e7590fdce313f7c05be6ad036e68c2_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/07/25/9/2_8d0332fd973dc6eb830310f5334db040_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/12/13/11/110_8bee5ed5ed4e4d3178ce7e252c8e6bf2_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '搜狗输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '打字精准、界面美的输入法',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/19/7/110_493041f1f8f997bf3228896a75fc4454_con_130x130.png',
+ 'install': '167.3万人安装',
+ 'volume': '31.1MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '\xa0趣输入',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '打字赚钱的输入法',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/27/7/110_cd16857960b612f9edcff52353ec2252_con_130x130.png',
+ 'install': '102万人安装',
+ 'volume': '29.67MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/12/05/0/106_63acab32d7adc8f522a3f7f31532d00e_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/01/20/8/110_f079cb72eceb36a7ec1a48c2f3377a34_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '讯飞输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '说话变文字，方言也能懂',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/3/110_6c8203451974cff55c9848e3536c8fc5_con_130x130.png',
+ 'install': '86.5万人安装',
+ 'volume': '20.02MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '百度输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '百度手机输入法，词库准，输入快',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/18/5/110_3b3479732e0411d60b828e4ce9f9f2cc_con_130x130.png',
+ 'install': '38.3万人安装',
+ 'volume': '25.82MB'}
+2019/01/03 11:45:10 AM Crawled (200) <GET https://www.wandoujia.com/category/5018_599> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '掌心输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '手机输入我用掌心',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/30/4/110_e1332312c94f98cdb39dc4e4ca904ff6_con_130x130.png',
+ 'install': '14.8万人安装',
+ 'volume': '13.02MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': 'Uyghurche Kirguzguch',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '提供精准流畅的维吾尔语输入体验',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/05/26/7/106_27ca39ea90871c7c7e20d844481ad7d5_con_130x130.png',
+ 'install': '14.7万人安装',
+ 'volume': '51.57MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': 'QQ输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '腾讯出品，最好用的手机输入法之一',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/28/10/110_8bed1ffd21c5c43aba92ad476cc7df4f_con_130x130.png',
+ 'install': '12.5万人安装',
+ 'volume': '22.31MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': 'KK键盘',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '聊天语弹x语音包',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/26/8/110_78ab26ac39dd300e9fb2ece729ba16f1_con_130x130.png',
+ 'install': '9.8万人安装',
+ 'volume': '38.37MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '章鱼输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '独创一字一键快输，超大键，超准确',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/1/110_c969654e21c3e9492aecc72ed802a461_con_130x130.png',
+ 'install': '7.3万人安装',
+ 'volume': '32.15MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '奥特曼打怪兽',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/08/28/0/106_7f064f621a6032b315b556fe7da728ba_con_130x130.png',
+ 'install': '4.5万人安装',
+ 'volume': '11.27MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '讯飞语音+',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '功能强大的智能语音服务软件',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/10/1_9ba02f4d443fe9ff49a3195d34118996_con_130x130.png',
+ 'install': '3.8万人安装',
+ 'volume': '16.53MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': 'ROOT大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '绿色版安卓手机root权限的神器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/8/1_bfcd89e867dd03f28999739c228567ab_con_130x130.png',
+ 'install': '25.7万人安装',
+ 'volume': '1.07MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '66键盘',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '年轻人潮流输入法',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/09/29/3/110_e6b2d8c1e97a74328ffe77abcb8cb82f_con_130x130.png',
+ 'install': '3.8万人安装',
+ 'volume': '34.71MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '谷歌拼音',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '集微软和紫光拼音为一体',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/07/25/2/2_ed746ac3d5d58aca3191aabc64a37b8d_con_130x130.png',
+ 'install': '3.7万人安装',
+ 'volume': '17.71MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '中文手写输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '拥有较好的手写识别技术，支持任何手写风格。',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/06/4/1_9016d2a2bebf49be7d27806a101e0537_con_130x130.png',
+ 'install': '2.4万人安装',
+ 'volume': '1.87MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '霓虹灯蝴蝶键盘',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': 'Neon Butterflies Keyboard will make your device lo',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/09/18/6/106_73e7590fdce313f7c05be6ad036e68c2_con_130x130.png',
+ 'install': '2.3万人安装',
+ 'volume': '4.58MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '谷歌日文输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '《谷歌日文输入法（Google Japanese Input）》谷歌日语输入法，为Android设备',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/07/25/9/2_8d0332fd973dc6eb830310f5334db040_con_130x130.png',
+ 'install': '2.3万人安装',
+ 'volume': '12.95MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': 'nur 维汉输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '双语智能输入法',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/12/13/11/110_8bee5ed5ed4e4d3178ce7e252c8e6bf2_con_130x130.png',
+ 'install': '2.2万人安装',
+ 'volume': '19.75MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': 'KazakhshaKirgizwshi哈萨克语输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '让你精准触摸输入哈萨克语',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/12/05/0/106_63acab32d7adc8f522a3f7f31532d00e_con_130x130.png',
+ 'install': '2.1万人安装',
+ 'volume': '43.32MB'}
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '触宝输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '手机输入进入“四核”时代',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/01/20/8/110_f079cb72eceb36a7ec1a48c2f3377a34_con_130x130.png',
+ 'install': '1.5万人安装',
+ 'volume': '51.11MB'}
+2019/01/03 11:45:10 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/8/1_dd034df22f01f652ad8355c58c999fc0_con_130x130.png> (referer: None)
+2019/01/03 11:45:10 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/8/1_dd034df22f01f652ad8355c58c999fc0_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:10 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:10 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:10 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:10 AM STREAM b'tRNS' 842 38
+2019/01/03 11:45:10 AM STREAM b'IDAT' 892 6975
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '360浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '最省钱省流量的手机浏览器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/28/5/110_891c85c9070b6787edeacce25b6df148_con_130x130.png',
+ 'install': '7182.3万人安装',
+ 'volume': '37.83MB'}
+2019/01/03 11:45:10 AM Crawled (200) <GET https://www.wandoujia.com/category/5018_895> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:10 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '百度一键root',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '一款手机版root权限破解及管理工具',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/8/1_dd034df22f01f652ad8355c58c999fc0_con_130x130.png',
+ 'install': '18万人安装',
+ 'volume': '10.68MB'}
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/25/9/110_47765d75246a86c7d77c67e125e49dcd_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/07/18/8/106_358ff3f17d857ab232ca7b5c82e4ab1d_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/11/27/4/110_90baee868bf94a7dca858231ada86785_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/07/19/5/110_3567c0707796d654bb7bd93e96f31c0f_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/06/27/8/110_66d6c11aa23ef0e02539aeb578043be7_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/04/17/9/110_babde93d581be5a2e2c364ea79f3a241_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/10/10/6/110_a05e4207444878b8b3467488af6b008b_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/12/29/5/115_9008427f25eece74ec00bb9bf137ed51_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/09/14/11/106_7b2651dc16d665c5572c753e43a2c3cc_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/09/27/9/110_6955377df18be013fe3b172a6e21b85e_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/06/6/110_6d7d7fadbea793980d7b0b301d93ec1f_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/13/9/110_0dac9e3487ee34f4340da1bdd2da48d5_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/11/16/4/110_9ffa2464991c37282f35f7f60ccca069_con_130x130.png> (referer: None)
+2019/01/03 11:45:10 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/11/16/4/110_9ffa2464991c37282f35f7f60ccca069_con_130x130.png> referred in <None>
+2019/01/03 11:45:10 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:10 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:10 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:10 AM STREAM b'PLTE' 62 720
+2019/01/03 11:45:10 AM STREAM b'tRNS' 794 79
+2019/01/03 11:45:11 AM STREAM b'IDAT' 885 2107
+2019/01/03 11:45:11 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/28/0/110_f50b6506f25dfab2f201e6419f1f4756_con_130x130.png> referred in <None>
+2019/01/03 11:45:11 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/29/0/110_f5d8cfb3a732458d67e5bbfef9e25e05_con_130x130.png> referred in <None>
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi万能钥匙',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '随时随地轻松连网',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/2/110_b749a120cc084f5f6d75416d4f05fa87_con_130x130.png',
+ 'install': '420.5万人安装',
+ 'volume': '24.79MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': '腾讯WiFi管家',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '免费WiFi密码钥匙',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/9/110_47765d75246a86c7d77c67e125e49dcd_con_130x130.png',
+ 'install': '4110.6万人安装',
+ 'volume': '13.86MB'}
+2019/01/03 11:45:11 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/01/17/6/110_10cc052bc9615e878f2f09744e39dcf1_con_130x130.png> referred in <None>
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': '无线密码破解器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '无线密码破解器，是一款免费的WiFi无线网络相关密码破解工具，是真正能够破解WiF密码的实用工具!',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/07/18/8/106_358ff3f17d857ab232ca7b5c82e4ab1d_con_130x130.png',
+ 'install': '77.5万人安装',
+ 'volume': '6.41MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WIFI密码查看器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '轻松找回已连WIFI密码',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/27/4/110_90baee868bf94a7dca858231ada86785_con_130x130.png',
+ 'install': '72.7万人安装',
+ 'volume': '3.53MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi密码查看工具',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': 'WiFi密码管理',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/07/19/5/110_3567c0707796d654bb7bd93e96f31c0f_con_130x130.png',
+ 'install': '56.4万人安装',
+ 'volume': '3.95MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi密码查看神器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '万能钥匙伴侣',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/06/27/8/110_66d6c11aa23ef0e02539aeb578043be7_con_130x130.png',
+ 'install': '48万人安装',
+ 'volume': '3.89MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi信号增强器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': 'WiFi信号优化',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/04/17/9/110_babde93d581be5a2e2c364ea79f3a241_con_130x130.png',
+ 'install': '43.4万人安装',
+ 'volume': '2.73MB'}
+2019/01/03 11:45:11 AM Crawled (200) <GET https://www.wandoujia.com/category/5029_837> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': '万能WiFi钥匙',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '万能钥匙密码查看',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/10/10/6/110_a05e4207444878b8b3467488af6b008b_con_130x130.png',
+ 'install': '21.5万人安装',
+ 'volume': '9.06MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'TP-LINK',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '版本：3.0.5',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/12/29/5/115_9008427f25eece74ec00bb9bf137ed51_con_130x130.png',
+ 'install': '13.5万人安装',
+ 'volume': '12.02MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi 连网神器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '综合调查：联网最快的蹭网神器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/09/14/11/106_7b2651dc16d665c5572c753e43a2c3cc_con_130x130.png',
+ 'install': '10.5万人安装',
+ 'volume': '6.31MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': '360免费WiFi',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '最容易发现WIFI的全免费神器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/09/27/9/110_6955377df18be013fe3b172a6e21b85e_con_130x130.png',
+ 'install': '8.6万人安装',
+ 'volume': '7.87MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': '邻里WiFi密码',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': 'WiFi密码帮手',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/06/6/110_6d7d7fadbea793980d7b0b301d93ec1f_con_130x130.png',
+ 'install': '7.9万人安装',
+ 'volume': '17.8MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi信号增强器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '自动校准无线模块，信号增强30%',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/13/9/110_0dac9e3487ee34f4340da1bdd2da48d5_con_130x130.png',
+ 'install': '7.4万人安装',
+ 'volume': '7.81MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '刷机精灵',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '能力最强，最优质的一键刷机工具',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/16/4/110_9ffa2464991c37282f35f7f60ccca069_con_130x130.png',
+ 'install': '17.7万人安装',
+ 'volume': '19.85MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi万能密码',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '最好用的wifi管理工具',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/28/0/110_f50b6506f25dfab2f201e6419f1f4756_con_130x130.png',
+ 'install': '7.2万人安装',
+ 'volume': '14.57MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': '微信恢复精灵',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '恢复微信QQ图片',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/0/110_f5d8cfb3a732458d67e5bbfef9e25e05_con_130x130.png',
+ 'install': '5.8万人安装',
+ 'volume': '7.28MB'}
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi密码查看器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '可以一键查看密码',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/01/17/6/110_10cc052bc9615e878f2f09744e39dcf1_con_130x130.png',
+ 'install': '4万人安装',
+ 'volume': '7.08MB'}
+2019/01/03 11:45:11 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/01/20/9/110_6e6c5fc46cf482690c8415368ab2a782_con_130x130.png> (referer: None)
+2019/01/03 11:45:11 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/01/20/9/110_6e6c5fc46cf482690c8415368ab2a782_con_130x130.png> referred in <None>
+2019/01/03 11:45:11 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:11 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:11 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:11 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:11 AM STREAM b'tRNS' 842 57
+2019/01/03 11:45:11 AM STREAM b'IDAT' 911 5849
+2019/01/03 11:45:11 AM Crawled (200) <GET https://www.wandoujia.com/category/5029_719> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': 'ROOT精灵',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '支持上万款机型的手机端一键ROOT工具',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/01/20/9/110_6e6c5fc46cf482690c8415368ab2a782_con_130x130.png',
+ 'install': '17.2万人安装',
+ 'volume': '9.09MB'}
+2019/01/03 11:45:11 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/01/20/9/110_a95716ada8cf53ad7765281800b8a96a_con_130x130.png> (referer: None)
+2019/01/03 11:45:11 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/01/20/9/110_a95716ada8cf53ad7765281800b8a96a_con_130x130.png> referred in <None>
+2019/01/03 11:45:11 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:11 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:11 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:11 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:11 AM STREAM b'tRNS' 842 21
+2019/01/03 11:45:11 AM STREAM b'IDAT' 875 8192
+2019/01/03 11:45:11 AM Crawled (200) <GET https://www.wandoujia.com/category/5029_718> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '超级Root大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '连接云端一键获取ROOT权限',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/01/20/9/110_a95716ada8cf53ad7765281800b8a96a_con_130x130.png',
+ 'install': '6.7万人安装',
+ 'volume': '6.84MB'}
+2019/01/03 11:45:11 AM Crawled (200) <GET https://www.wandoujia.com/category/5029_722> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:11 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/11/25/3/2_0d4684b88992fed23c9e2bfbc659dd27_con_130x130.png> (referer: None)
+2019/01/03 11:45:11 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/11/25/3/2_0d4684b88992fed23c9e2bfbc659dd27_con_130x130.png> referred in <None>
+2019/01/03 11:45:11 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:11 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:11 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:11 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:11 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:11 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:11 AM STREAM b'IDAT' 101 5905
+2019/01/03 11:45:11 AM Crawled (200) <GET https://www.wandoujia.com/category/5018_601> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:11 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '万能ROOT',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '本ROOT软件针对Android（安卓）系统一键获取ROOT权限的软件。本ROOT软件支持众多And',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/11/25/3/2_0d4684b88992fed23c9e2bfbc659dd27_con_130x130.png',
+ 'install': '5.1万人安装',
+ 'volume': '1.97MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5029_722>
+{'app_name': 'PP体育',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '音乐',
+ 'comment': '中超亚冠高清直播',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/17/0/110_c9be4eca1c48b5f1016384e09bc56a0c_con_130x130.png',
+ 'install': '419.9万人安装',
+ 'volume': '50.27MB'}
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/09/05/3/2_b9dd2299f2ea028969b76bdcd51abb80_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/10/27/5/109_f1111b184e7f4f6eb5f94eca159ca8e5_con_130x130.png> (referer: None)
+2019/01/03 11:45:12 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/10/27/5/109_f1111b184e7f4f6eb5f94eca159ca8e5_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:12 AM STREAM b'IDAT' 41 2481
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '360手机卫士',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '十亿人的安全选择',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/07/13/3/110_121a78b7fc25cd597b27a0d477a0cb54_con_130x130.png',
+ 'install': '164万人安装',
+ 'volume': '17.21MB'}
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2019/01/02/8/110_3db7ec45208255c8715fbd078258dd66_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/20/4/110_d0adbae356869abd65496bfd6bd76f4c_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/04/01/5/2_1f566dee4dcd0c3b2276cce9f5603104_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/06/04/0/110_1511145e4fb9ecc3680dbb09a71acfc6_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/07/16/5/110_e4bbc82bc21d18d6a3fc9b1601d6457c_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/26/6/110_75aef60f72f6ebceded4e063c963e811_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/07/3/1_c69a2f06fec784920b5e6eca436487de_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/07/2/1_d3d44697da80f1ebc17bcddc75b48458_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/29/0/2_674ccbd3cf2da072d6af99366709bf97_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/04/27/1/110_07c24db094da9122ffdf70e992413dee_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/09/5/1_877594ae8ad97cba8ff80f931961c428_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/08/7/1_69492d88a51a01d9fb20980ae0a54215_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/08/0/1_7b50294e824a2facd37d25b446c898e8_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/05/09/10/110_64700c3e2b88f1402fda69ba346a436d_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/07/11/1_9287ca31ca0e9bfa0206d8b076447ddc_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/08/3/1_a46109bab5a36c2f322bc78da0851e68_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/06/08/11/1_27c851dbb4d96cac5c456c9914e49f1c_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/08/24/9/102_72081267c8b41fc06bddf50ebf02d24e_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2017/04/04/2/115_d7abcb63c98db277a87c11a5d27811b9_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '手机快速充电',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '快速充电是很长的电池寿命是简单和工具和解决方案之一。 快速连击充电缩短充电时间20％至40％，并节省',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/09/05/3/2_b9dd2299f2ea028969b76bdcd51abb80_con_130x130.png',
+ 'install': '11.8万人安装',
+ 'volume': '5.78MB'}
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2018/12/27/7/110_285042fa631d7d08a60cf052ea936fd2_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM File (uptodate): Downloaded image from <GET https://android-artworks.25pp.com/fs08/2016/08/19/6/106_568a185a8f40eb3921c6edb207286c55_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/9/1_2d0cb53aaa55418239acfb9c2338abe1_con_130x130.png> (referer: None)
+2019/01/03 11:45:12 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/9/1_2d0cb53aaa55418239acfb9c2338abe1_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:12 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:12 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:12 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:12 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:12 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:12 AM STREAM b'IDAT' 101 5960
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': 'KingRoot Pro',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '星重源是“懒人们”谁只是想获得root权限，但不想刷任何第三方恢复到他们的可爱装置根工具。 5.0',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/10/27/5/109_f1111b184e7f4f6eb5f94eca159ca8e5_con_130x130.png',
+ 'install': '4.9万人安装',
+ 'volume': '2.12MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '金山电池医生',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '智能省电，可延长手机1倍待机时间',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2019/01/02/8/110_3db7ec45208255c8715fbd078258dd66_con_130x130.png',
+ 'install': '11.6万人安装',
+ 'volume': '20.88MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '红手指云手机',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '你的另一台手机！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/20/4/110_d0adbae356869abd65496bfd6bd76f4c_con_130x130.png',
+ 'install': '8.8万人安装',
+ 'volume': '22.98MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '绿色守护',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '认同度非常高的安卓省电软件',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/04/01/5/2_1f566dee4dcd0c3b2276cce9f5603104_con_130x130.png',
+ 'install': '6.4万人安装',
+ 'volume': '3.87MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '360省电王',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '最大程度延长电池使用时间',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/06/04/0/110_1511145e4fb9ecc3680dbb09a71acfc6_con_130x130.png',
+ 'install': '4.2万人安装',
+ 'volume': '10.03MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '电池修复神器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '延长电池使用寿命',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/07/16/5/110_e4bbc82bc21d18d6a3fc9b1601d6457c_con_130x130.png',
+ 'install': '4万人安装',
+ 'volume': '3.65MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': 'X浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '极简快速，省电，省流量',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/26/6/110_75aef60f72f6ebceded4e063c963e811_con_130x130.png',
+ 'install': '3.9万人安装',
+ 'volume': '867KB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '精准电量AccuBattery Beta',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '精准电量是唯一的一款可以评估你的设备的电源容量(mAh)并帮助你保护你的电池寿命的应用。',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/11/18/10/115_d644db5b7dddbbce2c6792e48cbdb4e5_con_130x130.png',
+ 'install': '3.5万人安装',
+ 'volume': '4.07MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '指纹电池充电器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '电量不足？！用指纹就能充电。',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/3/1_c69a2f06fec784920b5e6eca436487de_con_130x130.png',
+ 'install': '2.6万人安装',
+ 'volume': '3.56MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '省电宝',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '电量时间延长，专属于你的省电应用！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/2/1_d3d44697da80f1ebc17bcddc75b48458_con_130x130.png',
+ 'install': '2.7万人安装',
+ 'volume': '3.59MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '手机充电加速器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '手机充电加速器可以快速提高手机电池的充电速度。充电加速器特点充电加速器可以显著的加快手机的充电速度，',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/0/2_674ccbd3cf2da072d6af99366709bf97_con_130x130.png',
+ 'install': '2万人安装',
+ 'volume': '5.29MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '充电助手',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '智能算法保护手机，延长电池使用寿命',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/04/27/1/110_07c24db094da9122ffdf70e992413dee_con_130x130.png',
+ 'install': '2万人安装',
+ 'volume': '4.5MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '暖手宝',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '**本应用对cpu的发热程度有严格的控制，不会让cpu使用率长时间超过95%，可以实时监测手机cpu',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/09/5/1_877594ae8ad97cba8ff80f931961c428_con_130x130.png',
+ 'install': '1.7万人安装',
+ 'volume': '801KB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '摇摇充电',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '摇一摇就能给手机充电！？',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/7/1_69492d88a51a01d9fb20980ae0a54215_con_130x130.png',
+ 'install': '1.7万人安装',
+ 'volume': '1.33MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '太阳能充电器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '您的手机从来没有足够的电池? 这种太阳能电池充电器欺骗你的朋友和家人,并告诉他们你的手机有太阳能充电',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/0/1_7b50294e824a2facd37d25b446c898e8_con_130x130.png',
+ 'install': '1.6万人安装',
+ 'volume': '1.71MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '省电大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '目前最专业的电池优化管理软件',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/05/09/10/110_64700c3e2b88f1402fda69ba346a436d_con_130x130.png',
+ 'install': '1.5万人安装',
+ 'volume': '7.24MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '电池修复（医生升压）',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '智能修复电池问题，延长手机电池使用寿命',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/11/1_9287ca31ca0e9bfa0206d8b076447ddc_con_130x130.png',
+ 'install': '1.3万人安装',
+ 'volume': '9.76MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '屏幕亮度调节',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '小巧、有爱、省电的手机屏幕亮度调节神器~',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/3/1_a46109bab5a36c2f322bc78da0851e68_con_130x130.png',
+ 'install': '1.3万人安装',
+ 'volume': '36KB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '腾讯电池管家',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '最智能的安卓省电工具！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/11/1_27c851dbb4d96cac5c456c9914e49f1c_con_130x130.png',
+ 'install': '1.2万人安装',
+ 'volume': '2.48MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '电池修复专业版',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '国内首款专业的电池监控维护软件，其原理借鉴国外的“Battery Repair”软件，在蓄电池充电及',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/08/24/9/102_72081267c8b41fc06bddf50ebf02d24e_con_130x130.png',
+ 'install': '1.1万人安装',
+ 'volume': '2.42MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '电池快速耗电急救',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '当手机的电池突然出现明显的快速耗电，除电池的硬件问题外，大部分原因是手机的媒体服务器，长期在后台扫描',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/04/04/2/115_d7abcb63c98db277a87c11a5d27811b9_con_130x130.png',
+ 'install': '1万人安装',
+ 'volume': '975KB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '电池医生',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '解决耗电快卡顿',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/27/7/110_285042fa631d7d08a60cf052ea936fd2_con_130x130.png',
+ 'install': '1万人安装',
+ 'volume': '9.48MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_601>
+{'app_name': '无线充电器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '省电',
+ 'comment': '无线电池充电器，当你把你的手机上的其他手机或任何电气设备顶部的作品，您的设备将开始进行无线充电。电磁',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/08/19/6/106_568a185a8f40eb3921c6edb207286c55_con_130x130.png',
+ 'install': '1万人安装',
+ 'volume': '1.57MB'}
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '水星路由',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '水星路由手机app专用于管理和设置水星路由器的手机软件，需要与水星品牌的无线路由器搭配使用。目前支持',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/9/1_2d0cb53aaa55418239acfb9c2338abe1_con_130x130.png',
+ 'install': '3.6万人安装',
+ 'volume': '1.05MB'}
+2019/01/03 11:45:12 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/11/03/5/115_da000caa25301c2a295e62c85449ee2c_con_130x130.png> (referer: None)
+2019/01/03 11:45:12 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/11/03/5/115_da000caa25301c2a295e62c85449ee2c_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:12 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:12 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:12 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:12 AM STREAM b'tRNS' 842 23
+2019/01/03 11:45:12 AM STREAM b'IDAT' 877 4822
+2019/01/03 11:45:12 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '一键Root精灵',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '一键root精灵，海量机型一键root',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/11/03/5/115_da000caa25301c2a295e62c85449ee2c_con_130x130.png',
+ 'install': '3.1万人安装',
+ 'volume': '4.68MB'}
+2019/01/03 11:45:12 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/7/1_e0bda958e69a139d249fd06418978cbd_con_130x130.png> (referer: None)
+2019/01/03 11:45:12 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/7/1_e0bda958e69a139d249fd06418978cbd_con_130x130.png> referred in <None>
+2019/01/03 11:45:12 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:12 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:12 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:12 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:12 AM STREAM b'tRNS' 842 20
+2019/01/03 11:45:12 AM STREAM b'IDAT' 874 6608
+2019/01/03 11:45:13 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '叮咚root',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '叮咚ROOT V1.3.4 全球震撼发布 叮咚root是全球第一ROOT工具。支持9000多款机型，',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/7/1_e0bda958e69a139d249fd06418978cbd_con_130x130.png',
+ 'install': '3万人安装',
+ 'volume': '11.65MB'}
+2019/01/03 11:45:13 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/12/16/4/115_8749197f61fe2ae6ca8f9b54d204f8e7_con_130x130.png> (referer: None)
+2019/01/03 11:45:13 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/12/16/4/115_8749197f61fe2ae6ca8f9b54d204f8e7_con_130x130.png> referred in <None>
+2019/01/03 11:45:13 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:13 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:13 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:13 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:13 AM STREAM b'tRNS' 842 53
+2019/01/03 11:45:13 AM STREAM b'IDAT' 907 4251
+2019/01/03 11:45:13 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '游戏加速器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '游戏加速器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/12/16/4/115_8749197f61fe2ae6ca8f9b54d204f8e7_con_130x130.png',
+ 'install': '2.8万人安装',
+ 'volume': '2.57MB'}
+2019/01/03 11:45:13 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/09/02/4/106_ec3fb6a017b709a8052203a2929971f3_con_130x130.png> (referer: None)
+2019/01/03 11:45:13 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/09/02/4/106_ec3fb6a017b709a8052203a2929971f3_con_130x130.png> referred in <None>
+2019/01/03 11:45:13 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:13 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:13 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:13 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:13 AM STREAM b'tRNS' 842 18
+2019/01/03 11:45:13 AM STREAM b'IDAT' 872 8192
+2019/01/03 11:45:13 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '一键ROOT权限系统程序卸载',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '极速软件搬家，一键ROOT获取超级权限，完美运行系统程序卸载，程序备份，APK管理等高级功能，安卓手',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/09/02/4/106_ec3fb6a017b709a8052203a2929971f3_con_130x130.png',
+ 'install': '2万人安装',
+ 'volume': '1.25MB'}
+2019/01/03 11:45:13 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/25/10/110_a89cbc0eaa6a30739a37b7b58f21abca_con_130x130.png> (referer: None)
+2019/01/03 11:45:13 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/25/10/110_a89cbc0eaa6a30739a37b7b58f21abca_con_130x130.png> referred in <None>
+2019/01/03 11:45:13 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:13 AM STREAM b'bKGD' 41 2
+2019/01/03 11:45:13 AM b'bKGD' 41 2 (unknown)
+2019/01/03 11:45:13 AM STREAM b'pHYs' 55 9
+2019/01/03 11:45:13 AM STREAM b'vpAg' 76 9
+2019/01/03 11:45:13 AM b'vpAg' 76 9 (unknown)
+2019/01/03 11:45:13 AM STREAM b'IDAT' 97 4131
+2019/01/03 11:45:13 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': 'NFC Emulator',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '用手机模拟门禁卡',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/10/110_a89cbc0eaa6a30739a37b7b58f21abca_con_130x130.png',
+ 'install': '1.9万人安装',
+ 'volume': '3.32MB'}
+2019/01/03 11:45:14 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/0/1_d36ccdfe4d6f51aa8c91667828bb2bf3_con_130x130.png> (referer: None)
+2019/01/03 11:45:14 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/0/1_d36ccdfe4d6f51aa8c91667828bb2bf3_con_130x130.png> referred in <None>
+2019/01/03 11:45:14 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:14 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:14 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:14 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:14 AM STREAM b'tRNS' 842 21
+2019/01/03 11:45:14 AM STREAM b'IDAT' 875 3131
+2019/01/03 11:45:14 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '一键root大师稳定版',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '1.★集成一键root软件，轻松获取root权限，让你远离手机无root的困扰 2.★快速无障碍转移',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/0/1_d36ccdfe4d6f51aa8c91667828bb2bf3_con_130x130.png',
+ 'install': '1.8万人安装',
+ 'volume': '1.2MB'}
+2019/01/03 11:45:14 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/11/01/9/115_b1fef854d43b977bb3b50fc14d77a48b_con_130x130.png> (referer: None)
+2019/01/03 11:45:14 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/11/01/9/115_b1fef854d43b977bb3b50fc14d77a48b_con_130x130.png> referred in <None>
+2019/01/03 11:45:14 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:14 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:14 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:14 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:14 AM STREAM b'tRNS' 842 22
+2019/01/03 11:45:14 AM STREAM b'IDAT' 876 6138
+2019/01/03 11:45:14 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '无Root抓包',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': 'Packet capture/Network traffic sniffer app with SS',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/11/01/9/115_b1fef854d43b977bb3b50fc14d77a48b_con_130x130.png',
+ 'install': '1.8万人安装',
+ 'volume': '4.53MB'}
+2019/01/03 11:45:14 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/06/6/1_090c95d9d3ae5cfb1a0df6c49de05a7d_con_130x130.png> (referer: None)
+2019/01/03 11:45:14 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/06/6/1_090c95d9d3ae5cfb1a0df6c49de05a7d_con_130x130.png> referred in <None>
+2019/01/03 11:45:14 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:14 AM STREAM b'IDAT' 41 7229
+2019/01/03 11:45:14 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '终极Root工具',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': 'Root Tools是一款Android ROOT根权限的必备工具，实在是Android资深玩家定制',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/06/6/1_090c95d9d3ae5cfb1a0df6c49de05a7d_con_130x130.png',
+ 'install': '1.4万人安装',
+ 'volume': '4.87MB'}
+2019/01/03 11:45:14 AM Crawled (200) <GET https://www.wandoujia.com/category/5029_1006> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:14 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/9/1_bf1b146c7ddd5ee0580bd90994e26448_con_130x130.png> (referer: None)
+2019/01/03 11:45:14 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/9/1_bf1b146c7ddd5ee0580bd90994e26448_con_130x130.png> referred in <None>
+2019/01/03 11:45:14 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:14 AM STREAM b'IDAT' 41 4228
+2019/01/03 11:45:14 AM Scraped from <200 https://www.wandoujia.com/category/5029_1006>
+{'app_name': '虎牙直播',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '直播',
+ 'comment': '国内领先的互动直播平台',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/4/110_41d5a38e79a0a675c4e5b363d364afc8_con_130x130.png',
+ 'install': '180.9万人安装',
+ 'volume': '47.15MB'}
+2019/01/03 11:45:14 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '看IMEI和IMSI',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '通过本软件，可以查看到手机的IMEI和IMSI。',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/9/1_bf1b146c7ddd5ee0580bd90994e26448_con_130x130.png',
+ 'install': '1.3万人安装',
+ 'volume': '81KB'}
+2019/01/03 11:45:14 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/10/1_d81b560e488abcc0955628ec5c8a2934_con_130x130.png> (referer: None)
+2019/01/03 11:45:14 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/10/1_d81b560e488abcc0955628ec5c8a2934_con_130x130.png> referred in <None>
+2019/01/03 11:45:14 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:14 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:14 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:14 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:14 AM STREAM b'tRNS' 842 45
+2019/01/03 11:45:14 AM STREAM b'IDAT' 899 5034
+2019/01/03 11:45:15 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '一键超级root大师',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '一键获取ROOT权限，完美兼容各种机型',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/10/1_d81b560e488abcc0955628ec5c8a2934_con_130x130.png',
+ 'install': '1.2万人安装',
+ 'volume': '6.67MB'}
+2019/01/03 11:45:15 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/12/22/6/110_6da5a237d8d8574cb3fd61c7ea7f81b9_con_130x130.png> (referer: None)
+2019/01/03 11:45:15 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/12/22/6/110_6da5a237d8d8574cb3fd61c7ea7f81b9_con_130x130.png> referred in <None>
+2019/01/03 11:45:15 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:15 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:15 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:15 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:15 AM STREAM b'tRNS' 842 43
+2019/01/03 11:45:15 AM STREAM b'IDAT' 897 3818
+2019/01/03 11:45:15 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '任我行免ROOT',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '虚拟定位打卡签到',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/12/22/6/110_6da5a237d8d8574cb3fd61c7ea7f81b9_con_130x130.png',
+ 'install': '1.2万人安装',
+ 'volume': '7.28MB'}
+2019/01/03 11:45:15 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/09/4/1_5786735c580f561042d51b2836a58695_con_130x130.png> (referer: None)
+2019/01/03 11:45:15 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/09/4/1_5786735c580f561042d51b2836a58695_con_130x130.png> referred in <None>
+2019/01/03 11:45:15 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:15 AM STREAM b'IDAT' 41 8557
+2019/01/03 11:45:15 AM Scraped from <200 https://www.wandoujia.com/category/5018_947>
+{'app_name': '安卓市场自动安装插件',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'Root',
+ 'comment': '本软件为安卓市场的扩展插件，可为您自动安装下载完成的软件，省去手动安装的步骤。使用自动安装功能需要R',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/09/4/1_5786735c580f561042d51b2836a58695_con_130x130.png',
+ 'install': '1.1万人安装',
+ 'volume': '130KB'}
+2019/01/03 11:45:15 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/13/0/102_8bf753134d51b8f4a17225d3fffe1b67_con_130x130.png> (referer: None)
+2019/01/03 11:45:15 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/13/0/102_8bf753134d51b8f4a17225d3fffe1b67_con_130x130.png> referred in <None>
+2019/01/03 11:45:15 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:15 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:15 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:15 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:15 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:15 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:15 AM STREAM b'IDAT' 101 13046
+2019/01/03 11:45:15 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '华为输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '支持拼音和手写输入',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/13/0/102_8bf753134d51b8f4a17225d3fffe1b67_con_130x130.png',
+ 'install': '1.5万人安装',
+ 'volume': '57.35MB'}
+2019/01/03 11:45:15 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/5/1_9b6f4a47a67d1e8e7ae494a89a0dfcb2_con_130x130.png> (referer: None)
+2019/01/03 11:45:15 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/5/1_9b6f4a47a67d1e8e7ae494a89a0dfcb2_con_130x130.png> referred in <None>
+2019/01/03 11:45:15 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:15 AM STREAM b'IDAT' 41 3775
+2019/01/03 11:45:15 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '手写输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': 'WritePad（手写输入法） WritePad 是一款 Android 上的手写输入法，功能强大，',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/5/1_9b6f4a47a67d1e8e7ae494a89a0dfcb2_con_130x130.png',
+ 'install': '1.3万人安装',
+ 'volume': '911KB'}
+2019/01/03 11:45:16 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/07/28/0/2_014937d914709107d9b0d714ce5ac178_con_130x130.png> (referer: None)
+2019/01/03 11:45:16 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/07/28/0/2_014937d914709107d9b0d714ce5ac178_con_130x130.png> referred in <None>
+2019/01/03 11:45:16 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:16 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:16 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:16 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:16 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:16 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:16 AM STREAM b'IDAT' 101 7512
+2019/01/03 11:45:16 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': 'Google韩语输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '通过语音输入法来使用韩语键盘，独立的元音布局，建议字典韩文键盘。由谷歌提供的朝鲜语IME。[特点]*',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/07/28/0/2_014937d914709107d9b0d714ce5ac178_con_130x130.png',
+ 'install': '1.3万人安装',
+ 'volume': '10.71MB'}
+2019/01/03 11:45:16 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/08/15/6/102_b14d12ace06e650e1abc65fec2790440_con_130x130.png> (referer: None)
+2019/01/03 11:45:16 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/08/15/6/102_b14d12ace06e650e1abc65fec2790440_con_130x130.png> referred in <None>
+2019/01/03 11:45:16 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:16 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:16 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:16 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:16 AM STREAM b'tRNS' 842 51
+2019/01/03 11:45:16 AM STREAM b'IDAT' 905 4451
+2019/01/03 11:45:16 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '手心输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '一款纯净、好用、创新的输入法',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/08/15/6/102_b14d12ace06e650e1abc65fec2790440_con_130x130.png',
+ 'install': '1.1万人安装',
+ 'volume': '22.74MB'}
+2019/01/03 11:45:16 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/11/27/7/110_a6146865af7aeed3750dcaa0585f1ddf_con_130x130.png> (referer: None)
+2019/01/03 11:45:16 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/11/27/7/110_a6146865af7aeed3750dcaa0585f1ddf_con_130x130.png> referred in <None>
+2019/01/03 11:45:16 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:16 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:16 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:16 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:16 AM STREAM b'tRNS' 842 21
+2019/01/03 11:45:16 AM STREAM b'IDAT' 875 6134
+2019/01/03 11:45:16 AM Scraped from <200 https://www.wandoujia.com/category/5018_597>
+{'app_name': '猎豹输入法',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '输入法',
+ 'comment': '酷炫3D主题 引领个性潮流',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/27/7/110_a6146865af7aeed3750dcaa0585f1ddf_con_130x130.png',
+ 'install': '1.1万人安装',
+ 'volume': '33.72MB'}
+2019/01/03 11:45:16 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/21/10/110_ecd66d4f4a631644d177b175e3766d99_con_130x130.png> (referer: None)
+2019/01/03 11:45:16 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/21/10/110_ecd66d4f4a631644d177b175e3766d99_con_130x130.png> referred in <None>
+2019/01/03 11:45:16 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:16 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:16 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:16 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:16 AM STREAM b'tRNS' 842 88
+2019/01/03 11:45:16 AM STREAM b'IDAT' 942 5185
+2019/01/03 11:45:16 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '搜狗浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '跨终端无缝体验，更快更流畅',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/21/10/110_ecd66d4f4a631644d177b175e3766d99_con_130x130.png',
+ 'install': '924.3万人安装',
+ 'volume': '30.55MB'}
+2019/01/03 11:45:17 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/25/2/110_46abcf415d5621650a586afcf8c7c0be_con_130x130.png> (referer: None)
+2019/01/03 11:45:17 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/25/2/110_46abcf415d5621650a586afcf8c7c0be_con_130x130.png> referred in <None>
+2019/01/03 11:45:17 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:17 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:17 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:17 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:17 AM STREAM b'tRNS' 842 31
+2019/01/03 11:45:17 AM STREAM b'IDAT' 885 4863
+2019/01/03 11:45:17 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '百度极速版',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '新闻头条热点视频',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/2/110_46abcf415d5621650a586afcf8c7c0be_con_130x130.png',
+ 'install': '368万人安装',
+ 'volume': '9.03MB'}
+2019/01/03 11:45:17 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/18/6/110_57997bd2c93119ed941d4ed39bcd674e_con_130x130.png> (referer: None)
+2019/01/03 11:45:17 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/18/6/110_57997bd2c93119ed941d4ed39bcd674e_con_130x130.png> referred in <None>
+2019/01/03 11:45:17 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:17 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:17 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:17 AM STREAM b'PLTE' 62 591
+2019/01/03 11:45:17 AM STREAM b'tRNS' 665 22
+2019/01/03 11:45:17 AM STREAM b'IDAT' 699 2730
+2019/01/03 11:45:17 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '百度',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '百度旗下权威搜索客户端',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/18/6/110_57997bd2c93119ed941d4ed39bcd674e_con_130x130.png',
+ 'install': '283.7万人安装',
+ 'volume': '73.92MB'}
+2019/01/03 11:45:17 AM Crawled (200) <GET https://www.wandoujia.com/category/5024_632> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:17 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/19/3/110_48f4ea00498e7b78c59f57bcb19ff120_con_130x130.png> (referer: None)
+2019/01/03 11:45:17 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/19/3/110_48f4ea00498e7b78c59f57bcb19ff120_con_130x130.png> referred in <None>
+2019/01/03 11:45:17 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:17 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:17 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:17 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:17 AM STREAM b'tRNS' 842 39
+2019/01/03 11:45:17 AM STREAM b'IDAT' 893 4867
+2019/01/03 11:45:17 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': 'UC浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '精彩资讯一刷即有',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/19/3/110_48f4ea00498e7b78c59f57bcb19ff120_con_130x130.png',
+ 'install': '7865.1万人安装',
+ 'volume': '45.84MB'}
+2019/01/03 11:45:17 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/11/29/4/110_14633f888c019442b689553f82ec62d4_con_130x130.png> (referer: None)
+2019/01/03 11:45:17 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/11/29/4/110_14633f888c019442b689553f82ec62d4_con_130x130.png> referred in <None>
+2019/01/03 11:45:17 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:17 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:17 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:17 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:17 AM STREAM b'tRNS' 842 21
+2019/01/03 11:45:17 AM STREAM b'IDAT' 875 5898
+2019/01/03 11:45:17 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': 'QQ浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '多终端同步上网',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/29/4/110_14633f888c019442b689553f82ec62d4_con_130x130.png',
+ 'install': '141.4万人安装',
+ 'volume': '32.93MB'}
+2019/01/03 11:45:18 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/11/20/4/110_2e7c8a430207a225cac44c0cbc5e247a_con_130x130.png> (referer: None)
+2019/01/03 11:45:18 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/11/20/4/110_2e7c8a430207a225cac44c0cbc5e247a_con_130x130.png> referred in <None>
+2019/01/03 11:45:18 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:18 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:18 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:18 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:18 AM STREAM b'tRNS' 842 31
+2019/01/03 11:45:18 AM STREAM b'IDAT' 885 5527
+2019/01/03 11:45:18 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': 'UC浏览器福利版',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '能赚钱的浏览器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/20/4/110_2e7c8a430207a225cac44c0cbc5e247a_con_130x130.png',
+ 'install': '119.8万人安装',
+ 'volume': '19.01MB'}
+2019/01/03 11:45:18 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/04/19/10/2_f2b4f58de26356d626addf4b83e3a38d_con_130x130.png> (referer: None)
+2019/01/03 11:45:18 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/04/19/10/2_f2b4f58de26356d626addf4b83e3a38d_con_130x130.png> referred in <None>
+2019/01/03 11:45:18 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:18 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:18 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:18 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:18 AM STREAM b'tRNS' 842 69
+2019/01/03 11:45:18 AM STREAM b'IDAT' 923 6519
+2019/01/03 11:45:18 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '谷歌浏览器Google Chrome',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '让你的手机更快，更顺畅',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/04/19/10/2_f2b4f58de26356d626addf4b83e3a38d_con_130x130.png',
+ 'install': '114.5万人安装',
+ 'volume': '117.47MB'}
+2019/01/03 11:45:18 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/06/8/110_d41f65d0dfd2e912fbf921307c0f3352_con_130x130.png> (referer: None)
+2019/01/03 11:45:18 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/06/8/110_d41f65d0dfd2e912fbf921307c0f3352_con_130x130.png> referred in <None>
+2019/01/03 11:45:18 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:18 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:18 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:18 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:18 AM STREAM b'tRNS' 842 33
+2019/01/03 11:45:18 AM STREAM b'IDAT' 887 5963
+2019/01/03 11:45:18 AM Crawled (200) <GET https://www.wandoujia.com/category/5024_634> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:18 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '搜狗搜索',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '追爱豆行程，一键翻译外文',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/06/8/110_d41f65d0dfd2e912fbf921307c0f3352_con_130x130.png',
+ 'install': '62.1万人安装',
+ 'volume': '24.26MB'}
+2019/01/03 11:45:18 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/17/1/110_e9a561173b0eb8c58e5dc3e1907acfde_con_130x130.png> (referer: None)
+2019/01/03 11:45:18 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/17/1/110_e9a561173b0eb8c58e5dc3e1907acfde_con_130x130.png> referred in <None>
+2019/01/03 11:45:18 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:18 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:18 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:18 AM STREAM b'PLTE' 62 705
+2019/01/03 11:45:18 AM STREAM b'tRNS' 779 22
+2019/01/03 11:45:18 AM STREAM b'IDAT' 813 2112
+2019/01/03 11:45:18 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '夸克浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '用极简思路对抗信息冗余',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/17/1/110_e9a561173b0eb8c58e5dc3e1907acfde_con_130x130.png',
+ 'install': '50.3万人安装',
+ 'volume': '31.63MB'}
+2019/01/03 11:45:19 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/11/10/2/110_0bc0e231bfab66ef69b7eff3f56d2fde_con_130x130.png> (referer: None)
+2019/01/03 11:45:19 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/11/10/2/110_0bc0e231bfab66ef69b7eff3f56d2fde_con_130x130.png> referred in <None>
+2019/01/03 11:45:19 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:19 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:19 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:19 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:19 AM STREAM b'tRNS' 842 54
+2019/01/03 11:45:19 AM STREAM b'IDAT' 908 5506
+2019/01/03 11:45:19 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '极速实用的浏览器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/11/10/2/110_0bc0e231bfab66ef69b7eff3f56d2fde_con_130x130.png',
+ 'install': '37.1万人安装',
+ 'volume': '3.21MB'}
+2019/01/03 11:45:19 AM Crawled (200) <GET https://www.wandoujia.com/category/5024_923> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:19 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/06/3/110_ca447f095c11217b54d9c3c1b3f19749_con_130x130.png> (referer: None)
+2019/01/03 11:45:19 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/06/3/110_ca447f095c11217b54d9c3c1b3f19749_con_130x130.png> referred in <None>
+2019/01/03 11:45:19 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:19 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:19 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:19 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:19 AM STREAM b'tRNS' 842 44
+2019/01/03 11:45:19 AM STREAM b'IDAT' 898 6383
+2019/01/03 11:45:19 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '2345浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '能赚钱的浏览器！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/06/3/110_ca447f095c11217b54d9c3c1b3f19749_con_130x130.png',
+ 'install': '26.2万人安装',
+ 'volume': '7.79MB'}
+2019/01/03 11:45:19 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/06/27/3/102_4b8bbaa457a4d7c3c26e4e20ac105cb1_con_130x130.png> (referer: None)
+2019/01/03 11:45:19 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/06/27/3/102_4b8bbaa457a4d7c3c26e4e20ac105cb1_con_130x130.png> referred in <None>
+2019/01/03 11:45:19 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:19 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:19 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:19 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:19 AM STREAM b'tRNS' 842 79
+2019/01/03 11:45:19 AM STREAM b'IDAT' 933 3263
+2019/01/03 11:45:19 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': 'ES文件浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '下载已破1.8亿，安卓文件管理第一牌',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/06/27/3/102_4b8bbaa457a4d7c3c26e4e20ac105cb1_con_130x130.png',
+ 'install': '22.7万人安装',
+ 'volume': '21.49MB'}
+2019/01/03 11:45:19 AM Crawled (200) <GET https://www.wandoujia.com/category/5028_801> (referer: https://www.wandoujia.com/category/app)
+2019/01/03 11:45:19 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/17/6/110_7f31eca10851ab75607f7f164cdf0056_con_130x130.png> (referer: None)
+2019/01/03 11:45:19 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/17/6/110_7f31eca10851ab75607f7f164cdf0056_con_130x130.png> referred in <None>
+2019/01/03 11:45:19 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:19 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:19 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:19 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:19 AM STREAM b'tRNS' 842 11
+2019/01/03 11:45:19 AM STREAM b'IDAT' 865 5657
+2019/01/03 11:45:19 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': 'Firefox火狐浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '快速、智能、安全的移动互联网优质体验',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/17/6/110_7f31eca10851ab75607f7f164cdf0056_con_130x130.png',
+ 'install': '15.8万人安装',
+ 'volume': '32.22MB'}
+2019/01/03 11:45:20 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/11/29/7/110_c4994e490bcb07ac01b6aff4d618c2ee_con_130x130.png> (referer: None)
+2019/01/03 11:45:20 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/11/29/7/110_c4994e490bcb07ac01b6aff4d618c2ee_con_130x130.png> referred in <None>
+2019/01/03 11:45:20 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:20 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:20 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:20 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:20 AM STREAM b'tRNS' 842 79
+2019/01/03 11:45:20 AM STREAM b'IDAT' 933 3826
+2019/01/03 11:45:20 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '天气派',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '生活可以更美的',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/29/7/110_c4994e490bcb07ac01b6aff4d618c2ee_con_130x130.png',
+ 'install': '14.7万人安装',
+ 'volume': '17.05MB'}
+2019/01/03 11:45:20 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/10/26/7/102_f7e5d193b6325840bf10a880178d7c6f_con_130x130.png> (referer: None)
+2019/01/03 11:45:20 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/10/26/7/102_f7e5d193b6325840bf10a880178d7c6f_con_130x130.png> referred in <None>
+2019/01/03 11:45:20 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:20 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:20 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:20 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:20 AM STREAM b'tRNS' 842 22
+2019/01/03 11:45:20 AM STREAM b'IDAT' 876 3918
+2019/01/03 11:45:20 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': 'QQ浏览器Play版',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '《QQ浏览器Play版》是我们在Google Play上推出的首个版本，重新设计的UI和中国大陆版本',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/10/26/7/102_f7e5d193b6325840bf10a880178d7c6f_con_130x130.png',
+ 'install': '13.7万人安装',
+ 'volume': '19.29MB'}
+2019/01/03 11:45:20 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/26/5/110_e8222a18389ff1ffe0e41bba313a037d_con_130x130.png> (referer: None)
+2019/01/03 11:45:20 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/26/5/110_e8222a18389ff1ffe0e41bba313a037d_con_130x130.png> referred in <None>
+2019/01/03 11:45:20 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:20 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:20 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:20 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:20 AM STREAM b'tRNS' 842 29
+2019/01/03 11:45:20 AM STREAM b'IDAT' 883 6849
+2019/01/03 11:45:20 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '猎豹浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '猎豹浏览器极速版—更轻，更快，更安全',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/26/5/110_e8222a18389ff1ffe0e41bba313a037d_con_130x130.png',
+ 'install': '13.5万人安装',
+ 'volume': '18.51MB'}
+2019/01/03 11:45:20 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/21/5/110_8c871c48e402fedceae1921362a6f2dc_con_130x130.png> (referer: None)
+2019/01/03 11:45:20 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/21/5/110_8c871c48e402fedceae1921362a6f2dc_con_130x130.png> referred in <None>
+2019/01/03 11:45:20 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:20 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:20 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:20 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:20 AM STREAM b'tRNS' 842 41
+2019/01/03 11:45:20 AM STREAM b'IDAT' 895 2967
+2019/01/03 11:45:20 AM Crawled (200) <GET https://www.wandoujia.com/wdjweb/api/category/more?catId=5029&subCatId=716&page=2> (referer: https://www.wandoujia.com/category/5029_716)
+2019/01/03 11:45:21 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '私密浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '上网隐私保护专家',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/21/5/110_8c871c48e402fedceae1921362a6f2dc_con_130x130.png',
+ 'install': '11.3万人安装',
+ 'volume': '7.48MB'}
+2019/01/03 11:45:21 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/12/26/10/110_333e579e80452c6de9422bee1bc928f3_con_130x130.png> (referer: None)
+2019/01/03 11:45:21 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/12/26/10/110_333e579e80452c6de9422bee1bc928f3_con_130x130.png> referred in <None>
+2019/01/03 11:45:21 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:21 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:21 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:21 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:21 AM STREAM b'tRNS' 842 55
+2019/01/03 11:45:21 AM STREAM b'IDAT' 909 2969
+2019/01/03 11:45:21 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '百度浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '看书看片看美女，百度浏览器，绝对神器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/12/26/10/110_333e579e80452c6de9422bee1bc928f3_con_130x130.png',
+ 'install': '10.7万人安装',
+ 'volume': '23.35MB'}
+2019/01/03 11:45:21 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/07/23/4/102_814537e8a7913e7556ba9629bb153c5e_con_130x130.png> (referer: None)
+2019/01/03 11:45:21 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/07/23/4/102_814537e8a7913e7556ba9629bb153c5e_con_130x130.png> referred in <None>
+2019/01/03 11:45:21 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:21 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:21 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:21 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:21 AM STREAM b'tRNS' 842 74
+2019/01/03 11:45:21 AM STREAM b'IDAT' 928 5515
+2019/01/03 11:45:21 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': 'Chrome浏览器测试版',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': 'Chrome Beta v31.0.1650.51 这是Chrome浏览器的测试版适合想要体验最新版',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/07/23/4/102_814537e8a7913e7556ba9629bb153c5e_con_130x130.png',
+ 'install': '8.6万人安装',
+ 'volume': '44.65MB'}
+2019/01/03 11:45:21 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/10/18/1/110_b8dd68e8fd3b93e775023332a665d712_con_130x130.png> (referer: None)
+2019/01/03 11:45:21 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/10/18/1/110_b8dd68e8fd3b93e775023332a665d712_con_130x130.png> referred in <None>
+2019/01/03 11:45:21 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:21 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:21 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:21 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:21 AM STREAM b'tRNS' 842 21
+2019/01/03 11:45:21 AM STREAM b'IDAT' 875 4528
+2019/01/03 11:45:21 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '极速浏览器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '更快、更简单',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/10/18/1/110_b8dd68e8fd3b93e775023332a665d712_con_130x130.png',
+ 'install': '6.5万人安装',
+ 'volume': '11.97MB'}
+2019/01/03 11:45:21 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/6/1_d4511c8c427b0ea037a0e089483e55df_con_130x130.png> (referer: None)
+2019/01/03 11:45:21 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/6/1_d4511c8c427b0ea037a0e089483e55df_con_130x130.png> referred in <None>
+2019/01/03 11:45:21 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:21 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:21 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:21 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:21 AM STREAM b'tRNS' 842 68
+2019/01/03 11:45:21 AM STREAM b'IDAT' 922 7522
+2019/01/03 11:45:21 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '360浏览器极速版',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '极速安全，用360极速浏览器，4亿人的共同选择！ 最快：独创0秒启动技术，点击图标即可使用，就是不让',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/6/1_d4511c8c427b0ea037a0e089483e55df_con_130x130.png',
+ 'install': '5.7万人安装',
+ 'volume': '2.76MB'}
+2019/01/03 11:45:21 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/06/04/10/110_2c896ba6aa1011bce6a420ac28559890_con_130x130.png> (referer: None)
+2019/01/03 11:45:21 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/06/04/10/110_2c896ba6aa1011bce6a420ac28559890_con_130x130.png> referred in <None>
+2019/01/03 11:45:21 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:21 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:21 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:21 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:21 AM STREAM b'tRNS' 842 85
+2019/01/03 11:45:21 AM STREAM b'IDAT' 939 2795
+2019/01/03 11:45:22 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': 'Via',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '史上最简洁小巧的浏览器',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/06/04/10/110_2c896ba6aa1011bce6a420ac28559890_con_130x130.png',
+ 'install': '5.8万人安装',
+ 'volume': '521KB'}
+2019/01/03 11:45:22 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/11/14/2/110_99cea2c1abb4e25c815489ec04f2a787_con_130x130.png> (referer: None)
+2019/01/03 11:45:22 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/11/14/2/110_99cea2c1abb4e25c815489ec04f2a787_con_130x130.png> referred in <None>
+2019/01/03 11:45:22 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:22 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:22 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:22 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:22 AM STREAM b'tRNS' 842 28
+2019/01/03 11:45:22 AM STREAM b'IDAT' 882 4215
+2019/01/03 11:45:22 AM Scraped from <200 https://www.wandoujia.com/category/5018_599>
+{'app_name': '搜狗浏览器极速版',
+ 'cate_name': '系统工具',
+ 'child_cate_name': '浏览器',
+ 'comment': '高速上网省流量',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/14/2/110_99cea2c1abb4e25c815489ec04f2a787_con_130x130.png',
+ 'install': '5.7万人安装',
+ 'volume': '13.32MB'}
+2019/01/03 11:45:22 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/05/26/3/115_5d9fdeb44e7597e6b336f57fb7a92862_con_130x130.png> (referer: None)
+2019/01/03 11:45:22 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/05/26/3/115_5d9fdeb44e7597e6b336f57fb7a92862_con_130x130.png> referred in <None>
+2019/01/03 11:45:22 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:22 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:22 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:22 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:22 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:22 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:22 AM STREAM b'IDAT' 101 9019
+2019/01/03 11:45:22 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi连接管理器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': 'WiFi好帮手，速度更快，连接更准！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/05/26/3/115_5d9fdeb44e7597e6b336f57fb7a92862_con_130x130.png',
+ 'install': '5.2万人安装',
+ 'volume': '5.49MB'}
+2019/01/03 11:45:22 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/07/19/2/110_a99fc65cd4a495b84b4f2cd23990dbf9_con_130x130.png> (referer: None)
+2019/01/03 11:45:22 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/07/19/2/110_a99fc65cd4a495b84b4f2cd23990dbf9_con_130x130.png> referred in <None>
+2019/01/03 11:45:22 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:22 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:22 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:22 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:22 AM STREAM b'tRNS' 842 29
+2019/01/03 11:45:22 AM STREAM b'IDAT' 883 2071
+2019/01/03 11:45:22 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': '斐讯路由',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '随心所欲来管理',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/07/19/2/110_a99fc65cd4a495b84b4f2cd23990dbf9_con_130x130.png',
+ 'install': '4.6万人安装',
+ 'volume': '59.11MB'}
+2019/01/03 11:45:22 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/11/19/7/110_1fa9da3673fb12bb8db0440108cf662e_con_130x130.png> (referer: None)
+2019/01/03 11:45:22 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/11/19/7/110_1fa9da3673fb12bb8db0440108cf662e_con_130x130.png> referred in <None>
+2019/01/03 11:45:22 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:22 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:22 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:22 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:22 AM STREAM b'tRNS' 842 61
+2019/01/03 11:45:22 AM STREAM b'IDAT' 915 5173
+2019/01/03 11:45:22 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': '万能钥匙加强版',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': 'wifi万能钥匙',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/19/7/110_1fa9da3673fb12bb8db0440108cf662e_con_130x130.png',
+ 'install': '4.6万人安装',
+ 'volume': '5.3MB'}
+2019/01/03 11:45:23 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2019/01/03/7/110_440db769b90a37c4c0cbfeb956ba3b9b_con_130x130.png> (referer: None)
+2019/01/03 11:45:23 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2019/01/03/7/110_440db769b90a37c4c0cbfeb956ba3b9b_con_130x130.png> referred in <None>
+2019/01/03 11:45:23 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:23 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:23 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:23 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:23 AM STREAM b'tRNS' 842 20
+2019/01/03 11:45:23 AM STREAM b'IDAT' 874 3046
+2019/01/03 11:45:23 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi钥匙',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': 'WiFi钥匙是一款连接公共WiFi热点的工具，可帮助用户在学校、机场、火车站、商场等公共场所免费接入',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2019/01/03/7/110_440db769b90a37c4c0cbfeb956ba3b9b_con_130x130.png',
+ 'install': '4.5万人安装',
+ 'volume': '12.53MB'}
+2019/01/03 11:45:23 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/27/10/110_4f4c937b915e5f5042d6dc57771bb136_con_130x130.png> (referer: None)
+2019/01/03 11:45:23 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/27/10/110_4f4c937b915e5f5042d6dc57771bb136_con_130x130.png> referred in <None>
+2019/01/03 11:45:23 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:23 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:23 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:23 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:23 AM STREAM b'tRNS' 842 42
+2019/01/03 11:45:23 AM STREAM b'IDAT' 896 3320
+2019/01/03 11:45:23 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi密码神器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '密码管理与防蹭网',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/27/10/110_4f4c937b915e5f5042d6dc57771bb136_con_130x130.png',
+ 'install': '4.3万人安装',
+ 'volume': '9.17MB'}
+2019/01/03 11:45:23 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/9/1_409b63a82be51a667b9d10f7cee968c1_con_130x130.png> (referer: None)
+2019/01/03 11:45:23 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/9/1_409b63a82be51a667b9d10f7cee968c1_con_130x130.png> referred in <None>
+2019/01/03 11:45:23 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:23 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:23 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:23 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:23 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:23 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:23 AM STREAM b'IDAT' 101 16524
+2019/01/03 11:45:23 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': '查看WiFi密码破解器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '本应用主要用于查看当前设备曾经连接过的所有WIFI名称和密码，并非破解WIFI密码。 可以用于找回遗',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/9/1_409b63a82be51a667b9d10f7cee968c1_con_130x130.png',
+ 'install': '4.2万人安装',
+ 'volume': '2.8MB'}
+2019/01/03 11:45:23 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/10/19/6/110_55caf368e429c45257abf70dad498400_con_130x130.png> (referer: None)
+2019/01/03 11:45:23 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/10/19/6/110_55caf368e429c45257abf70dad498400_con_130x130.png> referred in <None>
+2019/01/03 11:45:23 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:23 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:23 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:23 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:23 AM STREAM b'tRNS' 842 32
+2019/01/03 11:45:23 AM STREAM b'IDAT' 886 3480
+2019/01/03 11:45:23 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'wifi上网加速器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': '免费WiFi神器，手机上网更快哦！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/10/19/6/110_55caf368e429c45257abf70dad498400_con_130x130.png',
+ 'install': '4.1万人安装',
+ 'volume': '3.71MB'}
+2019/01/03 11:45:24 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/7/1_c23d8301bd891ba7442e0103226b98eb_con_130x130.png> (referer: None)
+2019/01/03 11:45:24 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/7/1_c23d8301bd891ba7442e0103226b98eb_con_130x130.png> referred in <None>
+2019/01/03 11:45:24 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:24 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:24 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:24 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:24 AM STREAM b'tRNS' 842 96
+2019/01/03 11:45:24 AM STREAM b'IDAT' 950 3351
+2019/01/03 11:45:24 AM Scraped from <200 https://www.wandoujia.com/category/5018_895>
+{'app_name': 'WiFi密码显示器',
+ 'cate_name': '系统工具',
+ 'child_cate_name': 'WiFi',
+ 'comment': 'WiFi显示器查看WiFi密码的好帮手',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/7/1_c23d8301bd891ba7442e0103226b98eb_con_130x130.png',
+ 'install': '3.9万人安装',
+ 'volume': '1.29MB'}
+2019/01/03 11:45:24 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/07/30/1/110_7cd497909ba72dfd07c78a5ec36724d6_con_130x130.png> (referer: None)
+2019/01/03 11:45:24 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/07/30/1/110_7cd497909ba72dfd07c78a5ec36724d6_con_130x130.png> referred in <None>
+2019/01/03 11:45:24 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:24 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:24 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:24 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:24 AM STREAM b'tRNS' 842 30
+2019/01/03 11:45:24 AM STREAM b'IDAT' 884 2912
+2019/01/03 11:45:24 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '手机收音机',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '与电台不期而遇',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/07/30/1/110_7cd497909ba72dfd07c78a5ec36724d6_con_130x130.png',
+ 'install': '9.7万人安装',
+ 'volume': '6.9MB'}
+2019/01/03 11:45:24 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/20/7/110_e729ce62bf03ce14754bf340fb543db5_con_130x130.png> (referer: None)
+2019/01/03 11:45:24 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/20/7/110_e729ce62bf03ce14754bf340fb543db5_con_130x130.png> referred in <None>
+2019/01/03 11:45:24 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:24 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:24 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:24 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:24 AM STREAM b'tRNS' 842 82
+2019/01/03 11:45:24 AM STREAM b'IDAT' 936 5058
+2019/01/03 11:45:24 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '荔枝',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '在荔枝，用声音，在一起',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/20/7/110_e729ce62bf03ce14754bf340fb543db5_con_130x130.png',
+ 'install': '8.3万人安装',
+ 'volume': '53.67MB'}
+2019/01/03 11:45:24 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/19/9/110_60197009f5e50f3814494a8eacd12f09_con_130x130.png> (referer: None)
+2019/01/03 11:45:24 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/19/9/110_60197009f5e50f3814494a8eacd12f09_con_130x130.png> referred in <None>
+2019/01/03 11:45:24 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:24 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:24 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:24 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:24 AM STREAM b'tRNS' 842 51
+2019/01/03 11:45:24 AM STREAM b'IDAT' 905 2903
+2019/01/03 11:45:24 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '企鹅FM',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '海量音频节目内容，听节目就上企鹅FM。',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/19/9/110_60197009f5e50f3814494a8eacd12f09_con_130x130.png',
+ 'install': '8万人安装',
+ 'volume': '17.5MB'}
+2019/01/03 11:45:25 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/08/27/9/110_2a3fe588ad297227542923d1f09060ad_con_130x130.png> (referer: None)
+2019/01/03 11:45:25 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/08/27/9/110_2a3fe588ad297227542923d1f09060ad_con_130x130.png> referred in <None>
+2019/01/03 11:45:25 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:25 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:25 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:25 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:25 AM STREAM b'tRNS' 842 25
+2019/01/03 11:45:25 AM STREAM b'IDAT' 879 3159
+2019/01/03 11:45:25 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '心理FM',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '心情不好的时候，听听心理FM',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/08/27/9/110_2a3fe588ad297227542923d1f09060ad_con_130x130.png',
+ 'install': '3万人安装',
+ 'volume': '12.88MB'}
+2019/01/03 11:45:25 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/06/13/7/110_63be52e204c70781929f43610915cb4c_con_130x130.png> (referer: None)
+2019/01/03 11:45:25 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/06/13/7/110_63be52e204c70781929f43610915cb4c_con_130x130.png> referred in <None>
+2019/01/03 11:45:25 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:25 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:25 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:25 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:25 AM STREAM b'tRNS' 842 37
+2019/01/03 11:45:25 AM STREAM b'IDAT' 891 5680
+2019/01/03 11:45:25 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '免费听书大全',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '解放双眼想听就听',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/06/13/7/110_63be52e204c70781929f43610915cb4c_con_130x130.png',
+ 'install': '2.9万人安装',
+ 'volume': '1.3MB'}
+2019/01/03 11:45:25 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/9/1_33f1c2eef728327cc288863580a26236_con_130x130.png> (referer: None)
+2019/01/03 11:45:25 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/9/1_33f1c2eef728327cc288863580a26236_con_130x130.png> referred in <None>
+2019/01/03 11:45:25 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:25 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:25 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:25 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:25 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:25 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:25 AM STREAM b'IDAT' 101 13369
+2019/01/03 11:45:25 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '龙卷风收音机',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '全天收听全球广播，涉及国内外各类信息',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/9/1_33f1c2eef728327cc288863580a26236_con_130x130.png',
+ 'install': '2.6万人安装',
+ 'volume': '3.61MB'}
+2019/01/03 11:45:25 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/0/1_21450cd9187b1ebbaec3429641f1c627_con_130x130.png> (referer: None)
+2019/01/03 11:45:25 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/0/1_21450cd9187b1ebbaec3429641f1c627_con_130x130.png> referred in <None>
+2019/01/03 11:45:25 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:25 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:25 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:25 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:25 AM STREAM b'tRNS' 842 87
+2019/01/03 11:45:25 AM STREAM b'IDAT' 941 3539
+2019/01/03 11:45:26 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '免费FM电台收音机',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': 'FM电台收音机是一款超流畅，超清晰，超省流量的FM电台收音机。 FM电台收音机收录有几千个国内外FM',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/0/1_21450cd9187b1ebbaec3429641f1c627_con_130x130.png',
+ 'install': '2.2万人安装',
+ 'volume': '10.04MB'}
+2019/01/03 11:45:26 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/03/22/7/110_81d6cf0f7a6ff7645999d191add4cbe6_con_130x130.png> (referer: None)
+2019/01/03 11:45:26 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/03/22/7/110_81d6cf0f7a6ff7645999d191add4cbe6_con_130x130.png> referred in <None>
+2019/01/03 11:45:26 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:26 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:26 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:26 AM STREAM b'PLTE' 62 699
+2019/01/03 11:45:26 AM STREAM b'tRNS' 773 117
+2019/01/03 11:45:26 AM STREAM b'IDAT' 902 3452
+2019/01/03 11:45:26 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '考拉FM电台',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '听书听新闻音乐',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/03/22/7/110_81d6cf0f7a6ff7645999d191add4cbe6_con_130x130.png',
+ 'install': '2万人安装',
+ 'volume': '23.53MB'}
+2019/01/03 11:45:26 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/7/1_e86e78b1455ec31e0fce77f33b19227a_con_130x130.png> (referer: None)
+2019/01/03 11:45:26 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/7/1_e86e78b1455ec31e0fce77f33b19227a_con_130x130.png> referred in <None>
+2019/01/03 11:45:26 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:26 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:26 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:26 AM STREAM b'PLTE' 62 726
+2019/01/03 11:45:26 AM STREAM b'tRNS' 800 94
+2019/01/03 11:45:26 AM STREAM b'IDAT' 906 4038
+2019/01/03 11:45:26 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '非趣不可',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '我们只做一件事，提供更多免费出行的机会和你们一起旅行看世界，也有定期的主题行。分享最接地气最好玩的旅',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/7/1_e86e78b1455ec31e0fce77f33b19227a_con_130x130.png',
+ 'install': '1.8万人安装',
+ 'volume': '11.38MB'}
+2019/01/03 11:45:26 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/11/02/3/110_0c39dd444192072fce2ed4cd1a9e364b_con_130x130.png> (referer: None)
+2019/01/03 11:45:26 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/11/02/3/110_0c39dd444192072fce2ed4cd1a9e364b_con_130x130.png> referred in <None>
+2019/01/03 11:45:26 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:26 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:26 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:26 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:26 AM STREAM b'tRNS' 842 18
+2019/01/03 11:45:26 AM STREAM b'IDAT' 872 4732
+2019/01/03 11:45:26 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '手机收音机',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '调频收音机大全',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/02/3/110_0c39dd444192072fce2ed4cd1a9e364b_con_130x130.png',
+ 'install': '1.4万人安装',
+ 'volume': '4.2MB'}
+2019/01/03 11:45:26 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/08/16/8/110_8c38d81b545afffda6debb8e04197c64_con_130x130.png> (referer: None)
+2019/01/03 11:45:26 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/08/16/8/110_8c38d81b545afffda6debb8e04197c64_con_130x130.png> referred in <None>
+2019/01/03 11:45:26 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:26 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:26 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:26 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:26 AM STREAM b'tRNS' 842 28
+2019/01/03 11:45:26 AM STREAM b'IDAT' 882 2323
+2019/01/03 11:45:26 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '手机FM电台收音机',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '感受来自电台温度',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/08/16/8/110_8c38d81b545afffda6debb8e04197c64_con_130x130.png',
+ 'install': '1.4万人安装',
+ 'volume': '1.24MB'}
+2019/01/03 11:45:27 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/29/0/2_b42d51a88b45d952d5ae3db03a5a7f70_con_130x130.png> (referer: None)
+2019/01/03 11:45:27 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/29/0/2_b42d51a88b45d952d5ae3db03a5a7f70_con_130x130.png> referred in <None>
+2019/01/03 11:45:27 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:27 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:27 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:27 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:27 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:27 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:27 AM STREAM b'IDAT' 101 5086
+2019/01/03 11:45:27 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': 'FM收音机广播',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': 'FM收音机，是一款在手机上免费收听全国中文电台的工具。 FM收音机包含有最全面的国家电台： CNR中',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/0/2_b42d51a88b45d952d5ae3db03a5a7f70_con_130x130.png',
+ 'install': '1万人安装',
+ 'volume': '8.66MB'}
+2019/01/03 11:45:27 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/10/1_768be4310843e5bb9129f14e32019d74_con_130x130.png> (referer: None)
+2019/01/03 11:45:27 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/10/1_768be4310843e5bb9129f14e32019d74_con_130x130.png> referred in <None>
+2019/01/03 11:45:27 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:27 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:27 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:27 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:27 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:27 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:27 AM STREAM b'IDAT' 101 7175
+2019/01/03 11:45:27 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '全球网络电台',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '风靡苹果市场，收听全球5万多名个电台！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/10/1_768be4310843e5bb9129f14e32019d74_con_130x130.png',
+ 'install': '1万人安装',
+ 'volume': '17.22MB'}
+2019/01/03 11:45:27 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/09/06/11/110_3f4dddf15c6d67261963f76adab9ec6f_con_130x130.png> (referer: None)
+2019/01/03 11:45:27 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/09/06/11/110_3f4dddf15c6d67261963f76adab9ec6f_con_130x130.png> referred in <None>
+2019/01/03 11:45:27 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:27 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:27 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:27 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:27 AM STREAM b'tRNS' 842 27
+2019/01/03 11:45:27 AM STREAM b'IDAT' 881 5662
+2019/01/03 11:45:27 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '豆瓣FM',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '听歌不只是选歌播放，是探索和惊喜，这里都有',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/09/06/11/110_3f4dddf15c6d67261963f76adab9ec6f_con_130x130.png',
+ 'install': '8700人安装',
+ 'volume': '8.85MB'}
+2019/01/03 11:45:27 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/03/15/8/106_11af374150b3be27fba5adcb2f980e73_con_130x130.png> (referer: None)
+2019/01/03 11:45:27 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/03/15/8/106_11af374150b3be27fba5adcb2f980e73_con_130x130.png> referred in <None>
+2019/01/03 11:45:27 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:27 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:27 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:27 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:27 AM STREAM b'tRNS' 842 20
+2019/01/03 11:45:27 AM STREAM b'IDAT' 874 8192
+2019/01/03 11:45:27 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': 'FM网络收音机',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': 'FM网络收音机是一款简单易用，收听流畅，音质清晰的网络电台收音机。 拥有海量高品质的电台直播频道，涵',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/03/15/8/106_11af374150b3be27fba5adcb2f980e73_con_130x130.png',
+ 'install': '8295人安装',
+ 'volume': '9.84MB'}
+2019/01/03 11:45:28 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/10/23/5/110_e2e9ea08d972d1a4a52851549958e941_con_130x130.png> (referer: None)
+2019/01/03 11:45:28 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/10/23/5/110_e2e9ea08d972d1a4a52851549958e941_con_130x130.png> referred in <None>
+2019/01/03 11:45:28 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:28 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:28 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:28 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:28 AM STREAM b'tRNS' 842 56
+2019/01/03 11:45:28 AM STREAM b'IDAT' 910 7538
+2019/01/03 11:45:28 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '免费小说听书大全',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '海量免费有声资源',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/10/23/5/110_e2e9ea08d972d1a4a52851549958e941_con_130x130.png',
+ 'install': '8085人安装',
+ 'volume': '1.9MB'}
+2019/01/03 11:45:28 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/20/8/2_da233f46ecdcdfc428b50e0e20f1f7de_con_130x130.png> (referer: None)
+2019/01/03 11:45:28 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/20/8/2_da233f46ecdcdfc428b50e0e20f1f7de_con_130x130.png> referred in <None>
+2019/01/03 11:45:28 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:28 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:28 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:28 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:28 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:28 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:28 AM STREAM b'IDAT' 101 6592
+2019/01/03 11:45:28 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '中国广播',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '电台直播、电台回听、直播预约收听，请使用中国广播，您的手机收音机，突破时间地域限制听电台！ 听电台、',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/20/8/2_da233f46ecdcdfc428b50e0e20f1f7de_con_130x130.png',
+ 'install': '8130人安装',
+ 'volume': '10.52MB'}
+2019/01/03 11:45:28 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/05/31/6/110_ab3ad849304bc0dccbdd732d478c9e21_con_130x130.png> (referer: None)
+2019/01/03 11:45:28 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/05/31/6/110_ab3ad849304bc0dccbdd732d478c9e21_con_130x130.png> referred in <None>
+2019/01/03 11:45:28 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:28 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:28 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:28 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:28 AM STREAM b'tRNS' 842 33
+2019/01/03 11:45:28 AM STREAM b'IDAT' 887 3394
+2019/01/03 11:45:28 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': 'FM电台调频收音机',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '随时随地想听就听',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/05/31/6/110_ab3ad849304bc0dccbdd732d478c9e21_con_130x130.png',
+ 'install': '6930人安装',
+ 'volume': '1.27MB'}
+2019/01/03 11:45:28 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/11/26/9/110_396e5743168f6a8530f3486291ed0048_con_130x130.png> (referer: None)
+2019/01/03 11:45:28 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/11/26/9/110_396e5743168f6a8530f3486291ed0048_con_130x130.png> referred in <None>
+2019/01/03 11:45:28 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:28 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:28 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:28 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:28 AM STREAM b'tRNS' 842 57
+2019/01/03 11:45:28 AM STREAM b'IDAT' 911 4790
+2019/01/03 11:45:28 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '凤凰FM',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '中国第一音频平台，最全有声小说相声评书段子',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/11/26/9/110_396e5743168f6a8530f3486291ed0048_con_130x130.png',
+ 'install': '7065人安装',
+ 'volume': '16.83MB'}
+2019/01/03 11:45:29 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/5/1_88d990438280d33db8970c800e1cf65a_con_130x130.png> (referer: None)
+2019/01/03 11:45:29 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/5/1_88d990438280d33db8970c800e1cf65a_con_130x130.png> referred in <None>
+2019/01/03 11:45:29 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:29 AM STREAM b'IDAT' 41 3765
+2019/01/03 11:45:29 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '联想收音机',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '海量SHOUTcast频道满足不同人的喜好',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/5/1_88d990438280d33db8970c800e1cf65a_con_130x130.png',
+ 'install': '5910人安装',
+ 'volume': '10.87MB'}
+2019/01/03 11:45:29 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/8/1_30ebc482364b2044a072f028a380b51f_con_130x130.png> (referer: None)
+2019/01/03 11:45:29 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/8/1_30ebc482364b2044a072f028a380b51f_con_130x130.png> referred in <None>
+2019/01/03 11:45:29 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:29 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:29 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:29 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:29 AM STREAM b'tRNS' 842 73
+2019/01/03 11:45:29 AM STREAM b'IDAT' 927 5388
+2019/01/03 11:45:29 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '全球广播电台',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '还在用收音机听广播吗？您out了，全球广播电台，最好用的网络收音机。',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/8/1_30ebc482364b2044a072f028a380b51f_con_130x130.png',
+ 'install': '5685人安装',
+ 'volume': '13.39MB'}
+2019/01/03 11:45:29 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/2/1_92695f3c48c4d99e167dbe9eeeca4dda_con_130x130.png> (referer: None)
+2019/01/03 11:45:29 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/2/1_92695f3c48c4d99e167dbe9eeeca4dda_con_130x130.png> referred in <None>
+2019/01/03 11:45:29 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:29 AM STREAM b'PLTE' 41 768
+2019/01/03 11:45:29 AM STREAM b'tRNS' 821 21
+2019/01/03 11:45:29 AM STREAM b'IDAT' 854 8192
+2019/01/03 11:45:29 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/07/26/1/110_8d0958358312aa51558c79624b158ff7_con_130x130.png> (referer: None)
+2019/01/03 11:45:29 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/07/26/1/110_8d0958358312aa51558c79624b158ff7_con_130x130.png> referred in <None>
+2019/01/03 11:45:29 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:29 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:29 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:29 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:29 AM STREAM b'tRNS' 842 10
+2019/01/03 11:45:29 AM STREAM b'IDAT' 864 8192
+2019/01/03 11:45:29 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '邓丽君热歌精选',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '邓丽君是在全球华人社会，亚洲影响力巨大的歌手，并赢得了“有中国人的地方，\u30002010年，为纪念邓丽君辞',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/2/1_92695f3c48c4d99e167dbe9eeeca4dda_con_130x130.png',
+ 'install': '5475人安装',
+ 'volume': '2.32MB'}
+2019/01/03 11:45:29 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '手机FM电台收音机',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '听广播的收音机',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/07/26/1/110_8d0958358312aa51558c79624b158ff7_con_130x130.png',
+ 'install': '5475人安装',
+ 'volume': '6.67MB'}
+2019/01/03 11:45:29 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/3/1_5f44cee49abfe02e50aaf88f7456dd85_con_130x130.png> (referer: None)
+2019/01/03 11:45:29 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/3/1_5f44cee49abfe02e50aaf88f7456dd85_con_130x130.png> referred in <None>
+2019/01/03 11:45:29 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:29 AM STREAM b'IDAT' 41 4469
+2019/01/03 11:45:30 AM Scraped from <200 https://www.wandoujia.com/category/5029_837>
+{'app_name': '全球广播电台',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '收音机',
+ 'comment': '还在用收音机听广播吗？您out了，全球广播电台，最好用的网络收音机，电台最多，音质最好，流量最省，为',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/3/1_5f44cee49abfe02e50aaf88f7456dd85_con_130x130.png',
+ 'install': '3615人安装',
+ 'volume': '11.37MB'}
+2019/01/03 11:45:30 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/29/4/110_a9a44746ce49b2338e8e33d607c010bb_con_130x130.png> (referer: None)
+2019/01/03 11:45:30 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/29/4/110_a9a44746ce49b2338e8e33d607c010bb_con_130x130.png> referred in <None>
+2019/01/03 11:45:30 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:30 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:30 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:30 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:30 AM STREAM b'tRNS' 842 38
+2019/01/03 11:45:30 AM STREAM b'IDAT' 892 4906
+2019/01/03 11:45:30 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '铃声多多',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '装机必备，超强铃声应用',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/29/4/110_a9a44746ce49b2338e8e33d607c010bb_con_130x130.png',
+ 'install': '81.9万人安装',
+ 'volume': '9.68MB'}
+2019/01/03 11:45:30 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/12/3/110_b45df533a570d482db390010fd5939d3_con_130x130.png> (referer: None)
+2019/01/03 11:45:30 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/12/3/110_b45df533a570d482db390010fd5939d3_con_130x130.png> referred in <None>
+2019/01/03 11:45:30 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:30 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:30 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:30 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:30 AM STREAM b'tRNS' 842 40
+2019/01/03 11:45:30 AM STREAM b'IDAT' 894 5556
+2019/01/03 11:45:30 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '酷狗铃声',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '最全铃声曲库，海量铃声，免费使用',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/12/3/110_b45df533a570d482db390010fd5939d3_con_130x130.png',
+ 'install': '9.8万人安装',
+ 'volume': '18.46MB'}
+2019/01/03 11:45:30 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/02/07/11/110_ba51bd98f9a0057b1f7659cd9beed52d_con_130x130.png> (referer: None)
+2019/01/03 11:45:30 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/02/07/11/110_ba51bd98f9a0057b1f7659cd9beed52d_con_130x130.png> referred in <None>
+2019/01/03 11:45:30 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:30 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:30 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:30 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:30 AM STREAM b'tRNS' 842 36
+2019/01/03 11:45:30 AM STREAM b'IDAT' 890 6270
+2019/01/03 11:45:30 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '手机来电铃声',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '彩铃手机铃声多多',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/02/07/11/110_ba51bd98f9a0057b1f7659cd9beed52d_con_130x130.png',
+ 'install': '9.2万人安装',
+ 'volume': '6.08MB'}
+2019/01/03 11:45:30 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/12/25/8/110_c8df78c31c57ea98e464be3bad61fbc7_con_130x130.png> (referer: None)
+2019/01/03 11:45:30 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/12/25/8/110_c8df78c31c57ea98e464be3bad61fbc7_con_130x130.png> referred in <None>
+2019/01/03 11:45:30 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:30 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:30 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:30 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:30 AM STREAM b'tRNS' 842 32
+2019/01/03 11:45:31 AM STREAM b'IDAT' 886 5233
+2019/01/03 11:45:31 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '铃音多多',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '300万手机铃声',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/12/25/8/110_c8df78c31c57ea98e464be3bad61fbc7_con_130x130.png',
+ 'install': '5.3万人安装',
+ 'volume': '15.68MB'}
+2019/01/03 11:45:31 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/06/06/1/2_9739d513ee88a27759a756095047b7e3_con_130x130.png> (referer: None)
+2019/01/03 11:45:31 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/06/06/1/2_9739d513ee88a27759a756095047b7e3_con_130x130.png> referred in <None>
+2019/01/03 11:45:31 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:31 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:31 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:31 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:31 AM STREAM b'tRNS' 842 61
+2019/01/03 11:45:31 AM STREAM b'IDAT' 915 6236
+2019/01/03 11:45:31 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '手机铃声大全',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '火热铃声实时更新，把握时尚风向标，网罗分享量超高的铃声，汇总个性又流行的彩铃（炫铃） 神马热播电视剧',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/06/06/1/2_9739d513ee88a27759a756095047b7e3_con_130x130.png',
+ 'install': '4.3万人安装',
+ 'volume': '4.4MB'}
+2019/01/03 11:45:31 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/08/20/11/102_f7fd0927793d7b49b5a16d02922298ab_con_130x130.png> (referer: None)
+2019/01/03 11:45:31 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/08/20/11/102_f7fd0927793d7b49b5a16d02922298ab_con_130x130.png> referred in <None>
+2019/01/03 11:45:31 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:31 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:31 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:31 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:31 AM STREAM b'tRNS' 842 38
+2019/01/03 11:45:31 AM STREAM b'IDAT' 892 5014
+2019/01/03 11:45:31 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '铃声大全',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '铃声大全 - 苹果第1铃声，安卓首发！*** 5千万用户正在使用，超10万好评，装机必备！*** 官',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/08/20/11/102_f7fd0927793d7b49b5a16d02922298ab_con_130x130.png',
+ 'install': '3.2万人安装',
+ 'volume': '9.6MB'}
+2019/01/03 11:45:31 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/04/05/1/2_d295bc08cd81b1adfb957a349e52b930_con_130x130.png> (referer: None)
+2019/01/03 11:45:31 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/04/05/1/2_d295bc08cd81b1adfb957a349e52b930_con_130x130.png> referred in <None>
+2019/01/03 11:45:31 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:31 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:31 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:31 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:31 AM STREAM b'tRNS' 842 17
+2019/01/03 11:45:31 AM STREAM b'IDAT' 871 3837
+2019/01/03 11:45:31 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '铃声剪辑',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '实用铃声制作工具，支持淡入淡出和音量调整',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/04/05/1/2_d295bc08cd81b1adfb957a349e52b930_con_130x130.png',
+ 'install': '3万人安装',
+ 'volume': '3.55MB'}
+2019/01/03 11:45:31 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/08/26/8/2_1523d116a8a6e9da50c024dcbc8cfd8f_con_130x130.png> (referer: None)
+2019/01/03 11:45:31 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/08/26/8/2_1523d116a8a6e9da50c024dcbc8cfd8f_con_130x130.png> referred in <None>
+2019/01/03 11:45:31 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:31 AM STREAM b'PLTE' 41 753
+2019/01/03 11:45:31 AM STREAM b'tRNS' 806 32
+2019/01/03 11:45:31 AM STREAM b'IDAT' 850 7124
+2019/01/03 11:45:32 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '超级大声铃声',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '超级大声铃声包括一些*响亮的声音你的手机可以使。你将永远不必担心无法听到你的电话铃声响起享受这些自由',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/08/26/8/2_1523d116a8a6e9da50c024dcbc8cfd8f_con_130x130.png',
+ 'install': '2.9万人安装',
+ 'volume': '7.43MB'}
+2019/01/03 11:45:32 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/08/16/11/2_7dba1b4278ac40d4f34f48243f506732_con_130x130.png> (referer: None)
+2019/01/03 11:45:32 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/08/16/11/2_7dba1b4278ac40d4f34f48243f506732_con_130x130.png> referred in <None>
+2019/01/03 11:45:32 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:32 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:32 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:32 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:32 AM STREAM b'tRNS' 842 31
+2019/01/03 11:45:32 AM STREAM b'IDAT' 885 6378
+2019/01/03 11:45:32 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '手机铃声多多',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '【小编推荐：手机铃声多多】 1.手机铃声多多强大的云服务器收集了全面时尚的手机铃声 2.手机铃声多多',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/08/16/11/2_7dba1b4278ac40d4f34f48243f506732_con_130x130.png',
+ 'install': '3.1万人安装',
+ 'volume': '6.2MB'}
+2019/01/03 11:45:32 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/08/25/9/102_839f704d57d70d7751903466c030037e_con_130x130.png> (referer: None)
+2019/01/03 11:45:32 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/08/25/9/102_839f704d57d70d7751903466c030037e_con_130x130.png> referred in <None>
+2019/01/03 11:45:32 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:32 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:32 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:32 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:32 AM STREAM b'tRNS' 842 31
+2019/01/03 11:45:32 AM STREAM b'IDAT' 885 8192
+2019/01/03 11:45:32 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '贵州交警',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '“贵州交警”APP手机客户端是贵州省公安厅交管局提升社会治理能力、拓宽服务群众渠道的新举措，按照“让',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/08/25/9/102_839f704d57d70d7751903466c030037e_con_130x130.png',
+ 'install': '2.5万人安装',
+ 'volume': '11.9MB'}
+2019/01/03 11:45:32 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/8/1_3339d5a002b9a7e60d6e49ceda2424fe_con_130x130.png> (referer: None)
+2019/01/03 11:45:32 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/8/1_3339d5a002b9a7e60d6e49ceda2424fe_con_130x130.png> referred in <None>
+2019/01/03 11:45:32 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:32 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:32 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:32 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:32 AM STREAM b'tRNS' 842 10
+2019/01/03 11:45:32 AM STREAM b'IDAT' 864 8192
+2019/01/03 11:45:32 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '非常防盗',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '防止手机在公共场所被盗和丢失的软件',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/8/1_3339d5a002b9a7e60d6e49ceda2424fe_con_130x130.png',
+ 'install': '2.2万人安装',
+ 'volume': '5.99MB'}
+2019/01/03 11:45:32 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/09/10/8/110_597a22ff436eac8808f784b0e5b5c13e_con_130x130.png> (referer: None)
+2019/01/03 11:45:32 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/09/10/8/110_597a22ff436eac8808f784b0e5b5c13e_con_130x130.png> referred in <None>
+2019/01/03 11:45:32 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:32 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:32 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:32 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:32 AM STREAM b'tRNS' 842 34
+2019/01/03 11:45:32 AM STREAM b'IDAT' 888 5031
+2019/01/03 11:45:32 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '铃声之家',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '每天一首新铃声',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/09/10/8/110_597a22ff436eac8808f784b0e5b5c13e_con_130x130.png',
+ 'install': '2.2万人安装',
+ 'volume': '2.62MB'}
+2019/01/03 11:45:32 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/11/26/10/110_57289def95d4756cee9313d0a486fecb_con_130x130.png> (referer: None)
+2019/01/03 11:45:32 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/11/26/10/110_57289def95d4756cee9313d0a486fecb_con_130x130.png> referred in <None>
+2019/01/03 11:45:32 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:32 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:32 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:32 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:32 AM STREAM b'tRNS' 842 84
+2019/01/03 11:45:32 AM STREAM b'IDAT' 938 2032
+2019/01/03 11:45:32 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '免费手机铃声大全',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '一键轻松设置铃声',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/11/26/10/110_57289def95d4756cee9313d0a486fecb_con_130x130.png',
+ 'install': '2.2万人安装',
+ 'volume': '5.47MB'}
+2019/01/03 11:45:33 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/8/1_148b1a12555a2c72dd0cc3753d7f4029_con_130x130.png> (referer: None)
+2019/01/03 11:45:33 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/8/1_148b1a12555a2c72dd0cc3753d7f4029_con_130x130.png> referred in <None>
+2019/01/03 11:45:33 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:33 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:33 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:33 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:33 AM STREAM b'tRNS' 842 48
+2019/01/03 11:45:33 AM STREAM b'IDAT' 902 2941
+2019/01/03 11:45:33 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '流行铃声',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '2、精选精品铃声、专属主题分类、紧跟潮流与时尚，让您的铃声不再落伍，您可以快速地查找和一键设置。',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/8/1_148b1a12555a2c72dd0cc3753d7f4029_con_130x130.png',
+ 'install': '2万人安装',
+ 'volume': '2.78MB'}
+2019/01/03 11:45:33 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2017/12/21/7/2_93653c5c071fde78ea63cf6eaee46f7d_con_130x130.png> (referer: None)
+2019/01/03 11:45:33 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2017/12/21/7/2_93653c5c071fde78ea63cf6eaee46f7d_con_130x130.png> referred in <None>
+2019/01/03 11:45:33 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:33 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:33 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:33 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:33 AM STREAM b'tRNS' 842 35
+2019/01/03 11:45:33 AM STREAM b'IDAT' 889 4915
+2019/01/03 11:45:33 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '好好吃',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '加班再累也要注意营养，工作再忙也要好好吃饭，好好吃依托大数据分析告诉你今天应该吃什么！我们的目标就是',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2017/12/21/7/2_93653c5c071fde78ea63cf6eaee46f7d_con_130x130.png',
+ 'install': '1.8万人安装',
+ 'volume': '14.58MB'}
+2019/01/03 11:45:33 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/05/21/6/110_d40ff049da6e8eeb76a9676b38565d13_con_130x130.png> (referer: None)
+2019/01/03 11:45:33 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/05/21/6/110_d40ff049da6e8eeb76a9676b38565d13_con_130x130.png> referred in <None>
+2019/01/03 11:45:33 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:33 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:33 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:33 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:33 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:33 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:33 AM STREAM b'IDAT' 101 3491
+2019/01/03 11:45:33 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '音乐裁剪大师',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '音乐裁剪大师\u3000音乐最强大，裁剪最牛！！！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/05/21/6/110_d40ff049da6e8eeb76a9676b38565d13_con_130x130.png',
+ 'install': '1.8万人安装',
+ 'volume': '21MB'}
+2019/01/03 11:45:33 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/1/1_5cfafc417e45c61cd9fc126c5ab2d844_con_130x130.png> (referer: None)
+2019/01/03 11:45:33 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/1/1_5cfafc417e45c61cd9fc126c5ab2d844_con_130x130.png> referred in <None>
+2019/01/03 11:45:33 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:33 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:33 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:33 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:33 AM STREAM b'tRNS' 842 21
+2019/01/03 11:45:33 AM STREAM b'IDAT' 875 5250
+2019/01/03 11:45:34 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '我的处理',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '此应用程序呈现在互联网视图处理脚本。它使用的后端processing.js。但是，所有的文件都存储在',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/1/1_5cfafc417e45c61cd9fc126c5ab2d844_con_130x130.png',
+ 'install': '1.8万人安装',
+ 'volume': '464KB'}
+2019/01/03 11:45:34 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/07/10/1_bc4d23fd6d3f9d66773c1f489d4bb5fd_con_130x130.png> (referer: None)
+2019/01/03 11:45:34 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/07/10/1_bc4d23fd6d3f9d66773c1f489d4bb5fd_con_130x130.png> referred in <None>
+2019/01/03 11:45:34 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:34 AM STREAM b'bKGD' 41 6
+2019/01/03 11:45:34 AM b'bKGD' 41 6 (unknown)
+2019/01/03 11:45:34 AM STREAM b'pHYs' 59 9
+2019/01/03 11:45:34 AM STREAM b'vpAg' 80 9
+2019/01/03 11:45:34 AM b'vpAg' 80 9 (unknown)
+2019/01/03 11:45:34 AM STREAM b'IDAT' 101 4836
+2019/01/03 11:45:34 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '好铃声',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '分享！赠送！好铃声不能独享哦！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/07/10/1_bc4d23fd6d3f9d66773c1f489d4bb5fd_con_130x130.png',
+ 'install': '1.7万人安装',
+ 'volume': '2.79MB'}
+2019/01/03 11:45:34 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2018/06/07/6/2_5abcab39b45fa6ddad7c4e2148786abe_con_130x130.png> (referer: None)
+2019/01/03 11:45:34 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2018/06/07/6/2_5abcab39b45fa6ddad7c4e2148786abe_con_130x130.png> referred in <None>
+2019/01/03 11:45:34 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:34 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:34 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:34 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:34 AM STREAM b'tRNS' 842 53
+2019/01/03 11:45:34 AM STREAM b'IDAT' 907 6172
+2019/01/03 11:45:34 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '免费手机铃声',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '1、火热铃声实时更新，网罗分享量超高的铃声，汇总个性又流行的彩铃 2、整合时下热门、极新百万铃声，轻',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2018/06/07/6/2_5abcab39b45fa6ddad7c4e2148786abe_con_130x130.png',
+ 'install': '1.6万人安装',
+ 'volume': '4.4MB'}
+2019/01/03 11:45:34 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/9/1_ee2186bd136c3fabaca8a00f91dbb3c0_con_130x130.png> (referer: None)
+2019/01/03 11:45:34 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/9/1_ee2186bd136c3fabaca8a00f91dbb3c0_con_130x130.png> referred in <None>
+2019/01/03 11:45:34 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:34 AM STREAM b'IDAT' 41 9516
+2019/01/03 11:45:34 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': 'BMW engine sounds',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '享受您最喜爱的汽车宝马发动机的声音，享受声音和比较不同的引擎，或将其用作自己的铃声和通知声音，或者你',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/9/1_ee2186bd136c3fabaca8a00f91dbb3c0_con_130x130.png',
+ 'install': '1.5万人安装',
+ 'volume': '3.73MB'}
+2019/01/03 11:45:34 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/06/08/0/1_fe27463e28cf18e4ea84c121d209a2e2_con_130x130.png> (referer: None)
+2019/01/03 11:45:34 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/06/08/0/1_fe27463e28cf18e4ea84c121d209a2e2_con_130x130.png> referred in <None>
+2019/01/03 11:45:34 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:34 AM STREAM b'vpAg' 41 9
+2019/01/03 11:45:34 AM b'vpAg' 41 9 (unknown)
+2019/01/03 11:45:34 AM STREAM b'PLTE' 62 768
+2019/01/03 11:45:34 AM STREAM b'tRNS' 842 30
+2019/01/03 11:45:34 AM STREAM b'IDAT' 884 3330
+2019/01/03 11:45:35 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': '铃铃铃',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': '简洁定制的操作、轻松管理和播放铃声！',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/06/08/0/1_fe27463e28cf18e4ea84c121d209a2e2_con_130x130.png',
+ 'install': '1.3万人安装',
+ 'volume': '3.62MB'}
+2019/01/03 11:45:35 AM Crawled (200) <GET https://android-artworks.25pp.com/fs08/2016/08/28/8/102_67b429245eabf038fcd30ab741478d64_con_130x130.png> (referer: None)
+2019/01/03 11:45:35 AM File (downloaded): Downloaded file from <GET https://android-artworks.25pp.com/fs08/2016/08/28/8/102_67b429245eabf038fcd30ab741478d64_con_130x130.png> referred in <None>
+2019/01/03 11:45:35 AM STREAM b'IHDR' 16 13
+2019/01/03 11:45:35 AM STREAM b'PLTE' 41 759
+2019/01/03 11:45:35 AM STREAM b'tRNS' 812 25
+2019/01/03 11:45:35 AM STREAM b'IDAT' 849 8192
+2019/01/03 11:45:35 AM Scraped from <200 https://www.wandoujia.com/category/5029_719>
+{'app_name': 'Car Engine Start Sounds',
+ 'cate_name': '影音播放',
+ 'child_cate_name': '铃声',
+ 'comment': 'Ever wondered what it was like to startup the engi',
+ 'icon_url': 'https://android-artworks.25pp.com/fs08/2016/08/28/8/102_67b429245eabf038fcd30ab741478d64_con_130x130.png',
+ 'install': '1.3万人安装',
+ 'volume': '4.16MB'}

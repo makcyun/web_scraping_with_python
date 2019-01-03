@@ -1,0 +1,552 @@
+# -*- coding: utf-8 -*-
+
+"""
+爬取豌豆荚网站所有分类下的全部 app
+数据爬取包括两个部分：
+一：数据指标
+1 爬取首页
+2 爬取第2页开始的 ajax 页
+
+二：图标
+使用class方法下载首页和 ajax 页
+
+8
+"""
+
+import scrapy
+from wandoujia.items import WandoujiaItem
+
+import requests
+from pyquery import PyQuery as pq
+import re
+import csv
+import pandas as pd
+import numpy as np
+import time
+import pymongo
+import json
+import os
+from urllib.parse import urlencode
+import random
+import logging
+from fake_useragent import UserAgent
+
+# 设置随机ua
+ua = UserAgent()
+
+client = pymongo.MongoClient('localhost', 27017)
+db = client.wandoujia
+mongo_collection = db.wandou5
+
+
+logging.basicConfig(filename='wandoujia.log',filemode='w',level=logging.DEBUG,format='%(asctime)s %(message)s',datefmt='%Y/%m/%d %I:%M:%S %p')
+# https://juejin.im/post/5aee70105188256712786b7f
+logging.warning("warn message")
+logging.error("error message")
+
+headers = {
+            'User-Agent':ua.random,
+            # 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+            # 'X-Requested-With': 'XMLHttpRequest',
+        }
+
+# 代理ip
+proxies = [{'http': 'socks5://127.0.0.1:1080'}, {'https': 'socks5://127.0.0.1:1080'}, {'http': 'http://27.189.203.73:1080'}, {'https': 'https://27.189.203.73:1080'}]        
+
+
+class WandouSpider(scrapy.Spider):
+    name = 'wandou'
+    allowed_domains = ['www.wandoujia.com']
+    start_urls = ['http://www.wandoujia.com/']
+
+
+    def __init__(self):
+        self.cate_url = 'https://www.wandoujia.com/category/app'
+        # 首页url
+        self.url = 'https://www.wandoujia.com/category/'
+        # ajax 请求url
+        self.ajax_url = 'https://www.wandoujia.com/wdjweb/api/category/more'
+
+        # 实例化分类标签
+        self.wandou_category = Get_category()
+        # 实例化page提取类
+        # self.wandou_page = Get_page()
+
+
+    def start_requests(self):
+        yield scrapy.Request(self.cate_url,callback=self.get_category,headers=headers)
+
+    def get_category(self, response):
+        # cate_content = self.wandou_category.parse_category(response)
+        # print(cate_content)
+        num = 0
+        # for item in cate_content:
+        #     child_cate = item['child_cate_codes']
+        #     for cate in child_cate:
+        #         cate_code = item['cate_code']
+        #         cate_name = item['cate_name']
+        #         child_cate_code = cate['child_cate_code']
+        #         child_cate_name = cate['child_cate_name']
+
+
+        # 单类别下载
+        # for 循环下一页
+        cate_code = 5016
+        child_cate_code = 720
+        cate_name = '摄影图像'
+        child_cate_name = '相机'
+        page_last = False # while 循环初始条件
+        page = 1 # 设置爬取起始页数
+        print('*' * 50)
+        
+        while not page_last:
+        
+        # for 循环下一页
+        # for page in range(1,2):
+            print('正在爬取：%s-%s 第 %s 页 ' %
+            (cate_name, child_cate_name, page))
+
+            if page == 1:
+        # 构造首页url
+                category_url = '{}{}_{}' .format(self.url, cate_code, child_cate_code)
+                # content = requests.get(category_url, headers=headers,proxies=self.proxies).text
+                # yield scrapy.Request(category_url, headers=headers)
+            else:
+                params = {
+                'catId': cate_code,  # 大类别
+                'subCatId': child_cate_code,  # 小类别
+                'page': page,
+                }
+                category_url = self.cate_url + urlencode(params)
+
+            
+
+            # content =  scrapy.Request(category_url, headers=headers,callback=self.parse,meta={'page':page,'cate_name':cate_name,'child_cate_name':child_cate_name,'num':num})
+            # if not content == '':
+
+
+            page_last = scrapy.Request(category_url, headers=headers,callback=self.parse,meta={'page':page,'cate_name':cate_name,'child_cate_name':child_cate_name,'num':num,'page_last':page_last})
+            print(page_last)
+        
+        else:   
+            print('该类别已下载完最后一页')
+
+            # page += 1
+            # yield scrapy.Request(category_url, headers=headers,callback=self.get_category)
+
+
+                # page_last = False # while 循环初始条件
+                # page = 1 # 设置爬取起始页数
+                # print('*' * 50)
+                
+                # while not page_last:
+                
+                # # for 循环下一页
+                # # for page in range(1,2):
+                #     print('正在爬取：%s-%s 第 %s 页 ' %
+                #     (cate_name, child_cate_name, page))
+
+                #     if page == 1:
+                # # 构造首页url
+                #         category_url = '{}{}_{}' .format(self.url, cate_code, child_cate_code)
+                #         # content = requests.get(category_url, headers=headers,proxies=self.proxies).text
+                #         # yield scrapy.Request(category_url, headers=headers)
+                #     else:
+                #         params = {
+                #         'catId': cate_code,  # 大类别
+                #         'subCatId': child_cate_code,  # 小类别
+                #         'page': page,
+                #         }
+                #         category_url = self.cate_url + urlencode(params)
+
+                #     # content =  scrapy.Request(category_url, headers=headers,callback=self.parse,meta={'page':page,'cate_name':cate_name,'child_cate_name':child_cate_name,'num':num})
+                #     # if not content == '':
+
+                #     page_last = scrapy.Request(category_url, headers=headers,callback=self.parse,meta={'page':page,'cate_name':cate_name,'child_cate_name':child_cate_name,'num':num,'page_last':page_last})
+                    
+                #     page += 1
+
+                #     yield scrapy.Request(category_url, headers=headers,callback=self.get_category)
+
+
+    def parse(self, response):
+        page = response.meta['page']
+        cate_name = response.meta['cate_code']
+        child_cate_name = response.meta['child_cate_code']
+        num = response.meta['num']
+        page_last = response.meta['page_last']
+
+        if page == 1:
+            contents = response
+        else:
+            contents = response.json()['data']['content']
+
+        if not contents == '':
+            contents = contents.css('.card')
+            # data = []
+            for content in contents:
+                print(content)
+                
+                # num += 1
+                # item = WandoujiaItem()
+
+            #     data1 = {
+            #         'cate_name': cate_name,
+            #         'child_cate_name': child_cate_name,
+            #         'app_name': self.clean_name(content.css('.name::text()').extract_first()) + str('_%s' %num),
+            #         'install': content.css('.install-count::text').extract_first(),
+            #         'volume': content.css('.meta span:last-child::text').extract_first(),
+            #         'comment': content.css('.comment::text').extract_first(),
+            #         # 图标 url 个坑，url 有所不同需要 if 分别处理
+            #         'icon_url': self.get_icon_url(content.css('.icon-wrap a img').extract_first(),page),
+
+            #     }
+            #     data.append(data1)
+            # if data:
+            #     print(data)
+
+                # item['cate_name'] = cate_name
+                # item['child_cate_name'] = child_cate_name,
+                # item['app_name'] = self.clean_name(content.css('.name::text()').extract_first()) + str('_%s' %num),
+                # item['install'] = content.css('.install-count::text').extract_first()
+                # item['volume'] = content.css('.meta span:last-child::text').extract_first()
+                # item['comment'] = content.css('.comment::text').extract_first()
+                # item['icon_url'] = self.get_icon_url(content.css('.icon-wrap a img').extract_first(),page)
+            
+                # yield item
+                # print(item)
+           
+        else:
+            # print('该类别已下载完最后一页')
+            # break # 跳出循环
+            page_last = True # 更改page_last 为 True 跳出循环
+        return page_last
+
+
+        # 名称清除方法1 去除不能用于文件命名的特殊字符
+    def clean_name(self, name):
+        rule = re.compile(r"[\/\\\:\*\?\"\<\>\|]")  # '/ \ : * ? " < > |')
+        name = re.sub(rule, '', name)
+        return name
+
+    def get_icon_url(self,item,page):
+        if page == 1:
+            if item.css('::attr("src")').startswith('https'):
+                url = item.css('::attr("src")').extract_first()
+            else:
+                url = item.css('::attr("data-original")').extract_first()
+        # ajax页url提取
+        else:
+            url = item.css('::attr("data-original")').extract_first()
+
+        # if url:  # 不要在这里添加url存在判断，否则空url 被过滤掉 导致编号对不上
+        return url
+
+
+
+
+
+# 首先获取主分类和子分类的数值代码 # # # # # # # # # # # # # # # #
+class Get_category():
+    # def __init__(self):
+    #     self.url = 'https://www.wandoujia.com/category/app'
+
+    # def get_content(self):
+    #     response = requests.get(self.url, headers=headers)
+    #     return self.parse_category(response)
+    #     # 要添加 return  否则返回空值
+
+    def parse_category(self, response):
+        # doc = pq(response.text)
+        category = response.css('.parent-cate')
+        data = [{
+            'cate_name': item.css('.cate-link::text').extract_first(),
+            'cate_code': self.get_category_code(item),
+            'child_cate_codes': self.get_child_category(item),
+        } for item in category]
+        # print(data)
+        return data
+
+    # 获取所有主分类标签数值代码
+    def get_category_code(self, item):
+        cate_url = item.css('.cate-link::attr("href")').extract_first()
+
+        pattern = re.compile(r'.*/(\d+)')  # 提取主类标签代码
+        cate_code = re.search(pattern, cate_url)
+        return cate_code.group(1)
+
+    # 获取所有子分类标签数值代码
+    def get_child_category(self, item):
+        child_cate = item.css('.child-cate a')
+        child_cate_url = [{
+            'child_cate_name': child.css('::text').extract_first(),
+            'child_cate_code': self.get_child_category_code(child)
+        } for child in child_cate]
+
+        return child_cate_url
+
+    # 正则提取子分类
+    def get_child_category_code(self, child):
+        child_cate_url = child.css('::attr("href")').extract_first()
+        pattern = re.compile(r'.*_(\d+)')  # 提取小类标签编号
+        child_cate_code = re.search(pattern, child_cate_url)
+        return child_cate_code.group(1)
+
+    # # 可以选择保存到txt 文件
+    # def write_category(self,category):
+    #     with open('category.txt','a',encoding='utf_8_sig',newline='') as f:
+    #         w = csv.writer(f)
+    #         w.writerow(category.values())
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+# class Get_page():
+#     def __init__(self):
+#         # 首页url
+#         self.url = 'https://www.wandoujia.com/category/'
+#         # 调用 spider 类用于后续数据存储和图标下载
+#         # ajax 请求url
+#         self.ajax_url = 'https://www.wandoujia.com/wdjweb/api/category/more'
+#         # self.spider = Spider()
+
+#         # 代理ip
+#         proxies = [{'http': 'socks5://127.0.0.1:1080'}, {'https': 'socks5://127.0.0.1:1080'}, {'http': 'http://27.189.203.73:1080'}, {'https': 'https://27.189.203.73:1080'}]
+#         # proxies = [{'http': 'http://27.189.203.73:1080'}, {'https': 'https://27.189.203.73:1080'}]
+
+#         self.proxies = random.choice(proxies)
+
+#     def get_page(self,cate_code,child_cate_code,page):
+#         if page == 1:
+#             # 构造首页url
+#             category_url = '{}{}_{}' .format(self.url, cate_code, child_cate_code)
+#             content = requests.get(category_url, headers=headers,proxies=self.proxies).text
+
+#         else:
+#             params = {
+#             'catId': cate_code,  # 大类别
+#             'subCatId': child_cate_code,  # 小类别
+#             'page': page,
+#             }
+#             # 测试 url ok
+#             # url = self.ajax_url + urlencode(params)
+#             # print(url)
+#             response = requests.get(
+#                 self.ajax_url, headers=headers, params=params)
+#             content = response.json()['data']['content']
+
+#         return content
+
+
+#     def parse_page(self,content,cate_name,child_cate_code,num):
+#         # 请求和解析网页内容
+#         contents = pq(content)('.card').items()
+#         data = []
+#         for content in contents:
+#             num += 1
+#             data1 = {
+#                 'cate_name': cate_name,
+#                 'child_cate_name': child_cate_name,
+#                 'app_name': self.clean_name(content('.name').text()) + str('_%s' %num),
+#                 'install': content('.install-count').text(),
+#                 'volume': content('.meta span:last-child').text(),
+#                 'comment': content('.comment').text(),
+#                 # 图标 url 有个坑，url 有所不同需要 if 分别处理
+#                 'icon_url': self.get_icon_url(content('.icon-wrap a img')),
+
+#             }
+#             data.append(data1)
+#         print(data)
+
+#         if data:
+#             # # # 写入MongoDB
+#             # self.spider.write_to_mongodb(data)
+
+#             # # 写入csv
+#             # # self.spider.write_to_csv(data)
+
+#             # # 下载图标
+#             # self.spider.download_icon_pic(data)
+            
+#             return num
+
+#     # 名称清除方法1 去除不能用于文件命名的特殊字符
+#     def clean_name(self, name):
+#         rule = re.compile(r"[\/\\\:\*\?\"\<\>\|]")  # '/ \ : * ? " < > |')
+#         name = re.sub(rule, '', name)
+#         return name
+
+#     def get_icon_url(self, item):
+#         if page == 1:
+#             if item.attr("src").startswith('https'):
+#                 url = item.attr("src")
+#             else:
+#                 url = item.attr('data-original')
+#         # ajax页url提取
+#         else:
+#             url = item.attr('data-original')
+
+#         # if url:  # 不要在这里添加url存在判断，否则空url 被过滤掉 导致编号对不上
+#         return url
+
+
+# class Spider(object):
+#     def write_to_mongodb(self, data):
+#         # 第一种方法
+#         for item in data:
+#             if mongo_collection.update_one(item, {'$set': item}, upsert=True):
+#                 pass
+#             else:
+#                 print('本页存储失败')
+#         print('本页数据存储成功')
+
+#     def write_to_csv(self, data):
+#         with open('wandoujia.csv', 'a', encoding='utf_8_sig', newline='') as f:
+#             for item in data:
+#                 w = csv.writer(f)
+#                 w.writerow(item.values())
+#             print('该页数据存储成功')
+#             # print('该页:{}-{} 数据存储成功'.format(cate_name, child_cate_name))
+
+#     def download_icon_pic(self, data):
+#         icon_num = 0 # 记录下载了多少图片
+#         for item in data:
+#             cate_name = item['cate_name']
+#             child_cate_name = item['child_cate_name']
+#             name = item['app_name']
+#             url = item['icon_url']
+#             if url:  # 增加空url判断
+#                 # 不存在就创建 wandoujia\icon 文件夹
+#                 path1 = os.getcwd()
+#                 path2 = '\wandoujia2\icon\%s\%s' %(cate_name,child_cate_name)
+#                 path = path1 + path2
+
+#                 # 不存在就创建 wandoujia 文件夹,每类图标单独存放
+#                 if not os.path.exists(path):
+#                     os.makedirs(path)
+#                 try:
+#                     response = requests.get(url, headers=headers)
+#                     if response.status_code == 200:
+#                         file_path = '{}\{}.{}' .format(
+#                             path, name, 'jpg')
+#                         if not os.path.exists(file_path):
+#                             with open(file_path, 'wb') as f:
+#                                 f.write(response.content)  # 下载icon
+#                                 icon_num +=1
+#                                 # sleep = np.random.randint(1,3)
+#                                 # time.sleep(sleep)
+#                         else:
+#                             print('图标 %s 已下载' % name)
+#                 except requests.RequestException as e:
+#                     print(e.args, '图片下载失败')
+#                     return None
+#             else:
+#                 print('图标 %s 不存在' % name)
+
+#         print('本页下载了 %s 个图标' %icon_num)
+
+
+
+# if __name__ == '__main__':
+#     # 实例化分类标签
+#     wandou_category = Get_category()
+#     # 获取分类代码
+#     cate_content = wandou_category.get_content()
+
+#     # 实例化数据提取类
+#     wandou_page = Get_page()
+
+#     # 实例化数据存储类
+#     wandou_download = Spider()
+
+#     # cate_content.pop(0)
+#     # cate_content.pop(0)
+
+#     num = 0 # 图标编号
+#     for item in cate_content:
+#         child_cate = item['child_cate_codes']
+#         for cate in child_cate:
+#             cate_code = item['cate_code']
+#             cate_name = item['cate_name']
+#             child_cate_code = cate['child_cate_code']
+#             child_cate_name = cate['child_cate_name']
+
+#             # while 循环下一页
+#             # # # # # # # # # # # # # # # # # # # # # #
+#             page_last = False # while 循环初始条件
+#             page = 1 # 设置爬取起始页数
+#             print('*' * 50)
+#             while not page_last:
+#                 print('正在爬取：%s-%s 第 %s 页 ' %
+#                   (cate_name, child_cate_name, page))
+#                 print('*' * 50)
+#                 try:
+#                     content = wandou_page.get_page(
+#                         cate_code, child_cate_code, page)
+#                     # 添加循环判断，如果content 为空表示此页已经下载完成了
+
+#                     if not content == '':
+#                         num = wandou_page.parse_page(
+#                             content, cate_name, child_cate_name,num)
+#                         page +=1
+#                         sleep = np.random.randint(3,6)
+#                         time.sleep(sleep)
+
+#                     else:
+#                         print('该类别已下载完最后一页')
+#                         page_last = True # 更改page_last 为 True 跳出循环
+#                 except requests.ConnectionError as e:
+#                     print('Error',e.args)
+                # else:
+                #     continue
+
+
+            # # for 循环下一页
+            # for page in range(1,2):
+            #     print('正在爬取：%s-%s 第 %s 页 ' %
+            #       (cate_name, child_cate_name, page))
+
+            #     content = wandou_page.get_page(
+            #         cate_code, child_cate_code, page)
+            #     # 添加循环判断，如果content 为空表示此页已经下载完成了,break 跳出循环
+            #     if not content == '':
+            #         num = wandou_page.parse_page(
+            #             content, cate_name, child_cate_name,num)
+            #         page +=1
+
+            #         # sleep = np.random.randint(3,6)
+            #         # time.sleep(sleep)
+
+            #     else:
+            #         print('该类别已下载完最后一页')
+            #         break # 跳出循环
+
+    # 单类别测试
+    # for 循环下一页
+    # cate_code = 5016
+    # child_cate_code = 720
+    # cate_name = '摄影图像'
+    # child_cate_name = '相机'
+
+    # for page in range(7,9):
+    #     print('*'*50)
+    #     print('正在下载 %s-%s:第 %s 页 ' %(cate_code,child_cate_code,page))
+    #     # print('正在爬取：%s-%s 第 %s 页 ' %
+    #     #   (cate_name, child_cate_name, page))
+
+    #     content = wandou_page.get_page(
+    #         cate_code, child_cate_code, page)
+    #     # 添加循环判断，如果content 为空表示此页已经下载完成了,break 跳出循环
+    #     if not content == '':
+    #         num = wandou_page.parse_page(
+    #             content, cate_name, child_cate_name,num)
+    #         page +=1
+
+    #         # sleep = np.random.randint(3,6)
+    #         # time.sleep(sleep)
+
+    #     else:
+    #         print('该类别已下载完最后一页')
+    #         break # 跳出循环
+
+
+         
