@@ -1,0 +1,53 @@
+2018/12/14 07:56:18 PM warn message
+2018/12/14 07:56:18 PM error message
+2018/12/14 07:56:18 PM Scrapy 1.5.1 started (bot: kuan2)
+2018/12/14 07:56:18 PM Versions: lxml 4.2.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018/12/14 07:56:18 PM Overridden settings: {'BOT_NAME': 'kuan2', 'DOWNLOAD_DELAY': 2, 'NEWSPIDER_MODULE': 'kuan2.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['kuan2.spiders']}
+2018/12/14 07:56:18 PM Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018/12/14 07:56:18 PM Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018/12/14 07:56:18 PM Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018/12/14 07:56:18 PM Enabled item pipelines:
+[]
+2018/12/14 07:56:18 PM Spider opened
+2018/12/14 07:56:18 PM Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018/12/14 07:56:18 PM Telnet console listening on 127.0.0.1:6023
+2018/12/14 07:56:18 PM Crawled (200) <GET https://www.coolapk.com/robots.txt> (referer: None)
+2018/12/14 07:56:21 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=1> (referer: None)
+2018/12/14 07:56:23 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=2> (referer: None)
+2018/12/14 07:56:25 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=3> (referer: None)
+2018/12/14 07:56:27 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=4> (referer: None)
+2018/12/14 07:56:30 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=5> (referer: None)
+2018/12/14 07:56:32 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=6> (referer: None)
+2018/12/14 07:56:33 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=7> (referer: None)
+2018/12/14 07:56:36 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=8> (referer: None)
+2018/12/14 07:56:39 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=9> (referer: None)
+2018/12/14 07:56:42 PM Crawled (200) <GET https://www.coolapk.com/apk/com.coolapk.market> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/14 07:56:42 PM Scraped from <200 https://www.coolapk.com/apk/com.coolapk.market>
+{'comment': '5.4万',
+ 'download': '5263万',
+ 'follow': '2.4万',
+ 'name': '酷安',
+ 'num_score': '1.4万',
+ 'score': '4.4',
+ 'tags': ['酷市场', '酷安', '市场', 'coolapk', '装机必备'],
+ 'volume': '21.74M'}

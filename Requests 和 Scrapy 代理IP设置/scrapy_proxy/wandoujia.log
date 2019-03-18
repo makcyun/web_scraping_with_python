@@ -1,0 +1,70 @@
+2018/12/26 06:52:29 PM warn message
+2018/12/26 06:52:29 PM error message
+2018/12/26 06:52:29 PM Scrapy 1.5.1 started (bot: wandoujia)
+2018/12/26 06:52:29 PM Versions: lxml 4.2.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018/12/26 06:52:29 PM Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_START_DELAY': 0.2, 'BOT_NAME': 'wandoujia', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 0.2, 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter', 'NEWSPIDER_MODULE': 'wandoujia.spiders', 'RETRY_HTTP_CODES': [500, 503, 504, 400, 403, 404, 408], 'SPIDER_MODULES': ['wandoujia.spiders']}
+2018/12/26 06:52:30 PM Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2018/12/26 06:52:30 PM Enabled downloader middlewares:
+['scrapy_fake_useragent.middleware.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'wandoujia.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018/12/26 06:52:30 PM Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018/12/26 06:52:30 PM Enabled item pipelines:
+[]
+2018/12/26 06:52:30 PM Spider opened
+2018/12/26 06:52:30 PM Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018/12/26 06:52:30 PM Telnet console listening on 127.0.0.1:6023
+2018/12/26 06:52:30 PM Using Proxy:https://119.101.117.226:9999
+2018/12/26 06:52:30 PM Using Proxy:https://119.101.117.226:9999
+2018/12/26 06:52:30 PM Using Proxy:https://119.101.115.53:9999
+2018/12/26 06:52:30 PM Using Proxy:https://127.0.0.1:8112
+2018/12/26 06:52:30 PM Using Proxy:https://119.101.115.53:9999
+2018/12/26 06:52:31 PM Crawled (200) <GET https://icanhazip.com> (referer: None)
+2018/12/26 06:52:32 PM Crawled (200) <GET https://icanhazip.com> (referer: None)
+2018/12/26 06:52:37 PM Crawled (200) <GET https://icanhazip.com> (referer: None)
+2018/12/26 06:52:51 PM Retrying <GET https://icanhazip.com> (failed 1 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2018/12/26 06:52:51 PM Using Proxy:https://119.101.112.176:9999
+2018/12/26 06:52:51 PM Retrying <GET https://icanhazip.com> (failed 1 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+2018/12/26 06:52:51 PM Using Proxy:https://127.0.0.1:8112
+2018/12/26 06:53:01 PM Crawled (200) <GET https://icanhazip.com> (referer: None)
+2018/12/26 06:53:13 PM Crawled (200) <GET https://icanhazip.com> (referer: None)
+2018/12/26 06:53:13 PM Closing spider (finished)
+2018/12/26 06:53:13 PM Dumping Scrapy stats:
+{'downloader/exception_count': 2,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 2,
+ 'downloader/request_bytes': 2015,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 7,
+ 'downloader/response_bytes': 1868,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 12, 26, 10, 53, 13, 179876),
+ 'log_count/DEBUG': 15,
+ 'log_count/INFO': 7,
+ 'response_received_count': 5,
+ 'retry/count': 2,
+ 'retry/reason_count/twisted.internet.error.TCPTimedOutError': 2,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2018, 12, 26, 10, 52, 30, 341425)}
+2018/12/26 06:53:13 PM Spider closed (finished)

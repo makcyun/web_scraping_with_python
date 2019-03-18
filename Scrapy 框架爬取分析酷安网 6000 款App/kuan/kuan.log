@@ -1,0 +1,165 @@
+2018/12/24 10:19:49 PM warn message
+2018/12/24 10:19:49 PM error message
+2018/12/24 10:19:49 PM Scrapy 1.5.1 started (bot: kuan2)
+2018/12/24 10:19:49 PM Versions: lxml 4.2.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.3 |Anaconda custom (64-bit)| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-7-6.1.7601-SP1
+2018/12/24 10:19:49 PM Overridden settings: {'BOT_NAME': 'kuan2', 'NEWSPIDER_MODULE': 'kuan2.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['kuan2.spiders']}
+2018/12/24 10:19:49 PM Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018/12/24 10:19:49 PM Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018/12/24 10:19:49 PM Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018/12/24 10:19:49 PM Enabled item pipelines:
+[]
+2018/12/24 10:19:49 PM Spider opened
+2018/12/24 10:19:49 PM Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018/12/24 10:19:49 PM Telnet console listening on 127.0.0.1:6023
+2018/12/24 10:19:49 PM Crawled (200) <GET https://www.coolapk.com/robots.txt> (referer: None)
+2018/12/24 10:19:49 PM Crawled (200) <GET https://www.coolapk.com/apk/?page=1> (referer: None)
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/com.sina.weibo> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/com.coolapk.market> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/com.tencent.mobileqq> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/com.speedsoftware.rootexplorer> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/com.sina.weibo>
+{'comment': '9973',
+ 'download': '1091万',
+ 'follow': '5753',
+ 'name': 1,
+ 'num_score': '6923',
+ 'score': '2.3',
+ 'tags': ['微博', '小编推荐'],
+ 'volume': '70.25M'}
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/com.netease.cloudmusic> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/com.tencent.mm> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/com.coolapk.market>
+{'comment': '5.4万',
+ 'download': '5319万',
+ 'follow': '2.4万',
+ 'name': 1,
+ 'num_score': '1.4万',
+ 'score': '4.4',
+ 'tags': ['酷市场', '酷安', '市场', 'coolapk', '装机必备'],
+ 'volume': '22.03M'}
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/com.tencent.mobileqq>
+{'comment': '4.9万',
+ 'download': '1629万',
+ 'follow': '3.8万',
+ 'name': 1,
+ 'num_score': '1.7万',
+ 'score': '2.1',
+ 'tags': ['QQ', '腾讯', 'im', '即时聊天', '装机必备'],
+ 'volume': '56.20M'}
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/com.taobao.taobao> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/com.speedsoftware.rootexplorer>
+{'comment': '3356',
+ 'download': '1534万',
+ 'follow': '1.5万',
+ 'name': 1,
+ 'num_score': '2676',
+ 'score': '4.8',
+ 'tags': ['文件管理', 'root', '装机必备'],
+ 'volume': '3.32M'}
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/com.netease.cloudmusic>
+{'comment': '3.5万',
+ 'download': '1710万',
+ 'follow': '2.3万',
+ 'name': 1,
+ 'num_score': '1.3万',
+ 'score': '4.1',
+ 'tags': ['播放器', 'MV', '电台', '在线音乐', '歌单', '听歌', '音乐下载', '装机必备'],
+ 'volume': '47.09M'}
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/tv.danmaku.bili> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/com.tencent.mm>
+{'comment': '3.1万',
+ 'download': '2779万',
+ 'follow': '2.3万',
+ 'name': 1,
+ 'num_score': '1.1万',
+ 'score': '2.3',
+ 'tags': ['微信', 'qq', '腾讯', 'tencent', '即时聊天', '装机必备'],
+ 'volume': '75.53M'}
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/com.taobao.taobao>
+{'comment': '1.3万',
+ 'download': '1122万',
+ 'follow': '9265',
+ 'name': 1,
+ 'num_score': '1.0万',
+ 'score': '1.8',
+ 'tags': ['购物', '网购', 'taobao', '电商', '装机必备'],
+ 'volume': '92.70M'}
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/com.snda.wifilocating> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/tv.danmaku.bili>
+{'comment': '2.2万',
+ 'download': '1140万',
+ 'follow': '1.6万',
+ 'name': 1,
+ 'num_score': '8517',
+ 'score': '3.8',
+ 'tags': ['哔哩哔哩',
+          'bilibili',
+          'B站',
+          'A站',
+          'AcFun',
+          'ACG',
+          '动漫',
+          '二次元',
+          '弹幕',
+          '视频'],
+ 'volume': '76.27M'}
+2018/12/24 10:19:50 PM Crawled (200) <GET https://www.coolapk.com/apk/com.eg.android.AlipayGphone> (referer: https://www.coolapk.com/apk/?page=1)
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/com.snda.wifilocating>
+{'comment': '1969',
+ 'download': '931万',
+ 'follow': '4201',
+ 'name': 1,
+ 'num_score': '2058',
+ 'score': '2.3',
+ 'tags': ['wifi'],
+ 'volume': '24.36M'}
+2018/12/24 10:19:50 PM Scraped from <200 https://www.coolapk.com/apk/com.eg.android.AlipayGphone>
+{'comment': '1.6万',
+ 'download': '952万',
+ 'follow': '1.1万',
+ 'name': 1,
+ 'num_score': '8248',
+ 'score': '2.1',
+ 'tags': ['支付宝', '淘宝', '旺旺', '购物', '余额宝', '电商', '装机必备'],
+ 'volume': '64.6M'}
+2018/12/24 10:19:50 PM Closing spider (finished)
+2018/12/24 10:19:50 PM Dumping Scrapy stats:
+{'downloader/request_bytes': 4048,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 76354,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 12, 24, 14, 19, 50, 872977),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 23,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'start_time': datetime.datetime(2018, 12, 24, 14, 19, 49, 444895)}
+2018/12/24 10:19:50 PM Spider closed (finished)
