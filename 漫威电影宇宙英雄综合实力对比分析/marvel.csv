@@ -1,0 +1,726 @@
+id,name,gender,intelligence,power,speed,durability,combat,strength,alignment,race,height,weight,publisher
+3,Abin Sur,Male,50,99,53,64,65,90,good,Ungaran,185 cm,90 kg,DC Comics
+2,Abe Sapien,Male,88,100,35,65,85,28,good,Icthyo Sapien,191 cm,65 kg,Dark Horse Comics
+1,A-Bomb,Male,38,24,17,80,64,100,good,Human,203 cm,441 kg,Marvel Comics
+4,Abomination,Male,63,62,53,90,95,80,bad,Human / Radiation,203 cm,441 kg,Marvel Comics
+6,Absorbing Man,Male,38,98,25,100,64,80,bad,Human,193 cm,122 kg,Marvel Comics
+7,Adam Monroe,Male,63,100,12,100,64,10,good,null,0 cm,0 kg,NBC - Heroes
+5,Abraxas,Male,88,100,83,100,55,63,bad,Cosmic Entity,0 cm,0 kg,Marvel Comics
+9,Agent 13,Female,null,null,null,null,null,46,good,null,173 cm,61 kg,Sharon Carter
+10,Agent Bob,Male,10,5,13,5,20,8,good,Human,178 cm,81 kg,Marvel Comics
+8,Adam Strange,Male,69,37,33,40,50,10,good,Human,185 cm,88 kg,DC Comics
+11,Agent Zero,Male,75,72,38,80,95,28,good,null,191 cm,104 kg,Marvel Comics
+12,Air-Walker,Male,50,100,100,85,40,85,bad,null,188 cm,108 kg,Marvel Comics
+15,Alex Mercer,Male,50,100,42,90,50,80,bad,Human,0 cm,0 kg,Wildstorm
+14,Alan Scott,Male,63,100,23,90,32,80,good,null,180 cm,90 kg,DC Comics
+17,Alfred Pennyworth,Male,63,7,17,10,55,10,good,Human,178 cm,72 kg,DC Comics
+13,Ajax,Male,56,34,35,80,55,48,bad,Cyborg,193 cm,90 kg,Marvel Comics
+16,Alex Woolsly,Male,null,null,null,null,null,37,good,null,0 cm,0 kg,NBC - Heroes
+18,Alien,Male,50,57,42,90,60,28,bad,Xenomorph XX121,244 cm,169 kg,Dark Horse Comics
+21,Ammo,Male,null,null,null,null,null,null,bad,Human,188 cm,101 kg,Marvel Comics
+20,Amazo,Male,63,100,83,100,100,100,bad,Android,257 cm,173 kg,DC Comics
+22,Ando Masahashi,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,NBC - Heroes
+19,Allan Quatermain,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Wildstorm
+23,Angel,Male,75,100,58,90,75,30,good,Vampire,0 cm,0 kg,Dark Horse Comics
+26,Angel Salvadore,Female,38,56,28,28,60,10,good,null,163 cm,54 kg,Tempest
+27,Angela,Female,null,null,null,null,null,97,bad,null,0 cm,0 kg,Image Comics
+25,Angel Dust,Female,38,17,23,42,30,55,good,Mutant,165 cm,57 kg,Marvel Comics
+24,Angel,Male,63,28,46,64,42,13,good,null,183 cm,68 kg,Archangel
+28,Animal Man,Male,56,73,47,85,80,48,good,Human,183 cm,83 kg,DC Comics
+31,Ant-Man II,Male,75,53,17,40,30,18,good,Human,183 cm,86 kg,Marvel Comics
+29,Annihilus,Male,75,59,47,56,64,80,bad,null,180 cm,90 kg,Marvel Comics
+30,Ant-Man,Male,100,32,23,28,32,18,good,Human,211 cm,122 kg,Giant-Man
+32,Anti-Monitor,Male,88,100,50,100,90,100,bad,God / Eternal,61.0 meters,0 kg,DC Comics
+34,Anti-Venom,Male,75,96,65,90,84,60,-,Symbiote,229 cm,358 kg,Toxin
+33,Anti-Spawn,Male,null,null,null,null,null,58,bad,null,0 cm,0 kg,Image Comics
+35,Apocalypse,Male,100,100,33,100,60,100,bad,Mutant,213 cm,135 kg,Marvel Comics
+36,Aquababy,Male,10,37,12,14,14,16,good,null,0 cm,0 kg,DC Comics
+40,Archangel,Male,63,35,58,64,42,13,good,Mutant,183 cm,68 kg,Angel
+38,Aquaman,Male,81,100,79,80,80,85,good,Atlantean,185 cm,146 kg,DC Comics
+37,Aqualad,Male,63,89,42,75,60,44,good,Atlantean,178 cm,106 kg,DC Comics
+41,Arclight,Female,38,52,23,42,70,63,bad,null,173 cm,57 kg,Marvel Comics
+39,Arachne,Female,50,71,50,70,70,48,good,Human,175 cm,63 kg,Marvel Comics
+42,Ardina,Female,63,100,100,80,25,100,good,Alien,193 cm,98 kg,Marvel Comics
+43,Ares,Male,75,84,35,80,101,82,good,null,185 cm,270 kg,Marvel Comics
+44,Ariel,Female,50,94,12,14,28,10,good,null,165 cm,59 kg,Marvel Comics
+45,Armor,Female,50,55,12,80,54,63,good,null,163 cm,50 kg,Marvel Comics
+46,Arsenal,Male,null,null,null,null,null,54,good,Human,0 cm,0 kg,Speedy
+47,Astro Boy,Male,null,null,null,null,null,90,good,null,0 cm,0 kg,null
+49,Atlas,Male,63,27,42,100,80,100,bad,God / Eternal,198 cm,126 kg,DC Comics
+48,Atlas,Male,63,98,25,100,50,80,good,Mutant,183 cm,101 kg,Goliath
+50,Atom,Male,null,null,null,null,null,null,good,null,178 cm,68 kg,DC Comics
+52,Atom Girl,Female,38,38,23,28,42,10,good,null,168 cm,54 kg,DC Comics
+53,Atom II,Male,88,40,33,45,60,10,good,Human,183 cm,81 kg,DC Comics
+51,Atom,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+54,Atom III,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+55,Atom IV,Male,null,null,null,null,null,null,good,null,0 cm,72 kg,DC Comics
+56,Aurora,Female,63,74,96,60,56,10,good,Mutant,180 cm,63 kg,Marvel Comics
+59,Aztar,Male,null,null,null,null,null,98,good,null,0 cm,0 kg,Spectre
+58,Azrael,Male,63,35,17,20,80,18,good,Human,0 cm,0 kg,DC Comics
+60,Bane,Male,88,51,23,56,95,38,bad,Human,203 cm,180 kg,DC Comics
+62,Bantam,Male,25,21,23,54,56,53,good,null,165 cm,54 kg,Marvel Comics
+61,Banshee,Male,50,63,58,40,70,10,good,Human,183 cm,77 kg,Marvel Comics
+65,Batgirl III,Female,null,null,null,null,null,43,good,null,0 cm,0 kg,Huntress
+57,Azazel,Male,50,100,47,95,80,11,bad,Neyaphem,183 cm,67 kg,Marvel Comics
+63,Batgirl,Female,88,34,33,40,90,11,good,Human,170 cm,57 kg,Oracle
+64,Batgirl,Female,null,null,null,null,null,27,good,null,0 cm,0 kg,Hawkfire
+66,Batgirl IV,Female,69,46,27,56,100,12,good,Human,165 cm,52 kg,DC Comics
+67,Batgirl V,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Misfit
+69,Batman,Male,81,63,29,55,90,40,good,Human,178 cm,77 kg,DC Comics
+68,Batgirl VI,Female,75,22,23,28,80,10,good,null,168 cm,61 kg,Spoiler
+70,Batman,Male,100,47,27,50,100,26,good,Human,188 cm,95 kg,DC Comics
+72,Battlestar,Male,50,48,35,74,74,53,good,null,198 cm,133 kg,Marvel Comics
+71,Batman II,Male,88,36,33,28,100,11,good,Human,178 cm,79 kg,Nightwing
+73,Batwoman V,Female,81,27,29,25,80,8,good,Human,178 cm,0 kg,DC Comics
+75,Beast,Male,94,43,38,60,85,48,good,Mutant,180 cm,181 kg,Marvel Comics
+77,Beetle,Male,null,null,null,null,null,54,bad,null,0 cm,0 kg,Marvel Comics
+74,Beak,Male,null,null,null,null,null,null,good,null,175 cm,63 kg,Marvel Comics
+76,Beast Boy,Male,50,79,50,70,40,28,good,Human,173 cm,68 kg,DC Comics
+80,Beyonder,Male,100,100,100,100,84,100,good,God / Eternal,0 cm,0 kg,Marvel Comics
+78,Ben 10,Male,10,90,8,10,40,7,good,null,0 cm,0 kg,DC Comics
+79,Beta Ray Bill,Male,63,100,35,95,84,80,good,null,201 cm,216 kg,Marvel Comics
+81,Big Barda,Female,88,100,79,100,100,100,bad,New God,188 cm,135 kg,DC Comics
+84,Bill Harken,Male,63,27,33,60,40,36,good,Alpha,0 cm,0 kg,SyFy
+85,Billy Kincaid,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,Image Comics
+83,Big Man,Male,75,19,23,28,70,12,bad,null,165 cm,71 kg,Marvel Comics
+82,Big Daddy,Male,38,22,12,32,64,10,good,null,0 cm,0 kg,Icon Comics
+86,Binary,Female,null,null,null,null,null,null,good,null,180 cm,54 kg,Captain Marvel
+88,Bird-Brain,-,25,21,35,28,42,10,good,null,0 cm,0 kg,Marvel Comics
+89,Bird-Man,Male,null,null,null,null,null,null,bad,Human,0 cm,0 kg,Marvel Comics
+87,Bionic Woman,Female,56,20,33,40,40,37,good,Cyborg,0 cm,0 kg,
+92,Bishop,Male,63,100,23,75,65,14,good,Mutant,198 cm,124 kg,Marvel Comics
+90,Bird-Man II,Male,null,null,null,null,null,null,bad,Human,0 cm,0 kg,Marvel Comics
+93,Bizarro,Male,38,100,100,100,85,95,neutral,Bizarro,191 cm,155 kg,DC Comics
+91,Birdman,Male,null,null,null,null,null,35,good,God / Eternal,0 cm,0 kg,Hanna-Barbera
+94,Black Abbott,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,Marvel Comics
+96,Black Bolt,Male,75,100,100,84,56,67,good,Inhuman,188 cm,95 kg,Marvel Comics
+95,Black Adam,Male,88,100,92,100,56,100,bad,null,191 cm,113 kg,DC Comics
+97,Black Canary,Female,63,52,33,20,80,8,good,Metahuman,170 cm,59 kg,DC Comics
+98,Black Canary,Female,63,45,33,15,80,8,good,Human,165 cm,58 kg,DC Comics
+100,Black Flash,Male,44,100,100,80,30,10,neutral,God / Eternal,0 cm,0 kg,DC Comics
+99,Black Cat,Female,75,23,33,10,70,16,good,Human,178 cm,54 kg,Marvel Comics
+102,Black Knight III,Male,63,43,8,70,70,10,good,Human,183 cm,86 kg,Marvel Comics
+101,Black Goliath,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+104,Black Mamba,Female,75,88,35,42,65,10,bad,null,170 cm,52 kg,Marvel Comics
+105,Black Manta,Male,75,76,50,60,85,28,bad,Human,188 cm,92 kg,DC Comics
+103,Black Lightning,Male,50,70,53,28,75,11,good,null,185 cm,90 kg,DC Comics
+106,Black Panther,Male,88,41,30,60,100,16,good,Human,183 cm,90 kg,Marvel Comics
+108,Black Widow II,Female,null,null,null,null,null,48,good,null,170 cm,61 kg,Marvel Comics
+107,Black Widow,Female,75,36,33,30,100,13,good,Human,170 cm,59 kg,Marvel Comics
+111,Blackwulf,Male,50,69,8,30,25,28,-,Alien,188 cm,88 kg,Marvel Comics
+109,Blackout,Male,63,45,45,80,65,32,bad,Demon,191 cm,104 kg,Marvel Comics
+110,Blackwing,Male,38,20,35,32,56,10,bad,null,185 cm,86 kg,Marvel Comics
+112,Blade,Male,63,40,38,50,90,28,good,Vampire,188 cm,97 kg,Marvel Comics
+113,Blaquesmith,-,null,null,null,null,null,null,good,null,0 cm,0 kg,Vertigo II
+116,Blizzard,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,Marvel Comics
+115,Blink,Female,50,77,20,28,64,8,good,Mutant,165 cm,56 kg,Marvel Comics
+114,Bling!,Female,69,52,12,90,28,14,good,null,168 cm,68 kg,Marvel Comics
+119,Blob,Male,10,28,23,95,72,83,bad,null,178 cm,230 kg,Marvel Comics
+117,Blizzard,Male,null,null,null,null,null,72,bad,null,0 cm,0 kg,Marvel Comics
+118,Blizzard II,Male,38,47,27,42,56,10,bad,null,175 cm,77 kg,Marvel Comics
+121,Bloodhawk,Male,50,80,50,80,64,10,good,Mutant,0 cm,0 kg,Marvel Comics
+120,Bloodaxe,Female,63,100,33,80,84,80,bad,Human,218 cm,495 kg,Marvel Comics
+123,Blue Beetle,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+122,Bloodwraith,Male,null,null,null,null,null,72,bad,null,30.5 meters,0 kg,Marvel Comics
+124,Blue Beetle,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+125,Blue Beetle II,Male,null,null,null,null,null,45,good,null,183 cm,86 kg,DC Comics
+127,Boba Fett,Male,63,68,38,36,70,10,bad,Human / Clone,183 cm,0 kg,George Lucas
+126,Blue Beetle III,Male,50,100,58,80,30,34,good,Human,0 cm,0 kg,DC Comics
+130,Boom-Boom,Female,38,57,12,42,64,10,good,Mutant,165 cm,55 kg,Meltdown
+129,Bomb Queen,Female,null,null,null,null,null,73,bad,null,0 cm,0 kg,Image Comics
+128,Bolt,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+131,Boomer,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+133,Box,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+134,Box III,-,null,null,null,null,null,null,good,null,193 cm,110 kg,Marvel Comics
+136,Brainiac,Male,100,60,63,90,75,95,bad,Android,198 cm,135 kg,DC Comics
+137,Brainiac 5,Male,100,60,23,28,32,10,good,null,170 cm,61 kg,DC Comics
+138,Brother Voodoo,Male,null,null,null,null,null,65,good,Human,183 cm,99 kg,Marvel Comics
+139,Brundlefly,Male,69,27,25,40,15,32,-,Mutant,193 cm,0 kg,
+135,Box IV,-,50,11,23,28,56,75,good,null,0 cm,0 kg,Gemini V
+143,Bumbleboy,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+141,Bullseye,Male,50,20,25,70,70,11,bad,Human,183 cm,90 kg,Marvel Comics
+140,Buffy,Female,63,48,42,70,60,28,good,Human,157 cm,52 kg,Dark Horse Comics
+142,Bumblebee,Female,63,47,25,10,35,28,good,Human,170 cm,59 kg,DC Comics
+147,Cameron Hicks,Male,50,51,23,28,70,10,good,Alpha,0 cm,0 kg,SyFy
+144,Bushido,Male,38,19,8,10,70,10,good,Human,0 cm,0 kg,DC Comics
+146,Callisto,Female,63,52,23,42,85,53,bad,null,175 cm,74 kg,Marvel Comics
+148,Cannonball,Male,50,94,67,99,56,28,good,null,183 cm,81 kg,Marvel Comics
+145,Cable,Male,88,100,23,56,80,48,good,Mutant,203 cm,158 kg,Marvel Comics
+149,Captain America,Male,69,60,38,55,100,19,good,Human,188 cm,108 kg,Marvel Comics
+150,Captain Atom,Male,81,100,83,90,80,93,good,Human / Radiation,193 cm,90 kg,DC Comics
+151,Captain Britain,Male,75,31,50,60,80,77,good,Human,198 cm,116 kg,Marvel Comics
+152,Captain Cold,Male,50,28,17,20,20,10,neutral,Human,0 cm,0 kg,DC Comics
+155,Captain Mar-vell,Male,null,null,null,null,null,80,good,null,188 cm,108 kg,Marvel Comics
+154,Captain Hindsight,Male,25,10,83,30,20,10,good,Human,0 cm,0 kg,South Park
+157,Captain Marvel,Female,84,100,71,95,90,88,good,Human-Kree,180 cm,74 kg,Binary
+153,Captain Epic,Male,null,null,null,null,null,null,good,null,188 cm,0 kg,Team Epic TV
+158,Captain Marvel II,Male,75,34,27,90,56,81,good,Human,175 cm,74 kg,DC Comics
+156,Captain Marvel,Male,88,100,88,95,75,100,good,Human,193 cm,101 kg,DC Comics
+160,Captain Planet,Male,50,100,75,80,60,88,good,God / Eternal,0 cm,0 kg,Marvel Comics
+161,Captain Universe,-,null,null,null,null,null,92,good,God / Eternal,0 cm,0 kg,Marvel Comics
+164,Cat II,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+162,Carnage,Male,63,88,70,84,90,63,bad,Symbiote,185 cm,86 kg,Marvel Comics
+166,Cecilia Reyes,-,null,null,null,null,null,null,good,null,170 cm,62 kg,Marvel Comics
+163,Cat,Female,null,null,null,null,null,90,good,null,173 cm,61 kg,Marvel Comics
+165,Catwoman,Female,69,27,33,28,85,11,good,Human,175 cm,61 kg,DC Comics
+168,Cerebra,Female,null,null,null,null,null,57,good,Mutant,0 cm,0 kg,Marvel Comics
+159,Captain Midnight,Male,null,null,null,null,null,null,good,Human,0 cm,0 kg,Dark Horse Comics
+170,Chameleon,Male,88,28,12,28,28,10,bad,null,0 cm,0 kg,DC Comics
+167,Century,Male,88,100,53,64,100,80,good,Alien,201 cm,97 kg,Marvel Comics
+172,Cheetah,Female,38,32,42,20,70,8,bad,Human,163 cm,50 kg,DC Comics
+171,Changeling,Male,63,64,23,42,64,10,bad,null,180 cm,81 kg,Marvel Comics
+169,Chamber,Male,50,57,20,80,64,10,good,Mutant,175 cm,63 kg,Marvel Comics
+176,Chuck Norris,Male,50,42,47,56,99,80,good,null,178 cm,0 kg,null
+175,Chromos,Male,null,null,null,null,null,null,bad,null,185 cm,86 kg,Team Epic TV
+174,Cheetah III,Female,88,78,88,80,95,100,bad,Human,175 cm,54 kg,DC Comics
+177,Citizen Steel,Male,50,23,33,100,60,95,good,Human,183 cm,170 kg,DC Comics
+178,Claire Bennet,Female,38,90,12,100,28,9,good,null,0 cm,0 kg,NBC - Heroes
+180,Cloak,Male,63,100,47,64,56,10,good,null,226 cm,70 kg,Marvel Comics
+181,Clock King,Male,75,7,17,10,40,10,bad,Human,178 cm,78 kg,DC Comics
+179,Clea,-,null,null,null,null,null,39,good,null,0 cm,0 kg,Marvel Comics
+182,Cogliostro,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,Image Comics
+183,Colin Wagner,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,HarperCollins
+184,Colossal Boy,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+185,Colossus,Male,63,45,33,100,80,83,good,Mutant,226 cm,225 kg,Marvel Comics
+186,Copycat,Female,56,54,21,25,60,10,neutral,Mutant,183 cm,67 kg,Marvel Comics
+189,Crimson Crusader,Male,null,null,null,null,null,58,good,null,0 cm,0 kg,Marvel Comics
+188,Cottonmouth,Male,50,27,8,10,25,10,bad,Human,183 cm,99 kg,Marvel Comics
+190,Crimson Dynamo,Male,null,null,null,null,null,65,good,null,180 cm,104 kg,Marvel Comics
+191,Crystal,Female,63,61,12,14,56,16,good,Inhuman,168 cm,50 kg,Marvel Comics
+192,Curse,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,Image Comics
+193,Cy-Gor,Male,null,null,null,null,null,96,bad,null,0 cm,0 kg,Image Comics
+194,Cyborg,Male,75,71,42,85,64,53,good,Cyborg,198 cm,173 kg,DC Comics
+195,Cyborg Superman,Male,75,100,92,100,80,93,bad,Cyborg,0 cm,0 kg,DC Comics
+196,Cyclops,Male,75,76,23,42,80,10,good,Mutant,191 cm,88 kg,Marvel Comics
+197,Cypher,-,null,null,null,null,null,44,good,null,175 cm,68 kg,Marvel Comics
+199,Danny Cooper,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,HarperCollins
+201,Daredevil,Male,75,61,25,35,100,13,good,Human,183 cm,90 kg,Marvel Comics
+202,Darkhawk,Male,50,74,33,70,64,32,good,Human,185 cm,81 kg,Marvel Comics
+200,Daphne Powell,Female,38,56,8,10,10,10,good,null,0 cm,0 kg,ABC Studios
+203,Darkman,Male,75,12,23,85,28,14,good,null,0 cm,0 kg,Universal Studios
+205,Darkside,-,null,null,null,null,null,null,bad,null,0 cm,0 kg,null
+204,Darkseid,Male,88,100,83,100,95,100,bad,New God,267 cm,817 kg,DC Comics
+207,Darth Maul,Male,56,100,50,30,100,48,bad,Dathomirian Zabrak,170 cm,0 kg,George Lucas
+208,Darth Vader,Male,69,100,33,35,100,48,bad,Cyborg,198 cm,135 kg,George Lucas
+206,Darkstar,Female,38,79,35,42,64,8,good,Mutant,168 cm,56 kg,Marvel Comics
+209,Dash,Male,25,20,92,60,30,12,good,Human,122 cm,27 kg,Dark Horse Comics
+210,Data,Male,100,56,21,40,50,32,good,Android,0 cm,0 kg,Star Trek
+211,Dazzler,Female,63,100,33,60,55,10,good,Mutant,173 cm,52 kg,Marvel Comics
+212,Deadman,Male,50,100,33,100,42,10,good,Human,183 cm,90 kg,DC Comics
+214,Deadshot,Male,50,55,23,28,80,10,bad,Human,185 cm,91 kg,DC Comics
+213,Deadpool,Male,69,100,50,100,100,32,neutral,Mutant,188 cm,95 kg,Evil Deadpool
+216,Deathstroke,Male,75,47,35,100,90,30,neutral,Human,193 cm,101 kg,DC Comics
+215,Deathlok,Male,69,40,30,70,60,32,good,Cyborg,193 cm,178 kg,Marvel Comics
+217,Demogoblin,Male,50,67,42,35,60,48,bad,Demon,185 cm,95 kg,Marvel Comics
+218,Destroyer,Male,50,85,58,98,70,95,bad,null,188 cm,383 kg,Marvel Comics
+219,Diamondback,Male,44,45,23,28,60,16,bad,Human,193 cm,90 kg,Marvel Comics
+220,DL Hawkins,Male,50,48,12,56,56,12,good,null,0 cm,0 kg,NBC - Heroes
+221,Doc Samson,Male,75,36,33,80,70,80,good,Human / Radiation,198 cm,171 kg,Marvel Comics
+222,Doctor Doom,Male,100,100,20,100,84,32,bad,Human,201 cm,187 kg,Marvel Comics
+223,Doctor Doom II,Male,null,null,null,null,null,null,bad,null,201 cm,132 kg,Marvel Comics
+224,Doctor Fate,Male,81,100,25,80,50,16,good,Human,188 cm,89 kg,DC Comics
+225,Doctor Octopus,Male,94,53,33,40,65,48,bad,Human,175 cm,110 kg,Marvel Comics
+226,Doctor Strange,Male,100,100,12,84,60,10,good,Human,188 cm,81 kg,Marvel Comics
+227,Domino,Female,63,49,27,28,74,10,good,Human,173 cm,54 kg,Marvel Comics
+228,Donatello,Male,88,58,46,60,75,14,good,Mutant,0 cm,0 kg,IDW Publishing
+229,Donna Troy,Female,null,null,null,null,null,89,good,Amazon,175 cm,63 kg,DC Comics
+230,Doomsday,Male,75,100,67,100,90,100,bad,Alien,244 cm,412 kg,DC Comics
+231,Doppelganger,Male,8,69,60,95,84,63,bad,null,196 cm,104 kg,Marvel Comics
+232,Dormammu,Male,88,100,83,100,80,95,bad,null,185 cm,0 kg,Marvel Comics
+233,Dr Manhattan,Male,88,100,42,100,42,100,good,Human / Cosmic,0 cm,0 kg,DC Comics
+234,Drax the Destroyer,Male,56,46,25,85,65,80,good,Human / Altered,193 cm,306 kg,Marvel Comics
+235,Ego,-,88,71,83,99,28,80,bad,null,0 cm,0 kg,Marvel Comics
+236,Elastigirl,Female,63,52,33,95,70,32,good,Human,168 cm,56 kg,Dark Horse Comics
+237,Electro,Male,69,67,50,56,64,10,bad,Human,180 cm,74 kg,Marvel Comics
+239,Elle Bishop,Female,50,63,12,42,42,8,bad,null,0 cm,0 kg,NBC - Heroes
+238,Elektra,Female,63,59,30,28,100,11,good,Human,175 cm,59 kg,Marvel Comics
+240,Elongated Man,Male,75,44,33,90,40,10,good,null,185 cm,80 kg,DC Comics
+241,Emma Frost,Female,75,100,35,90,42,63,good,null,178 cm,65 kg,Marvel Comics
+243,Energy,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,HarperCollins
+242,Enchantress,Female,63,100,25,60,40,14,good,Human,168 cm,57 kg,DC Comics
+245,Ethan Hunt,Male,75,26,29,30,95,11,good,Human,168 cm,0 kg,null
+244,ERG-1,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+246,Etrigan,Male,50,100,17,100,50,85,neutral,Demon,193 cm,203 kg,DC Comics
+248,Evilhawk,Male,50,85,33,70,64,32,bad,Alien,191 cm,106 kg,Marvel Comics
+247,Evil Deadpool,Male,69,100,50,100,100,32,bad,Mutant,188 cm,95 kg,Deadpool
+249,Exodus,Male,63,100,28,28,70,81,bad,Mutant,183 cm,88 kg,Marvel Comics
+251,Falcon,Male,38,22,50,28,64,13,good,Human,188 cm,108 kg,Marvel Comics
+250,Fabian Cortez,-,null,null,null,null,null,null,bad,null,196 cm,96 kg,Marvel Comics
+253,Faora,Female,88,98,75,100,90,95,bad,Kryptonian,0 cm,0 kg,DC Comics
+252,Fallen One II,Male,88,100,83,100,56,85,bad,null,0 cm,0 kg,Marvel Comics
+254,Feral,-,38,27,45,28,70,28,good,null,175 cm,50 kg,Marvel Comics
+255,Fighting Spirit,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+256,Fin Fang Foom,Male,50,75,23,100,70,81,good,Kakarantharaian,975 cm,18 tons,Marvel Comics
+258,Firelord,-,38,52,75,90,28,63,good,null,193 cm,99 kg,Marvel Comics
+257,Firebird,Female,38,100,40,14,42,8,good,null,165 cm,56 kg,Marvel Comics
+259,Firestar,Female,50,71,54,55,32,8,good,Mutant,173 cm,56 kg,Marvel Comics
+261,Firestorm,Male,38,100,58,80,40,80,good,Human,188 cm,91 kg,DC Comics
+260,Firestorm,Male,50,100,58,56,42,53,good,null,0 cm,0 kg,DC Comics
+263,Flash,Male,63,68,100,50,32,10,good,Human,180 cm,81 kg,DC Comics
+264,Flash Gordon,Male,null,null,null,null,null,69,good,null,0 cm,0 kg,null
+262,Fixer,-,null,null,null,null,null,null,bad,null,0 cm,0 kg,Marvel Comics
+265,Flash II,Male,88,100,100,60,60,48,good,Black Racer,183 cm,88 kg,Black Racer
+267,Flash IV,Male,63,100,100,32,48,10,good,Human,157 cm,52 kg,Impulse
+266,Flash III,Male,63,100,100,60,32,10,good,Human,183 cm,86 kg,Speed Demon
+268,Forge,-,63,25,12,28,48,10,good,null,183 cm,81 kg,Marvel Comics
+269,Franklin Richards,Male,63,100,50,60,50,80,good,Mutant,142 cm,45 kg,Marvel Comics
+271,Frenzy,Female,63,38,35,100,52,53,bad,null,211 cm,104 kg,Marvel Comics
+270,Franklin Storm,-,38,0,1,1,10,10,good,null,188 cm,92 kg,Marvel Comics
+272,Frigga,Female,null,null,null,null,null,null,good,null,180 cm,167 kg,Marvel Comics
+273,Galactus,Male,100,100,83,100,50,100,neutral,Cosmic Entity,876 cm,16 tons,Marvel Comics
+275,Gamora,Female,75,53,42,85,100,85,good,Zen-Whoberian,183 cm,77 kg,Marvel Comics
+274,Gambit,Male,63,55,23,28,84,10,good,Mutant,185 cm,81 kg,Marvel Comics
+276,Garbage Man,Male,null,null,null,null,null,82,good,Mutant,0 cm,0 kg,DC Comics
+277,Gary Bell,Male,63,54,8,10,10,5,good,Alpha,0 cm,0 kg,SyFy
+278,General Zod,Male,94,100,96,100,95,100,bad,Kryptonian,0 cm,0 kg,DC Comics
+280,Ghost Rider,Male,50,100,25,100,60,55,good,Demon,188 cm,99 kg,Marvel Comics
+279,Genesis,Male,null,null,null,null,null,68,good,null,185 cm,86 kg,Marvel Comics
+281,Ghost Rider II,-,null,null,null,null,null,70,good,null,0 cm,0 kg,Marvel Comics
+282,Giant-Man,Male,null,null,null,null,null,78,good,Human,0 cm,0 kg,Ant-Man
+283,Giant-Man II,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+284,Giganta,Female,81,32,23,85,42,89,bad,null,62.5 meters,630 kg,DC Comics
+285,Gladiator,Male,50,77,100,100,70,100,neutral,Strontian,198 cm,268 kg,Marvel Comics
+286,Goblin Queen,Female,75,65,23,28,56,10,bad,null,168 cm,50 kg,Marvel Comics
+287,Godzilla,-,44,100,54,100,20,100,bad,Kaiju,108.0 meters,90000 tons,
+289,Goku,Male,56,100,75,90,100,100,good,Saiyan,175 cm,62 kg,Shueisha
+288,Gog,Male,50,39,47,72,56,34,bad,null,0 cm,0 kg,DC Comics
+291,Goliath,Male,null,null,null,null,null,null,good,Human,0 cm,0 kg,Hawkeye
+290,Goliath,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Atlas
+293,Goliath IV,Male,null,null,null,null,null,null,good,null,183 cm,90 kg,Marvel Comics
+292,Goliath,Male,null,null,null,null,null,null,good,Human,0 cm,0 kg,Ant-Man
+294,Gorilla Grodd,Male,81,100,33,70,65,53,bad,Gorilla,198 cm,270 kg,DC Comics
+296,Gravity,Male,50,69,33,40,30,32,good,Human,178 cm,79 kg,Marvel Comics
+295,Granny Goodness,Female,null,null,null,null,null,96,bad,null,178 cm,115 kg,DC Comics
+297,Greedo,Male,38,31,13,15,40,10,bad,Rodian,170 cm,0 kg,George Lucas
+298,Green Arrow,Male,81,39,35,28,90,12,good,Human,188 cm,88 kg,DC Comics
+299,Green Goblin,Male,100,48,38,60,50,48,bad,Human,180 cm,83 kg,Marvel Comics
+300,Green Goblin II,Male,75,44,37,50,26,55,bad,null,178 cm,77 kg,Marvel Comics
+302,Green Goblin IV,Male,null,null,null,null,null,null,good,null,178 cm,79 kg,Marvel Comics
+301,Green Goblin III,Male,null,null,null,null,null,null,good,null,183 cm,88 kg,Marvel Comics
+304,Guardian,Male,null,null,null,null,null,45,good,Human,0 cm,0 kg,Marvel Comics
+303,Groot,Male,75,100,33,70,64,85,good,Flora Colossus,701 cm,4 tons,Marvel Comics
+305,Guy Gardner,Male,38,100,53,64,64,90,good,Human-Vuldarian,188 cm,95 kg,DC Comics
+306,Hal Jordan,Male,69,100,75,80,70,90,good,Human,188 cm,90 kg,DC Comics
+307,Han Solo,Male,50,43,17,20,60,10,good,Human,183 cm,79 kg,George Lucas
+308,Hancock,Male,63,100,67,100,50,90,good,Human,188 cm,0 kg,Sony Pictures
+309,Harley Quinn,Female,88,55,33,65,80,12,bad,Human,170 cm,63 kg,DC Comics
+310,Harry Potter,Male,75,100,21,10,50,7,good,Human,0 cm,0 kg,J. K. Rowling
+311,Havok,Male,63,71,25,60,45,10,good,Mutant,183 cm,79 kg,Marvel Comics
+312,Hawk,Male,38,43,35,95,42,38,good,null,185 cm,89 kg,DC Comics
+314,Hawkeye II,Female,50,24,8,10,50,6,good,Human,165 cm,57 kg,Marvel Comics
+313,Hawkeye,Male,56,29,21,10,80,12,good,Human,191 cm,104 kg,Goliath
+315,Hawkgirl,Female,50,96,53,99,72,28,good,null,175 cm,61 kg,DC Comics
+316,Hawkman,Male,null,null,null,null,null,66,good,null,185 cm,88 kg,DC Comics
+317,Hawkwoman,Female,null,null,null,null,null,96,good,null,175 cm,54 kg,DC Comics
+318,Hawkwoman II,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+319,Hawkwoman III,Female,null,null,null,null,null,92,good,null,170 cm,65 kg,DC Comics
+320,Heat Wave,Male,38,27,17,45,30,10,bad,Human,180 cm,81 kg,DC Comics
+322,Hellboy,Male,63,73,21,95,75,53,good,Demon,259 cm,158 kg,Dark Horse Comics
+321,Hela,Female,63,100,46,100,45,100,bad,Asgardian,213 cm,225 kg,Marvel Comics
+324,Hellstorm,Male,null,null,null,null,null,56,good,null,185 cm,81 kg,Marvel Comics
+323,Hellcat,Female,63,46,33,45,70,11,good,Human,173 cm,61 kg,Marvel Comics
+325,Hercules,Male,63,89,46,85,100,100,good,Demi-God,196 cm,146 kg,Marvel Comics
+326,Hiro Nakamura,Male,null,null,null,null,null,15,good,null,0 cm,0 kg,NBC - Heroes
+327,Hit-Girl,Female,56,27,29,20,65,7,good,Human,0 cm,0 kg,Icon Comics
+329,Hollow,Female,null,null,null,null,null,null,good,null,170 cm,0 kg,Marvel Comics
+328,Hobgoblin,Male,null,null,null,null,null,53,bad,null,180 cm,83 kg,Marvel Comics
+331,Howard the Duck,Male,null,null,null,null,null,44,good,null,79 cm,18 kg,Marvel Comics
+332,Hulk,Male,88,98,63,100,85,100,good,Human / Radiation,244 cm,630 kg,Marvel Comics
+333,Human Torch,Male,63,87,63,70,42,11,good,Human / Radiation,178 cm,77 kg,Marvel Comics
+330,Hope Summers,Female,63,93,12,32,75,10,good,null,168 cm,48 kg,Marvel Comics
+335,Husk,Female,63,48,35,78,64,63,good,Mutant,170 cm,58 kg,Marvel Comics
+334,Huntress,Female,69,34,23,28,95,10,good,null,180 cm,59 kg,Batgirl III
+336,Hybrid,Male,63,100,58,75,80,63,good,Symbiote,175 cm,77 kg,Marvel Comics
+337,Hydro-Man,Male,38,66,25,80,50,13,bad,null,188 cm,119 kg,Marvel Comics
+338,Hyperion,Male,88,87,100,95,80,100,good,Eternal,183 cm,207 kg,Marvel Comics
+339,Iceman,Male,63,100,53,100,64,32,good,Mutant,173 cm,65 kg,Marvel Comics
+340,Impulse,Male,50,74,100,60,60,10,good,Human,170 cm,65 kg,Flash IV
+341,Indiana Jones,Male,69,19,17,30,30,10,good,Human,183 cm,79 kg,George Lucas
+342,Indigo,Female,75,100,50,50,50,63,neutral,Alien,0 cm,0 kg,DC Comics
+343,Ink,Male,38,73,17,40,50,28,good,Mutant,180 cm,81 kg,Marvel Comics
+344,Invisible Woman,Female,88,93,27,85,56,10,good,Human / Radiation,168 cm,54 kg,Marvel Comics
+345,Iron Fist,Male,75,95,33,50,100,55,good,Human,180 cm,79 kg,Marvel Comics
+347,Iron Monger,Male,88,57,25,90,56,63,bad,null,0 cm,2 tons,Marvel Comics
+346,Iron Man,Male,100,100,58,85,64,85,good,Human,198 cm,191 kg,Marvel Comics
+349,Jack Bauer,Male,null,null,null,null,null,43,good,null,0 cm,0 kg,null
+348,Isis,Female,75,50,75,46,56,48,good,null,0 cm,0 kg,DC Comics
+350,Jack of Hearts,Male,63,77,100,30,30,55,good,Human,155 cm,79 kg,Marvel Comics
+351,Jack-Jack,Male,6,100,67,80,6,34,good,Human,71 cm,14 kg,Dark Horse Comics
+352,James Bond,Male,88,25,17,35,90,13,good,Human,183 cm,0 kg,Titan Books
+354,Jar Jar Binks,Male,10,21,33,10,15,6,good,Gungan,193 cm,0 kg,George Lucas
+355,Jason Bourne,Male,88,26,29,30,100,12,good,Human,0 cm,0 kg,null
+353,James T. Kirk,Male,69,30,17,30,75,11,good,Human,178 cm,77 kg,Star Trek
+356,Jean Grey,Female,94,92,21,20,70,80,good,Mutant,168 cm,52 kg,Phoenix
+357,Jean-Luc Picard,Male,75,26,17,30,65,10,good,Human,0 cm,0 kg,Star Trek
+358,Jennifer Kale,Female,75,74,35,42,72,10,good,null,168 cm,55 kg,Marvel Comics
+359,Jesse Quick,Female,null,null,null,null,null,42,good,Human,0 cm,0 kg,Liberty Belle II
+360,Jessica Cruz,Female,56,100,46,50,55,90,good,Human,0 cm,0 kg,DC Comics
+361,Jessica Jones,Female,56,18,50,70,55,44,good,Human,170 cm,56 kg,Power Woman
+362,Jessica Sanders,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,NBC - Heroes
+363,Jigsaw,Male,null,null,null,null,null,null,bad,null,188 cm,113 kg,Marvel Comics
+364,Jim Powell,Male,38,23,23,80,20,38,good,null,0 cm,0 kg,ABC Studios
+366,Johann Krauss,Male,null,null,null,null,null,30,good,null,0 cm,0 kg,Dark Horse Comics
+365,JJ Powell,Male,88,14,8,10,10,10,good,null,0 cm,0 kg,ABC Studios
+367,John Constantine,Male,63,54,8,40,65,10,good,Human,183 cm,0 kg,DC Comics
+369,John Wraith,Male,75,87,35,28,80,12,good,null,183 cm,88 kg,Marvel Comics
+370,Joker,Male,100,43,12,60,70,10,bad,Human,196 cm,86 kg,DC Comics
+371,Jolt,Female,63,31,27,32,42,12,good,null,165 cm,49 kg,Marvel Comics
+372,Jubilee,Female,56,66,22,20,90,8,good,Mutant,165 cm,52 kg,Marvel Comics
+373,Judge Dredd,Male,75,52,38,50,95,18,good,Human,188 cm,0 kg,Rebellion
+374,Juggernaut,Male,44,85,42,100,70,100,neutral,Human,287 cm,855 kg,Marvel Comics
+375,Junkpile,Male,50,81,17,90,30,38,bad,Mutant,0 cm,0 kg,Marvel Comics
+376,Justice,Male,50,55,33,70,30,10,good,Human,178 cm,81 kg,Marvel Comics
+378,K-2SO,Male,null,null,null,null,null,null,good,Android,213 cm,0 kg,George Lucas
+379,Kang,Male,100,100,58,70,70,48,bad,null,191 cm,104 kg,Iron Lad
+377,Jyn Erso,Female,null,null,null,null,null,null,good,Human,0 cm,0 kg,George Lucas
+380,Kathryn Janeway,Female,75,21,21,25,50,8,good,Human,0 cm,0 kg,Star Trek
+381,Katniss Everdeen,Female,56,24,21,25,55,8,good,Human,0 cm,0 kg,
+383,Kick-Ass,Male,38,22,23,35,56,10,good,Human,0 cm,0 kg,Icon Comics
+382,Kevin 11,Male,25,100,12,14,40,7,good,Human,0 cm,0 kg,DC Comics
+385,Kid Flash II,Male,null,null,null,null,null,47,good,null,0 cm,0 kg,Flash IV
+386,Killer Croc,Male,19,53,35,90,60,53,bad,Metahuman,244 cm,356 kg,DC Comics
+387,Killer Frost,Female,88,59,13,35,30,10,bad,Human,0 cm,0 kg,DC Comics
+384,Kid Flash,Male,25,20,92,42,30,4,good,Human,0 cm,0 kg,DC Comics
+388,Kilowog,Male,81,100,53,42,80,90,good,Bolovaxian,234 cm,324 kg,DC Comics
+389,King Kong,Male,56,47,71,75,75,100,good,Animal,30.5 meters,9000 tons,
+391,Kingpin,Male,75,13,25,40,70,18,bad,Human,201 cm,203 kg,Marvel Comics
+390,King Shark,Male,50,86,50,90,40,88,bad,Animal,0 cm,0 kg,DC Comics
+392,Klaw,Male,63,62,33,100,60,38,bad,Human,188 cm,97 kg,Marvel Comics
+394,Kraven II,Male,50,43,23,28,85,34,bad,Human,191 cm,99 kg,Marvel Comics
+393,Kool-Aid Man,Male,25,9,8,10,14,18,good,null,0 cm,0 kg,null
+396,Krypto,Male,9,82,100,90,40,80,good,Kryptonian,64 cm,18 kg,DC Comics
+395,Kraven the Hunter,Male,63,25,35,42,85,32,bad,Human,183 cm,106 kg,Marvel Comics
+398,Kylo Ren,Male,56,100,33,30,70,44,bad,Human,0 cm,0 kg,George Lucas
+397,Kyle Rayner,Male,69,100,50,60,60,90,good,Human,180 cm,79 kg,DC Comics
+399,Lady Bullseye,Female,null,null,null,null,null,63,bad,null,0 cm,0 kg,Marvel Comics
+401,Leader,Male,100,59,12,14,42,10,bad,null,178 cm,63 kg,Marvel Comics
+400,Lady Deathstrike,Female,63,48,42,85,90,28,bad,Cyborg,175 cm,58 kg,Marvel Comics
+402,Leech,Male,25,62,12,14,14,5,good,null,0 cm,0 kg,Marvel Comics
+403,Legion,Male,50,100,42,30,75,100,good,Mutant,175 cm,59 kg,Marvel Comics
+404,Leonardo,Male,75,59,50,65,80,16,good,Mutant,0 cm,0 kg,IDW Publishing
+405,Lex Luthor,Male,100,68,25,65,70,53,bad,Human,188 cm,95 kg,DC Comics
+406,Light Lass,Female,38,67,35,28,42,10,good,null,165 cm,54 kg,DC Comics
+407,Lightning Lad,Male,38,60,23,28,42,10,good,null,155 cm,65 kg,DC Comics
+408,Lightning Lord,Male,44,66,23,42,42,10,bad,null,191 cm,95 kg,DC Comics
+409,Living Brain,-,75,31,35,56,28,53,bad,null,198 cm,360 kg,Marvel Comics
+410,Living Tribunal,-,100,100,100,100,30,100,neutral,Cosmic Entity,0 cm,0 kg,Marvel Comics
+411,Liz Sherman,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Dark Horse Comics
+413,Lobo,Male,94,100,54,100,85,100,neutral,Czarnian,229 cm,288 kg,DC Comics
+412,Lizard,Male,50,63,27,70,56,51,bad,Human,203 cm,230 kg,Marvel Comics
+415,Longshot,Male,50,71,27,10,70,10,good,Human,188 cm,36 kg,Marvel Comics
+414,Loki,Male,88,100,46,85,60,63,bad,Asgardian,193 cm,236 kg,Marvel Comics
+416,Luke Cage,Male,50,44,29,95,70,63,good,Human,198 cm,191 kg,Power Man
+417,Luke Campbell,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,NBC - Heroes
+418,Luke Skywalker,Male,69,100,42,25,100,38,good,Human,168 cm,77 kg,George Lucas
+419,Luna,Female,38,53,83,14,14,6,good,Human,0 cm,0 kg,Marvel Comics
+420,Lyja,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+421,Mach-IV,Male,75,60,60,84,56,36,bad,null,180 cm,79 kg,Marvel Comics
+422,Machine Man,-,63,51,35,84,64,32,good,null,183 cm,383 kg,Marvel Comics
+423,Magneto,Male,88,91,27,84,80,80,bad,Mutant,188 cm,86 kg,Marvel Comics
+424,Magog,Male,50,66,23,64,72,48,good,null,0 cm,0 kg,DC Comics
+425,Magus,Male,88,100,70,99,74,100,bad,null,183 cm,0 kg,Marvel Comics
+427,Man-Bat,Male,38,33,50,70,30,18,neutral,Human,0 cm,0 kg,DC Comics
+426,Man of Miracles,-,100,100,100,100,100,100,-,God / Eternal,0 cm,0 kg,Image Comics
+428,Man-Thing,Male,50,100,8,100,40,32,good,null,213 cm,225 kg,Marvel Comics
+430,Mandarin,Male,100,100,23,28,95,28,bad,Human,188 cm,97 kg,Marvel Comics
+429,Man-Wolf,Male,63,45,35,42,70,44,good,null,188 cm,90 kg,Marvel Comics
+431,Mantis,Female,63,100,33,80,80,8,good,Human-Kree,168 cm,52 kg,Marvel Comics
+432,Martian Manhunter,Male,100,100,92,100,85,95,good,Martian,201 cm,135 kg,DC Comics
+433,Marvel Girl,Female,63,100,47,42,80,85,good,null,170 cm,56 kg,Marvel Comics
+435,Master Chief,Male,75,69,35,80,100,73,good,Human / Altered,213 cm,0 kg,Microsoft
+436,Match,Male,75,100,83,85,70,95,bad,null,0 cm,0 kg,DC Comics
+434,Master Brood,Male,null,null,null,null,null,null,good,null,183 cm,81 kg,Team Epic TV
+437,Matt Parkman,Male,63,59,12,14,56,10,good,null,0 cm,0 kg,NBC - Heroes
+438,Maverick,Male,63,60,12,42,85,10,good,null,193 cm,110 kg,Marvel Comics
+439,Maxima,Female,75,81,35,56,75,90,bad,null,180 cm,72 kg,DC Comics
+441,Medusa,Female,75,37,35,70,56,34,good,Inhuman,180 cm,59 kg,Marvel Comics
+440,Maya Herrera,Female,50,60,12,14,14,10,good,null,0 cm,0 kg,NBC - Heroes
+442,Meltdown,Female,38,62,12,42,64,10,good,null,165 cm,54 kg,Boom-Boom
+444,Mera,Female,56,92,79,60,80,62,good,Atlantean,175 cm,72 kg,DC Comics
+445,Metallo,Male,75,86,23,95,64,53,bad,Android,196 cm,90 kg,DC Comics
+443,Mephisto,Male,88,100,35,95,42,85,bad,null,198 cm,140 kg,Marvel Comics
+446,Metamorpho,Male,null,null,null,null,null,82,good,null,185 cm,90 kg,DC Comics
+447,Meteorite,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+448,Metron,Male,88,100,47,56,28,10,good,null,185 cm,86 kg,DC Comics
+450,Michelangelo,Male,63,59,50,65,75,14,good,Mutant,0 cm,0 kg,IDW Publishing
+449,Micah Sanders,Male,63,57,12,14,14,8,good,null,0 cm,0 kg,NBC - Heroes
+451,Micro Lad,Male,38,44,27,28,32,28,good,null,183 cm,77 kg,DC Comics
+453,Minna Murray,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Wildstorm
+452,Mimic,Male,63,79,47,56,42,67,good,null,188 cm,101 kg,Marvel Comics
+454,Misfit,Female,63,91,23,80,42,32,good,null,0 cm,0 kg,Batgirl V
+455,Miss Martian,Female,63,100,58,100,45,85,good,null,178 cm,61 kg,DC Comics
+456,Mister Fantastic,Male,100,33,18,70,64,10,good,Human / Radiation,185 cm,81 kg,Marvel Comics
+457,Mister Freeze,Male,75,37,12,70,28,32,bad,Human,183 cm,86 kg,DC Comics
+458,Mister Knife,Male,75,13,17,30,65,10,bad,Spartoi,0 cm,0 kg,Marvel Comics
+459,Mister Mxyzptlk,Male,100,100,100,100,50,85,bad,God / Eternal,0 cm,0 kg,DC Comics
+461,Mister Zsasz,Male,88,18,33,28,85,22,bad,Human,0 cm,0 kg,DC Comics
+460,Mister Sinister,Male,100,100,46,90,50,48,bad,Human / Altered,196 cm,128 kg,Marvel Comics
+463,MODOK,Male,100,79,25,25,15,18,bad,Cyborg,366 cm,338 kg,Marvel Comics
+462,Mockingbird,Female,75,48,38,20,95,31,good,Human,175 cm,61 kg,Marvel Comics
+464,Mogo,Male,null,null,null,null,null,null,good,Planet,0 cm,0 kg,DC Comics
+465,Mohinder Suresh,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,NBC - Heroes
+466,Moloch,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,DC Comics
+467,Molten Man,Male,50,53,23,84,56,73,bad,null,196 cm,248 kg,Marvel Comics
+468,Monarch,Male,null,null,null,null,null,100,good,null,193 cm,90 kg,DC Comics
+469,Monica Dawson,Female,50,48,35,14,90,10,good,null,0 cm,0 kg,NBC - Heroes
+470,Moon Knight,Male,50,28,23,42,75,36,good,Human,188 cm,101 kg,Marvel Comics
+471,Moonstone,Female,56,74,47,52,80,67,bad,null,180 cm,59 kg,Marvel Comics
+473,Morph,Male,null,null,null,null,null,40,good,null,178 cm,79 kg,Marvel Comics
+472,Morlun,Male,63,74,35,42,56,60,bad,null,188 cm,79 kg,Marvel Comics
+474,Moses Magnum,Male,75,55,12,42,56,28,bad,null,175 cm,72 kg,Marvel Comics
+475,Mr Immortal,Male,50,69,8,100,30,10,good,Mutant,188 cm,70 kg,Marvel Comics
+476,Mr Incredible,Male,50,29,33,95,40,83,good,Human,201 cm,158 kg,Dark Horse Comics
+477,Ms Marvel II,Female,38,11,23,84,56,63,good,null,173 cm,61 kg,She-Thing
+479,Mysterio,Male,81,82,17,40,70,10,bad,Human,180 cm,79 kg,Marvel Comics
+478,Multiple Man,Male,63,28,23,70,62,11,good,null,180 cm,70 kg,Marvel Comics
+480,Mystique,Female,75,64,23,64,74,12,bad,Mutant,178 cm,54 kg,Marvel Comics
+482,Namor,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+481,Namor,Male,69,73,58,70,85,95,good,Atlantean,188 cm,125 kg,Marvel Comics
+483,Namora,Female,50,48,42,42,64,85,good,null,180 cm,85 kg,Marvel Comics
+484,Namorita,Female,50,37,47,70,70,72,good,null,168 cm,101 kg,Marvel Comics
+486,Nathan Petrelli,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,NBC - Heroes
+485,Naruto Uzumaki,Male,50,100,32,80,100,80,good,Human,168 cm,54 kg,Shueisha
+487,Nebula,Female,63,42,13,50,60,52,bad,Luphomoid,185 cm,83 kg,Marvel Comics
+489,Nick Fury,Male,75,25,23,42,100,11,good,Human,185 cm,99 kg,Marvel Comics
+488,Negasonic Teenage Warhead,Female,50,45,8,10,35,7,good,Mutant,0 cm,0 kg,Marvel Comics
+491,Nightwing,Male,88,36,33,28,100,11,good,Human,178 cm,79 kg,Batman II
+490,Nightcrawler,Male,50,76,47,14,80,10,good,null,175 cm,88 kg,Marvel Comics
+492,Niki Sanders,Female,63,37,35,28,56,52,good,null,0 cm,0 kg,NBC - Heroes
+493,Nina Theroux,Female,63,68,8,10,20,5,good,Alpha,0 cm,0 kg,SyFy
+495,Northstar,Male,50,65,83,56,70,18,good,null,180 cm,83 kg,Marvel Comics
+494,Nite Owl II,Male,null,null,null,null,null,45,good,null,0 cm,0 kg,DC Comics
+496,Nova,Male,100,100,75,100,80,85,good,Human,185 cm,86 kg,Marvel Comics
+497,Nova,Female,63,100,100,100,35,60,good,Human / Cosmic,163 cm,59 kg,Marvel Comics
+498,Odin,Male,100,100,67,95,90,83,good,God / Eternal,206 cm,293 kg,Marvel Comics
+499,Offspring,Male,50,100,35,99,56,10,good,null,0 cm,0 kg,DC Comics
+500,Omega Red,Male,null,null,null,null,null,61,bad,null,211 cm,191 kg,Marvel Comics
+502,One Punch Man,Male,38,55,83,95,50,100,good,Human,175 cm,69 kg,Shueisha
+501,Omniscient,Male,null,null,null,null,null,null,good,null,180 cm,65 kg,Team Epic TV
+504,Onslaught,Male,88,100,33,100,55,100,bad,Mutant,305 cm,405 kg,Marvel Comics
+505,Oracle,Female,75,19,23,28,76,11,good,Human,178 cm,59 kg,Batgirl
+506,Osiris,Male,75,65,60,95,42,85,good,null,0 cm,0 kg,DC Comics
+507,Overtkill,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,Image Comics
+508,Ozymandias,Male,100,49,33,20,95,18,bad,Human,0 cm,0 kg,DC Comics
+509,Parademon,-,9,53,17,50,25,28,bad,Parademon,0 cm,0 kg,DC Comics
+510,Paul Blart,Male,8,7,21,50,5,11,good,Human,170 cm,117 kg,Sony Pictures
+511,Penance,-,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+512,Penance I,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+513,Penance II,Male,null,null,null,null,null,20,good,null,183 cm,89 kg,Speedball
+514,Penguin,Male,75,30,12,28,45,10,bad,Human,157 cm,79 kg,DC Comics
+515,Phantom,Male,null,null,null,null,null,48,good,null,0 cm,0 kg,DC Comics
+516,Phantom Girl,Female,38,53,23,28,42,10,good,null,168 cm,54 kg,DC Comics
+517,Phoenix,Female,100,100,83,100,80,100,good,Mutant,168 cm,52 kg,Jean Grey
+518,Plantman,Male,63,61,25,55,25,60,bad,Mutant,183 cm,87 kg,Marvel Comics
+519,Plastic Lad,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+520,Plastic Man,Male,50,100,23,100,56,63,good,Human,185 cm,80 kg,DC Comics
+521,Plastique,Female,50,60,23,28,42,10,bad,null,168 cm,55 kg,DC Comics
+522,Poison Ivy,Female,81,100,21,40,40,14,bad,Human,168 cm,50 kg,DC Comics
+523,Polaris,Female,63,100,42,50,45,73,good,Mutant,170 cm,52 kg,Marvel Comics
+524,Power Girl,Female,94,100,100,100,75,100,good,Kryptonian,180 cm,81 kg,DC Comics
+525,Power Man,Male,null,null,null,null,null,82,good,Mutant,0 cm,0 kg,Luke Cage
+526,Predator,Male,63,100,25,85,90,30,bad,Yautja,213 cm,234 kg,Dark Horse Comics
+527,Professor X,Male,100,100,12,14,32,8,good,Mutant,183 cm,86 kg,Marvel Comics
+528,Professor Zoom,Male,94,83,100,20,20,10,bad,Human,180 cm,81 kg,DC Comics
+529,Psylocke,Female,63,100,25,40,90,33,good,Mutant,180 cm,70 kg,Marvel Comics
+530,Punisher,Male,69,42,21,45,100,16,good,Human,183 cm,90 kg,Marvel Comics
+531,Purple Man,Male,56,92,8,30,10,10,bad,Human,180 cm,74 kg,Marvel Comics
+532,Pyro,Male,38,54,12,14,28,10,bad,null,178 cm,68 kg,Marvel Comics
+533,Q,Male,100,100,17,100,40,12,-,God / Eternal,0 cm,0 kg,Star Trek
+534,Quantum,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,HarperCollins
+535,Question,Male,81,20,27,35,80,14,good,Human,188 cm,83 kg,DC Comics
+536,Quicksilver,Male,63,81,100,60,56,28,good,Mutant,183 cm,79 kg,Marvel Comics
+537,Quill,Male,38,23,12,14,14,10,good,null,163 cm,56 kg,Marvel Comics
+538,Ra's Al Ghul,Male,100,27,32,42,100,28,bad,Human,193 cm,97 kg,DC Comics
+539,Rachel Pirzad,Female,63,52,8,10,10,4,good,Alpha,0 cm,0 kg,SyFy
+540,Rambo,Male,63,30,25,30,100,14,good,Human,178 cm,83 kg,null
+541,Raphael,Male,63,59,50,65,80,17,good,Mutant,0 cm,0 kg,IDW Publishing
+542,Raven,Female,50,84,29,70,40,10,neutral,Human,165 cm,50 kg,DC Comics
+543,Ray,Male,50,100,92,100,20,10,good,Human,178 cm,70 kg,DC Comics
+544,Razor-Fist II,Male,null,null,null,null,null,null,bad,null,191 cm,117 kg,Marvel Comics
+545,Red Arrow,Male,63,23,25,20,80,16,good,Human,180 cm,83 kg,DC Comics
+546,Red Hood,Male,75,35,23,28,95,12,neutral,Human,183 cm,81 kg,Robin II
+547,Red Hulk,Male,50,82,47,85,75,100,neutral,Human / Radiation,213 cm,630 kg,Marvel Comics
+548,Red Mist,Male,25,20,23,14,56,10,bad,null,0 cm,0 kg,Icon Comics
+549,Red Robin,Male,81,29,27,32,80,11,good,Human,165 cm,56 kg,Robin III
+550,Red Skull,Male,75,19,12,14,80,10,bad,null,188 cm,108 kg,Marvel Comics
+551,Red Tornado,Male,75,100,67,60,40,38,good,Android,185 cm,146 kg,DC Comics
+552,Redeemer II,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,Image Comics
+553,Redeemer III,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,Image Comics
+554,Renata Soliz,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,HarperCollins
+555,Rey,Female,63,87,21,10,35,8,good,Human,297 cm,0 kg,George Lucas
+556,Rhino,Male,25,36,43,90,85,80,bad,Human / Radiation,196 cm,320 kg,Marvel Comics
+557,Rick Flag,Male,88,19,23,28,95,11,bad,null,185 cm,85 kg,DC Comics
+558,Riddler,Male,100,10,12,14,14,10,bad,null,0 cm,0 kg,DC Comics
+559,Rip Hunter,Male,100,100,8,10,25,8,good,Human,0 cm,0 kg,DC Comics
+560,Ripcord,Female,null,null,null,null,null,null,good,null,180 cm,72 kg,Marvel Comics
+561,Robin,Male,88,32,27,28,85,11,good,Human,178 cm,79 kg,Batman II
+562,Robin II,Male,75,28,27,28,85,11,good,Human,183 cm,101 kg,Red Hood
+563,Robin III,Male,81,29,27,28,85,11,good,Human,165 cm,56 kg,Red Robin
+564,Robin V,Male,69,29,33,16,65,8,good,Human,137 cm,38 kg,DC Comics
+565,Robin VI,Female,50,17,25,20,70,8,neutral,Human,0 cm,0 kg,DC Comics
+566,Rocket Raccoon,Male,50,28,23,28,64,5,good,Animal,122 cm,25 kg,Marvel Comics
+567,Rogue,Female,75,80,12,28,80,10,good,null,173 cm,54 kg,Marvel Comics
+568,Ronin,Male,56,13,21,10,80,12,good,Human,191 cm,104 kg,Goliath
+569,Rorschach,Male,75,23,29,20,80,10,good,Human,168 cm,63 kg,DC Comics
+570,Sabretooth,Male,56,50,38,90,100,48,bad,Mutant,198 cm,171 kg,Marvel Comics
+571,Sage,Female,75,28,12,14,56,10,good,null,170 cm,61 kg,Marvel Comics
+572,Sandman,Male,44,100,46,90,60,75,neutral,Human,185 cm,203 kg,Marvel Comics
+573,Sasquatch,Male,75,15,23,56,42,80,good,null,305 cm,900 kg,Marvel Comics
+574,Sauron,Male,88,100,33,100,70,85,bad,Maiar,279 cm,0 kg,J. R. R. Tolkien
+575,Savage Dragon,Male,63,66,54,85,72,70,good,null,0 cm,0 kg,Image Comics
+576,Scarecrow,Male,81,48,12,14,50,10,bad,Human,183 cm,63 kg,DC Comics
+577,Scarlet Spider,Male,75,46,60,74,56,53,good,Human,178 cm,74 kg,Spider-Carnage
+578,Scarlet Spider II,Male,88,37,60,40,56,55,good,Clone,193 cm,113 kg,Marvel Comics
+579,Scarlet Witch,Female,100,100,29,70,80,10,bad,Mutant,170 cm,59 kg,Marvel Comics
+580,Scorpia,Female,38,34,42,28,28,28,bad,null,0 cm,0 kg,Marvel Comics
+581,Scorpion,Male,50,49,60,85,80,52,bad,Human,211 cm,310 kg,Venom III
+582,Sebastian Shaw,Male,63,36,12,95,56,85,bad,Mutant,0 cm,0 kg,Marvel Comics
+583,Sentry,Male,75,100,100,84,40,100,neutral,Mutant,188 cm,87 kg,Marvel Comics
+584,Shadow King,-,75,100,27,100,75,12,good,null,185 cm,149 kg,Marvel Comics
+585,Shadow Lass,Female,63,79,67,20,80,10,good,Talokite,173 cm,54 kg,DC Comics
+586,Shadowcat,Female,88,69,21,25,70,8,good,Mutant,168 cm,50 kg,Marvel Comics
+587,Shang-Chi,Male,63,29,30,50,100,12,good,Human,178 cm,79 kg,Marvel Comics
+588,Shatterstar,Male,63,49,45,64,84,48,good,null,191 cm,88 kg,Marvel Comics
+589,She-Hulk,Female,81,40,42,100,70,100,good,Human,201 cm,315 kg,Marvel Comics
+590,She-Thing,Female,69,23,21,80,65,72,good,Human / Radiation,183 cm,153 kg,Ms Marvel II
+591,Shocker,Male,63,79,23,70,56,10,bad,Human,175 cm,79 kg,Marvel Comics
+592,Shriek,Female,50,45,23,28,42,10,good,null,173 cm,52 kg,Marvel Comics
+593,Shrinking Violet,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+594,Sif,Female,63,100,67,80,70,90,good,Asgardian,188 cm,191 kg,Marvel Comics
+595,Silk,Female,75,71,71,70,65,48,good,Human,0 cm,0 kg,Marvel Comics
+596,Silk Spectre,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,DC Comics
+597,Silk Spectre II,Female,null,null,null,null,null,51,good,null,0 cm,0 kg,DC Comics
+598,Silver Surfer,Male,56,100,100,90,32,100,good,Alien,193 cm,101 kg,Marvel Comics
+599,Silverclaw,Female,50,34,35,42,42,28,good,null,157 cm,50 kg,Marvel Comics
+600,Simon Baz,Male,56,100,42,55,60,90,good,Human,0 cm,0 kg,DC Comics
+601,Sinestro,Male,75,100,53,64,55,85,neutral,Korugaran,201 cm,92 kg,DC Comics
+602,Siren,Female,56,92,79,60,60,62,bad,Atlantean,175 cm,72 kg,DC Comics
+603,Siren II,Female,null,null,null,null,null,null,bad,null,0 cm,0 kg,DC Comics
+604,Siryn,Female,38,50,47,28,42,8,bad,null,168 cm,52 kg,Marvel Comics
+605,Skaar,Male,50,69,27,90,85,85,good,null,198 cm,180 kg,Marvel Comics
+606,Snake-Eyes,Male,null,null,null,null,null,null,bad,Animal,0 cm,0 kg,Marvel Comics
+607,Snowbird,Female,50,70,27,42,52,32,good,null,178 cm,49 kg,Marvel Comics
+608,Sobek,Male,50,20,23,46,56,34,good,null,0 cm,0 kg,DC Comics
+609,Solomon Grundy,Male,9,92,13,100,30,93,bad,Zombie,279 cm,437 kg,DC Comics
+610,Songbird,Female,75,55,27,42,56,36,good,null,165 cm,65 kg,Marvel Comics
+611,Space Ghost,Male,38,95,33,40,80,18,good,Human,188 cm,113 kg,DC Comics
+612,Spawn,Male,75,100,50,90,95,60,good,Demon,211 cm,405 kg,Image Comics
+613,Spectre,Male,88,100,100,100,70,100,good,God / Eternal,0 cm,0 kg,Aztar
+614,Speedball,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Penance II
+615,Speedy,Female,50,26,33,20,70,6,good,Human,0 cm,0 kg,DC Comics
+616,Speedy,Male,null,null,null,null,null,null,good,Human,0 cm,0 kg,Arsenal
+617,Spider-Carnage,Male,null,null,null,null,null,69,bad,Symbiote,0 cm,0 kg,Scarlet Spider
+618,Spider-Girl,Female,63,53,60,65,75,38,good,Human,170 cm,54 kg,Marvel Comics
+619,Spider-Gwen,Female,75,66,63,70,70,55,good,Human,165 cm,56 kg,Marvel Comics
+620,Spider-Man,Male,90,74,67,75,85,55,good,Human,178 cm,74 kg,Marvel Comics
+621,Spider-Man,-,null,null,null,null,null,57,good,Human,178 cm,77 kg,Marvel Comics
+622,Spider-Man,Male,null,null,null,null,null,58,good,Human,157 cm,56 kg,Marvel Comics
+623,Spider-Woman,Female,56,68,42,60,70,42,good,Human,178 cm,59 kg,Marvel Comics
+624,Spider-Woman II,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+625,Spider-Woman III,Female,50,60,27,42,28,48,good,null,173 cm,55 kg,Marvel Comics
+626,Spider-Woman IV,Female,null,null,null,null,null,null,bad,null,178 cm,58 kg,Marvel Comics
+627,Spock,Male,81,56,17,40,40,18,good,Human-Vulcan,185 cm,81 kg,Star Trek
+628,Spyke,Male,50,48,17,60,30,12,good,Mutant,183 cm,83 kg,Marvel Comics
+629,Stacy X,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+630,Star-Lord,Male,69,25,33,50,70,20,good,Human-Spartoi,188 cm,79 kg,Marvel Comics
+631,Stardust,Male,88,100,100,110,85,85,good,null,0 cm,0 kg,Marvel Comics
+632,Starfire,Female,50,59,33,85,70,80,good,Tamaranean,193 cm,71 kg,DC Comics
+633,Stargirl,Female,63,87,25,90,55,80,good,Human,165 cm,62 kg,DC Comics
+634,Static,Male,69,90,42,50,40,8,good,Mutant,170 cm,63 kg,DC Comics
+635,Steel,Male,81,64,53,90,64,82,good,null,201 cm,131 kg,DC Comics
+636,Stephanie Powell,Female,69,24,54,10,10,10,good,null,0 cm,0 kg,ABC Studios
+637,Steppenwolf,Male,94,100,83,100,100,100,bad,New God,183 cm,91 kg,DC Comics
+638,Storm,Female,75,88,47,30,75,10,good,Mutant,180 cm,57 kg,Marvel Comics
+639,Stormtrooper,Male,10,5,8,15,20,8,bad,Human,183 cm,0 kg,George Lucas
+640,Sunspot,Male,63,90,35,25,70,63,good,Mutant,173 cm,77 kg,Marvel Comics
+641,Superboy,Male,75,95,83,90,60,95,good,null,170 cm,68 kg,DC Comics
+642,Superboy-Prime,Male,94,100,100,100,85,100,bad,Kryptonian,180 cm,77 kg,DC Comics
+643,Supergirl,Female,94,100,100,100,75,100,good,Kryptonian,165 cm,54 kg,DC Comics
+644,Superman,Male,94,100,100,100,85,100,good,Kryptonian,191 cm,101 kg,Superman Prime One-Million
+645,Swamp Thing,Male,88,100,25,100,55,95,bad,God / Eternal,0 cm,0 kg,DC Comics
+646,Swarm,Male,75,38,50,90,35,18,bad,Mutant,196 cm,47 kg,Marvel Comics
+647,Sylar,Male,75,91,12,28,56,10,bad,null,0 cm,0 kg,NBC - Heroes
+648,Synch,Male,75,74,23,28,56,67,good,null,180 cm,74 kg,Marvel Comics
+649,T-1000,Male,75,100,33,100,75,34,bad,Android,183 cm,146 kg,Dark Horse Comics
+650,T-800,Male,75,73,17,60,65,34,bad,Cyborg,0 cm,176 kg,Dark Horse Comics
+651,T-850,Male,75,83,25,90,75,80,bad,Cyborg,0 cm,198 kg,Dark Horse Comics
+652,T-X,Female,75,100,29,85,80,63,bad,Cyborg,0 cm,149 kg,Dark Horse Comics
+653,Taskmaster,Male,75,63,50,20,100,12,bad,Human,188 cm,99 kg,Marvel Comics
+654,Tempest,Female,38,66,45,28,60,10,good,null,163 cm,54 kg,Angel Salvadore
+655,Thanos,Male,100,100,33,100,80,100,bad,Eternal,201 cm,443 kg,Marvel Comics
+656,The Cape,Male,38,22,23,32,64,10,good,null,0 cm,0 kg,null
+657,The Comedian,Male,63,12,17,10,80,14,neutral,Human,188 cm,101 kg,DC Comics
+658,Thing,Male,75,38,21,100,80,84,good,Human / Radiation,183 cm,225 kg,Marvel Comics
+659,Thor,Male,69,100,83,100,100,100,good,Asgardian,198 cm,288 kg,Rune King Thor
+660,Thor Girl,Female,75,100,70,84,70,83,good,Asgardian,175 cm,143 kg,Marvel Comics
+661,Thunderbird,Male,50,13,27,32,70,32,good,null,185 cm,101 kg,Marvel Comics
+662,Thunderbird II,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Warpath
+663,Thunderbird III,Male,null,null,null,null,null,null,good,null,175 cm,74 kg,Marvel Comics
+664,Thunderstrike,Male,63,42,70,84,72,80,good,null,198 cm,288 kg,Marvel Comics
+665,Thundra,Female,38,26,32,64,54,81,good,null,218 cm,158 kg,Marvel Comics
+666,Tiger Shark,Male,38,51,46,70,28,72,bad,Human,185 cm,203 kg,Marvel Comics
+667,Tigra,Female,63,33,53,38,90,32,good,null,178 cm,81 kg,Marvel Comics
+668,Tinkerer,Male,100,10,23,14,14,10,bad,null,163 cm,54 kg,Marvel Comics
+669,Titan,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,HarperCollins
+670,Toad,Male,50,70,58,56,28,34,neutral,Mutant,175 cm,76 kg,Marvel Comics
+671,Toxin,Male,56,82,70,84,70,73,good,Symbiote,188 cm,97 kg,Marvel Comics
+672,Toxin,Male,75,97,42,85,70,80,good,Symbiote,191 cm,117 kg,Anti-Venom
+673,Tracy Strauss,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,NBC - Heroes
+674,Trickster,Male,null,null,null,null,null,null,-,Human,183 cm,81 kg,DC Comics
+675,Trigon,Male,null,null,null,null,null,99,bad,God / Eternal,0 cm,0 kg,DC Comics
+676,Triplicate Girl,Female,63,44,23,42,42,10,good,null,168 cm,59 kg,DC Comics
+677,Triton,Male,56,35,50,65,55,63,good,Inhuman,188 cm,86 kg,Marvel Comics
+678,Two-Face,Male,88,9,12,14,28,10,bad,null,183 cm,82 kg,DC Comics
+679,Ultragirl,Female,50,35,35,70,80,80,good,null,168 cm,105 kg,Marvel Comics
+680,Ultron,Male,88,100,42,100,64,83,bad,Android,206 cm,331 kg,Marvel Comics
+681,Utgard-Loki,Male,50,85,23,84,64,80,bad,Frost Giant,15.2 meters,58 tons,Marvel Comics
+682,Vagabond,Female,null,null,null,null,null,null,good,null,168 cm,54 kg,Marvel Comics
+683,Valerie Hart,Female,null,null,null,null,null,null,good,null,175 cm,56 kg,Team Epic TV
+684,Valkyrie,Female,null,null,null,null,null,94,good,null,191 cm,214 kg,Marvel Comics
+685,Vanisher,Male,63,61,75,56,42,10,bad,null,165 cm,79 kg,Marvel Comics
+686,Vegeta,Male,81,100,92,95,100,100,bad,Saiyan,168 cm,73 kg,Shueisha
+687,Venom,Male,75,86,65,84,84,57,bad,Symbiote,191 cm,117 kg,Anti-Venom
+688,Venom II,Male,50,54,47,70,56,57,bad,null,175 cm,50 kg,Marvel Comics
+689,Venom III,Male,63,73,35,90,56,73,bad,Symbiote,229 cm,334 kg,Scorpion
+690,Venompool,Male,69,100,63,100,100,57,-,Symbiote,226 cm,0 kg,Deadpool
+691,Vertigo II,Female,null,null,null,null,null,null,good,null,168 cm,52 kg,Blaquesmith
+692,Vibe,Male,50,99,17,30,30,10,good,Human,178 cm,71 kg,DC Comics
+693,Vindicator,Female,63,58,53,64,70,63,good,Human,165 cm,54 kg,Vindicator II
+694,Vindicator,Male,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+695,Violator,Male,null,null,null,null,null,53,bad,null,0 cm,0 kg,Image Comics
+696,Violet Parr,Female,56,79,13,50,15,9,good,Human,137 cm,41 kg,Dark Horse Comics
+697,Vision,Male,100,100,54,95,70,72,good,Android,191 cm,135 kg,Anti-Vision
+698,Vision II,-,null,null,null,null,null,null,good,null,191 cm,135 kg,Anti-Vision
+699,Vixen,Female,50,62,50,50,25,38,good,Human,175 cm,63 kg,DC Comics
+700,Vulcan,Male,null,null,null,null,null,56,good,null,0 cm,0 kg,Marvel Comics
+701,Vulture,Male,75,26,42,25,30,22,bad,Human,180 cm,79 kg,Marvel Comics
+702,Walrus,Male,50,11,8,50,20,28,bad,Human,183 cm,162 kg,Marvel Comics
+703,War Machine,Male,63,100,63,100,85,80,good,Human,185 cm,95 kg,Marvel Comics
+704,Warbird,Female,null,null,null,null,null,null,good,null,180 cm,54 kg,Binary
+705,Warlock,Male,88,71,79,95,95,36,good,null,188 cm,108 kg,Marvel Comics
+706,Warp,Male,38,85,23,28,50,10,bad,null,173 cm,67 kg,DC Comics
+707,Warpath,Male,38,26,47,70,84,72,good,Mutant,218 cm,158 kg,Thunderbird II
+708,Wasp,Female,63,29,58,52,42,17,good,Human,163 cm,50 kg,Marvel Comics
+709,Watcher,Male,100,100,67,89,56,80,good,null,0 cm,0 kg,Marvel Comics
+710,Weapon XI,Male,null,null,null,null,null,null,bad,null,0 cm,0 kg,Marvel Comics
+711,White Canary,Female,63,49,33,15,90,7,bad,Human,0 cm,0 kg,DC Comics
+712,White Queen,Female,null,null,null,null,null,null,good,null,178 cm,65 kg,Marvel Comics
+713,Wildfire,Male,50,77,23,100,42,32,good,null,0 cm,0 kg,DC Comics
+714,Winter Soldier,Male,56,60,35,65,84,32,good,Human,175 cm,117 kg,Marvel Comics
+715,Wiz Kid,-,null,null,null,null,null,null,good,null,140 cm,39 kg,Marvel Comics
+716,Wolfsbane,Female,38,26,35,42,42,16,good,null,366 cm,473 kg,Marvel Comics
+717,Wolverine,Male,63,89,50,100,100,32,good,Mutant,160 cm,135 kg,Marvel Comics
+718,Wonder Girl,Female,75,39,25,80,60,90,good,Demi-God,165 cm,51 kg,DC Comics
+719,Wonder Man,Male,75,64,53,90,64,100,good,null,188 cm,171 kg,Marvel Comics
+720,Wonder Woman,Female,88,100,79,100,100,100,good,Amazon,183 cm,74 kg,DC Comics
+721,Wondra,Female,null,null,null,null,null,null,good,null,0 cm,0 kg,Marvel Comics
+722,Wyatt Wingfoot,Male,10,1,12,1,56,10,good,null,196 cm,117 kg,Marvel Comics
+723,X-23,Female,75,55,42,100,95,24,good,Mutant / Clone,155 cm,50 kg,Marvel Comics
+724,X-Man,Male,88,100,53,95,84,53,good,null,175 cm,61 kg,Marvel Comics
+726,Yellowjacket,Male,88,12,12,28,14,10,good,Human,183 cm,83 kg,Ant-Man
+727,Yellowjacket II,Female,50,31,35,28,28,10,good,Human,165 cm,52 kg,Marvel Comics
+728,Ymir,Male,50,98,27,100,28,100,good,Frost Giant,304.8 meters,0 kg,Marvel Comics
+729,Yoda,Male,88,100,33,25,90,52,good,Yoda's species,66 cm,17 kg,George Lucas
+730,Zatanna,Female,81,100,23,28,56,10,good,Human,170 cm,57 kg,DC Comics
+731,Zoom,Male,50,100,100,28,28,10,bad,null,185 cm,81 kg,DC Comics
+725,Yellow Claw,Male,null,null,null,null,null,null,bad,null,188 cm,95 kg,Marvel Comics
