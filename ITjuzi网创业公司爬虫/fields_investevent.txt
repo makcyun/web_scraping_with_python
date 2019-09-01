@@ -1,9 +1,0 @@
-cat_name
-com_id
-com_name
-currency
-date
-invse_id
-invsest_with
-money
-round
